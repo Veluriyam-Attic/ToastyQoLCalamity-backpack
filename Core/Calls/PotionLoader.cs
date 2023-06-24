@@ -22,7 +22,7 @@ namespace ToastyQoLCalamity.Core.Calls
 
             if (CheckIfPotionModIsRegistered(ModName))
             {
-                AddPotionElementToMod(ModName, "Bloody Mary", "Boosts damage and melee speed by 15%, movement speed by 10% and critical strike chance by 7% during a Blood Moon",
+                AddPotionElementToMod(ModName, "Bloody Mary", "Boosts damage and movement speed by 10% during a Blood Moon. Reduces life regen by 4 and defense by 4%",
                     "ToastyQoLCalamity/Assets/UI/Potions/bloodyMary", ModContent.BuffType<BloodyMaryBuff>(), () => DownedBossSystem.downedAstrumAureus, PostPlantera + 0.66f, 0.8f);
 
                 AddPotionElementToMod(ModName, "Bounding", "Grants 5% increased jump speed, 25 extra blocks of fall damage resistance, and increased jump height",
@@ -92,10 +92,10 @@ namespace ToastyQoLCalamity.Core.Calls
                     "ToastyQoLCalamity/Assets/UI/Potions/tequilaSunrise", ModContent.BuffType<TequilaSunriseBuff>(), () => NPC.downedGolemBoss, PostGolem, 0.8f);
 
                 AddPotionElementToMod(ModName, "Tesla", "Summons an aura of electricity that electrifies and slows enemies. Reduces the duration of the Electrified debuff",
-                    "ToastyQoLCalamity/Assets/UI/Potions/vodka", ModContent.BuffType<VodkaBuff>(), () => DownedBossSystem.downedPerforator, PostBrainOfCthulhu + 0.5f, 0.8f);
+                    "ToastyQoLCalamity/Assets/UI/Potions/tesla", ModContent.BuffType<TeslaBuff>(), () => DownedBossSystem.downedPerforator, PostBrainOfCthulhu + 0.5f, 0.8f);
 
                 AddPotionElementToMod(ModName, "Vodka", "Boosts damage by 6% and critical strike chance by 2%. Reduces life regen by 1 and defense by 5%",
-                    "ToastyQoLCalamity/Assets/UI/Potions/tesla", ModContent.BuffType<TeslaBuff>(), () => NPC.downedMechBoss1 && NPC.downedMechBoss2 && NPC.downedMechBoss3, PostSkeletronPrime, 0.8f);
+                    "ToastyQoLCalamity/Assets/UI/Potions/vodka", ModContent.BuffType<VodkaBuff>(), () => NPC.downedMechBoss1 && NPC.downedMechBoss2 && NPC.downedMechBoss3, PostSkeletronPrime, 0.8f);
 
                 AddPotionElementToMod(ModName, "Whiskey", "Boosts damage and knockback by 4% and critical strike chance by 2%. Reduces defense by 5%",
                     "ToastyQoLCalamity/Assets/UI/Potions/whiskey", ModContent.BuffType<WhiskeyBuff>(), () => Main.hardMode, PostWallOfFlesh, 0.8f);
