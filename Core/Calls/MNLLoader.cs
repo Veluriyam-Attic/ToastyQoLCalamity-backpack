@@ -1,4 +1,4 @@
-﻿using CalamityMod.NPCs.AdultEidolonWyrm;
+﻿using CalamityMod.NPCs.PrimordialWyrm;
 using CalamityMod.NPCs.AquaticScourge;
 using CalamityMod.NPCs.AstrumAureus;
 using CalamityMod.NPCs.AstrumDeus;
@@ -212,7 +212,7 @@ namespace ToastyQoLCalamity.Core.Calls
             [ModContent.NPCType<OldDuke>()] = 5100,
             [ModContent.NPCType<DevourerofGodsHead>()] = 6000,
             [ModContent.NPCType<Yharon>()] = 9600,
-            [ModContent.NPCType<AdultEidolonWyrmHead>()] = 5100,
+            [ModContent.NPCType<PrimordialWyrmHead>()] = 5100,
             [ModContent.NPCType<SupremeCalamitas>()] = 12000,
             [ModContent.NPCType<Artemis>()] = 1,
             [ModContent.NPCType<Apollo>()] = 1,

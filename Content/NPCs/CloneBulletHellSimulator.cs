@@ -16,7 +16,7 @@ namespace ToastyQoLCalamity.Content.NPCs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Bullet Hell Simulator");
+            // DisplayName.SetDefault("Bullet Hell Simulator");
         }
 
         public override void SetDefaults()
@@ -44,22 +44,16 @@ namespace ToastyQoLCalamity.Content.NPCs
             npc.DeathSound = null;
             if (!Main.dedServ)
             {
-                Mod MusicMod;
-                if (ModLoader.TryGetMod("CalamityModMusic", out MusicMod))
-                    Music = MusicLoader.GetMusicSlot(MusicMod, "Sounds/Music/Calamitas");
+				if (ModLoader.TryGetMod("CalamityModMusic", out Mod MusicMod))
+					Music = MusicLoader.GetMusicSlot(MusicMod, "Sounds/Music/Calamitas");
 
-            }
+			}
         }
         public override void AI()
         {
             #region Variables
             int BHType = ShinyWand.BHType;
             NPC npc = NPC;
-            bool enraged = npc.Calamity().enraged > 0;
-            bool MaliceMode = BossRushEvent.BossRushActive || enraged;
-            bool ExpertMode = Main.expertMode || MaliceMode;
-            bool RevengeanceMode = CalamityWorld.revenge || MaliceMode;
-            bool DeathMode = CalamityWorld.death || MaliceMode;
             #endregion
             // Get a target
             if (npc.target < 0 || npc.target == Main.maxPlayers || Main.player[npc.target].dead || !Main.player[npc.target].active)

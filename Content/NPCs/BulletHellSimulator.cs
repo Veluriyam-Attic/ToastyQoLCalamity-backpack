@@ -30,7 +30,7 @@ namespace ToastyQoLCalamity.Content.NPCs
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Bullet Hell Simulator");
+            // DisplayName.SetDefault("Bullet Hell Simulator");
         }
 
         public override void SetDefaults()
@@ -109,7 +109,7 @@ namespace ToastyQoLCalamity.Content.NPCs
             #region Variables
             int BHType = ReflectiveWand.BHType;
             NPC npc = NPC;
-            bool enraged = npc.Calamity().enraged > 0;
+            bool enraged = npc.Calamity().CurrentlyEnraged;
             bool MaliceMode = BossRushEvent.BossRushActive || enraged;
             bool ExpertMode = Main.expertMode || MaliceMode;
             bool RevengeanceMode = CalamityWorld.revenge || MaliceMode;

@@ -7,7 +7,7 @@ namespace ToastyQoLCalamity.Content.Projectiles
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("We Do A Little Damaging");
+            // DisplayName.SetDefault("We Do A Little Damaging");
         }
 
         public override void SetDefaults()

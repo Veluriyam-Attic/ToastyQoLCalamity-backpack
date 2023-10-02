@@ -12,13 +12,13 @@ namespace ToastyQoLCalamity.Content.Items.PreHardmode
     public class HMSpawner : ModItem
     {
         public int Amount = 1;
-        public Color TextColor = new Color(153, 0, 0);
+        public Color TextColor = new(153, 0, 0);
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Hive Mind Spawner");
-            Tooltip.SetDefault("Instantly summons Hive Mind.\n" +
-                "Right-click to increase spawn count up to 10\nSpawn Count");
+            // DisplayName.SetDefault("Hive Mind Spawner");
+            /* Tooltip.SetDefault("Instantly summons Hive Mind.\n" +
+                "Right-click to increase spawn count up to 10\nSpawn Count"); */
         }
         public override void SetDefaults()
         {
@@ -26,7 +26,7 @@ namespace ToastyQoLCalamity.Content.Items.PreHardmode
             item.width = 58;
             item.height = 64;
             item.maxStack = 1;
-            item.rare = 11;
+            item.rare = ItemRarityID.Purple;
             item.useAnimation = 20;
             item.useTime = 20;
             item.useStyle = ItemUseStyleID.Swing;

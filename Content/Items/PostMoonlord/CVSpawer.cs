@@ -6,19 +6,20 @@ using CalamityMod.NPCs.CeaselessVoid;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using CalamityMod.Items.Materials;
 
 namespace ToastyQoLCalamity.Content.Items.PostMoonlord
 {
     public class CVSpawner : ModItem
     {
         public int Amount = 1;
-        public Color TextColor = new Color(153, 0, 0);
+        public Color TextColor = new(153, 0, 0);
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Ceaseless Void Spawner");
-            Tooltip.SetDefault("Instantly summons Ceaseless Void.\n" +
-                "Right-click to increase spawn count up to 10\nSpawn Count");
+            // DisplayName.SetDefault("Ceaseless Void Spawner");
+            /* Tooltip.SetDefault("Instantly summons Ceaseless Void.\n" +
+                "Right-click to increase spawn count up to 10\nSpawn Count"); */
         }
         public override void SetDefaults()
         {
@@ -26,7 +27,7 @@ namespace ToastyQoLCalamity.Content.Items.PostMoonlord
             item.width = 58;
             item.height = 64;
             item.maxStack = 1;
-            item.rare = 11;
+            item.rare = ItemRarityID.Purple;
             item.useAnimation = 20;
             item.useTime = 20;
             item.useStyle = ItemUseStyleID.Swing;
@@ -49,10 +50,7 @@ namespace ToastyQoLCalamity.Content.Items.PostMoonlord
             else
             {
                 for (int i = 0; i < Amount; i++)
-                {
-                    int idx = NPC.NewNPC(null, (int)player.Center.X - 600, (int)player.Center.Y, ModContent.NPCType<CeaselessVoid>(), 1);
-                }
-
+                    NPC.NewNPC(null, (int)player.Center.X - 600, (int)player.Center.Y, ModContent.NPCType<CeaselessVoid>(), 1);
             }
             return true;
         }
@@ -84,8 +82,8 @@ namespace ToastyQoLCalamity.Content.Items.PostMoonlord
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe(1);
-            recipe.AddIngredient(ModContent.ItemType<CalamityMod.Items.Materials.UelibloomBar>(), 5);
-            recipe.AddIngredient(ModContent.ItemType<CalamityMod.Items.Materials.Phantoplasm>(), 5);
+            recipe.AddIngredient(ModContent.ItemType<UelibloomBar>(), 5);
+            recipe.AddIngredient(ModContent.ItemType<Polterplasm>(), 5);
             recipe.AddTile(TileID.WorkBenches);
             recipe.Register();
         }

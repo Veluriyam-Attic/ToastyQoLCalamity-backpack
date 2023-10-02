@@ -16,9 +16,9 @@ namespace ToastyQoLCalamity.Content.Items.Hardmode
         public string bossname = "Astrum Aureus";
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault(bossname + " Spawner");
-            Tooltip.SetDefault("Instantly summons " + bossname + ".\n" +
-                "Right-click to increase spawn count up to 10\nSpawn Count");
+            // DisplayName.SetDefault(bossname + " Spawner");
+            /* Tooltip.SetDefault("Instantly summons " + bossname + ".\n" +
+                "Right-click to increase spawn count up to 10\nSpawn Count"); */
         }
         public override void SetDefaults()
         {
@@ -26,7 +26,7 @@ namespace ToastyQoLCalamity.Content.Items.Hardmode
             item.width = 58;
             item.height = 64;
             item.maxStack = 1;
-            item.rare = 11;
+            item.rare = ItemRarityID.Purple;
             item.useAnimation = 20;
             item.useTime = 20;
             item.useStyle = ItemUseStyleID.Swing;

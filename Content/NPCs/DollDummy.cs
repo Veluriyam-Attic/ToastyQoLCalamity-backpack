@@ -9,7 +9,7 @@ namespace ToastyQoLCalamity.Content.NPCs
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Mildly Agitating Dummy");
+            // DisplayName.SetDefault("Mildly Agitating Dummy");
         }
 
         public override void SetDefaults()

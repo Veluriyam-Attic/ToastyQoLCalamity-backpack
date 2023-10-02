@@ -17,10 +17,10 @@ namespace ToastyQoLCalamity.Content.Items
     {
         public override void SetStaticDefaults()
         {
-            SacrificeTotal = 1;
-            DisplayName.SetDefault("Buff Suppressant");
-            Tooltip.SetDefault("Favorite to disable certain rule-breaking buffs\n" +
-            "Instantly kills the player under the effects of Holy Inferno");
+            Item.ResearchUnlockCount = 1;
+            // DisplayName.SetDefault("Buff Suppressant");
+            /* Tooltip.SetDefault("Favorite to disable certain rule-breaking buffs\n" +
+            "Instantly kills the player under the effects of Holy Inferno"); */
         }
 
         public override void SetDefaults()

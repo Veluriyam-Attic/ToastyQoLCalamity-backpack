@@ -1,5 +1,6 @@
 using Microsoft.Xna.Framework;
 using Terraria;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ID;
 using ToastyQoLCalamity.Content.NPCs;
@@ -13,8 +14,8 @@ namespace ToastyQoLCalamity.Content.Tiles
             Main.tileSolid[Type] = true;
             Main.tileMergeDirt[Type] = true;
             Main.tileBlockLight[Type] = true;
-            ModTranslation name = CreateMapEntryName();
-            name.SetDefault("Arena");
+            LocalizedText name = CreateMapEntryName();
+            // name.SetDefault("Arena");
             AddMapEntry(new Color(128, 0, 0), name);
         }
 

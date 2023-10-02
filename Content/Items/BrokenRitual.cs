@@ -14,15 +14,15 @@ namespace ToastyQoLCalamity.Content.Items
         public int BRType = 1;
         public string TypeText = "King Slime";
         public int TierType = 1;
-        public Color TextColor = new Color(225, 174, 255);
+        public Color TextColor = new(225, 174, 255);
 
         public override void SetStaticDefaults()
         {
-            SacrificeTotal = 1;
-            DisplayName.SetDefault("Broken Ritual");
-            Tooltip.SetDefault("Set to a specific boss in Boss Rush\n" +
+            Item.ResearchUnlockCount = 1;
+            // DisplayName.SetDefault("Broken Ritual");
+            /* Tooltip.SetDefault("Set to a specific boss in Boss Rush\n" +
                 "Right click to change boss forward or backward depending on mouse position\n" +
-                "Use while the event is active to instantly end the event\nBoss Count" + (IsInfernumOn ? "\nInfernum Enabled" : ""));
+                "Use while the event is active to instantly end the event\nBoss Count" + (IsInfernumOn ? "\nInfernum Enabled" : "")); */
         }
 
         public override void SetDefaults()
@@ -30,7 +30,7 @@ namespace ToastyQoLCalamity.Content.Items
             Item.width = 54;
             Item.height = 68;
             Item.maxStack = 1;
-            Item.rare = 10;
+            Item.rare = ItemRarityID.Red;
             Item.useAnimation = 10;
             Item.useTime = 10;
             Item.UseSound = SoundID.Item123;

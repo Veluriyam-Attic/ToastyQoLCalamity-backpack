@@ -11,9 +11,9 @@ namespace ToastyQoLCalamity.Content.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Potion of Rage");
-            Tooltip.SetDefault("Fills your rage bar, and keeps it from draining for 2 seconds after using\nDoes not work while a boss is alive");
-            SacrificeTotal = 20;
+            // DisplayName.SetDefault("Potion of Rage");
+            // Tooltip.SetDefault("Fills your rage bar, and keeps it from draining for 2 seconds after using\nDoes not work while a boss is alive");
+            Item.ResearchUnlockCount = 20;
         }
         public override void SetDefaults()
         {

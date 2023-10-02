@@ -1,4 +1,4 @@
 displayName = Toasty's QoL: Calamity
 author = Toasty
-version = 1.0
+version = 1.22
 modReferences = CalamityMod, ToastyQoL

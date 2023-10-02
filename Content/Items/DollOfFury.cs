@@ -17,10 +17,10 @@ namespace ToastyQoLCalamity.Content.Items
     {
         public override void SetStaticDefaults()
         {
-            SacrificeTotal = 1;
-            DisplayName.SetDefault("Doll of Fury");
-            Tooltip.SetDefault("Completes the stack level of the Shattered Community\n" +
-                "Cannot be used if the Rage Mode buff is active");
+            Item.ResearchUnlockCount = 1;
+            // DisplayName.SetDefault("Doll of Fury");
+            /* Tooltip.SetDefault("Completes the stack level of the Shattered Community\n" +
+                "Cannot be used if the Rage Mode buff is active"); */
         }
 
         public override void SetDefaults()

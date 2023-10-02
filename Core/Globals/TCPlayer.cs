@@ -43,7 +43,7 @@ namespace ToastyQoLCalamity.Core.Globals
             }
         }
 
-        public override bool? CanHitNPC(Item item, NPC target)
+        public override bool? CanHitNPCWithItem(Item item, NPC target)
         {
             //make sure that no direct strikes can hit the Doll of Fury dummy
             if (target.type == ModContent.NPCType<DollDummy>())
@@ -71,13 +71,13 @@ namespace ToastyQoLCalamity.Core.Globals
             return null;
         }
 
-        public override void OnRespawn(Player player)
+        public override void OnRespawn()
         {
             if (CalToggles.AutoChargeDraedonWeapons)
             {
-                for (int i = 0; i < player.inventory.Length; i++)
+                for (int i = 0; i < Player.inventory.Length; i++)
                 {
-                    Item item = player.inventory[i];
+                    Item item = Player.inventory[i];
                     if (item.type >= 5125)
                     {
                         CalamityGlobalItem modItem = item.Calamity();
@@ -90,7 +90,7 @@ namespace ToastyQoLCalamity.Core.Globals
             }
         }
 
-        public override void OnEnterWorld(Player player) => LoadSaveSystem.CalamityCallQueued = false;
+        public override void OnEnterWorld() => LoadSaveSystem.CalamityCallQueued = false;
 
     }
 }

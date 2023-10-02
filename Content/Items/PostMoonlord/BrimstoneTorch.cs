@@ -14,13 +14,13 @@ namespace ToastyQoLCalamity.Content.Items.PostMoonlord
     public class BrimstoneTorch : ModItem
     {
         public int Amount = 1;
-        public Color TextColor = new Color(153, 0, 0);
+        public Color TextColor = new(153, 0, 0);
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Brimstone Torch");
-            Tooltip.SetDefault("Instantly summons Supreme Calamitas\n" +
-                "Right-click to increase spawn count up to 10\nSpawn Count");
+            // DisplayName.SetDefault("Brimstone Torch");
+            /* Tooltip.SetDefault("Instantly summons Supreme Calamitas\n" +
+                "Right-click to increase spawn count up to 10\nSpawn Count"); */
         }
 
         public override void SetDefaults()

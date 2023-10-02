@@ -137,7 +137,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<SilencingSheath>(),
                 ModContent.ItemType<EnchantedPearl>(),
                 //Weapons
-                ModContent.ItemType<CausticEdge>(),
+                ModContent.ItemType<TaintedBlade>(),
                 //Magic Weapons
                 ModContent.ItemType<MagnaCannon>(),
                 //Summon Weapons
@@ -183,7 +183,6 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Tradewinds>(),
                 //Summon Weapons
                 ModContent.ItemType<StarSwallowerContainmentUnit>(),
-                ModContent.ItemType<BloodClotStaff>(),
                 ModContent.ItemType<DankStaff>(),
                 //Rogue Weapons
                 ModContent.ItemType<TrackingDisk>(),
@@ -252,7 +251,6 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<GunkShot>(),
                 ModContent.ItemType<OverloadedBlaster>(),
                 //Magic Weapons
-                ModContent.ItemType<CarnageRay>(),
                 ModContent.ItemType<NightsRay>(),
                 ModContent.ItemType<AbyssalTome>(),
                 ModContent.ItemType<EldritchTome>(),
@@ -344,7 +342,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<CryoStone>(),
                 ModContent.ItemType<OrnateShield>(),
                 ModContent.ItemType<PermafrostsConcoction>(),
-                ModContent.ItemType<ColdDivinity>(),
+                ModContent.ItemType<GlacialEmbrace>(),
                 ModContent.ItemType<HoarfrostBow>(),
                 ModContent.ItemType<Icebreaker>(),
                 ModContent.ItemType<Avalanche>(),
@@ -359,7 +357,7 @@ namespace ToastyQoLCalamity.Core.Calls
             {
                 ModContent.ItemType<AquaticEmblem>(),
                 ModContent.ItemType<CorrosiveSpine>(),
-                ModContent.ItemType<NuclearRod>(),
+                ModContent.ItemType<NuclearFuelRod>(),
                 ModContent.ItemType<DeepDiver>(),
                 ModContent.ItemType<SubmarineShocker>(),
                 ModContent.ItemType<Barinautical>(),
@@ -531,7 +529,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<MomentumCapacitor>(),
                 ModContent.ItemType<TrueBiomeBlade>(),
                 ModContent.ItemType<Cryophobia>(),
-                ModContent.ItemType<SunGodStaff>(),
+                ModContent.ItemType<VengefulSunStaff>(),
                 ModContent.ItemType<SpearofDestiny>(),
                 ModContent.ItemType<ValkyrieRay>(),
                 ModContent.ItemType<CatastropheClaymore>(),
@@ -574,7 +572,6 @@ namespace ToastyQoLCalamity.Core.Calls
 
             AddLockInformation(() => DownedBossSystem.downedBrimstoneElemental, "Brimstone Elemental", new()
              {
-                ModContent.ItemType<Gehenna>(),
                 ModContent.ItemType<Abaddon>(),
                 ModContent.ItemType<FlameLickedShell>(),
                 ModContent.ItemType<RoseStone>(),
@@ -638,7 +635,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<FeralthornClaymore>(),
                 ModContent.ItemType<Hellkite>(),
                 ModContent.ItemType<MantisClaws>(),
-                ModContent.ItemType<TyrantYharimsUltisword>(),
+                ModContent.ItemType<BlightedCleaver>(),
                 ModContent.ItemType<Quagmire>(),
                 ModContent.ItemType<HellionFlowerSpear>(),
                 ModContent.ItemType<TerraLance>(),
@@ -651,7 +648,6 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<EternalBlizzard>(),
                 ModContent.ItemType<MarksmanBow>(),
                 ModContent.ItemType<BladedgeGreatbow>(),
-                ModContent.ItemType<MagnaStriker>(),
                 ModContent.ItemType<PearlGod>(),
                 ModContent.ItemType<TerraFlameburster>(),
                 ModContent.ItemType<SandstormGun>(),
@@ -676,7 +672,6 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<MonkeyDarts>(),
                 ModContent.ItemType<FantasyTalisman>(),
                 ModContent.ItemType<Sandslasher>(),
-                ModContent.ItemType<PhantomLance>(),
                 //Classless
                 ModContent.ItemType<Hydra>(),
             });
@@ -685,7 +680,7 @@ namespace ToastyQoLCalamity.Core.Calls
             {
                 //Accessories
                 ModContent.ItemType<StarbusterCore>(),
-                ModContent.ItemType<CelestialJewel>(),
+                ModContent.ItemType<InfectedJewel>(),
                 ModContent.ItemType<GravistarSabaton>(),
                 ModContent.ItemType<HadarianWings>(),
                 //Weapons
@@ -828,7 +823,7 @@ namespace ToastyQoLCalamity.Core.Calls
 
             AddLockInformation(() => NPC.downedAncientCultist, "Lunatic Cultist", new()
             {
-                ModContent.ItemType<DarkGodsSheath>(),
+                ModContent.ItemType<DarkMatterSheath>(),
                 ModContent.ItemType<StatisCurse>(),
                 ModContent.ItemType<HeartoftheElements>(),
                 ModContent.ItemType<TheAbsorber>(),
@@ -843,7 +838,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Shroomer>(),
                 ModContent.ItemType<Vortexpopper>(),
                 ModContent.ItemType<Scorpio>(),
-                ModContent.ItemType<GodsBellows>(),
+                ModContent.ItemType<DeadSunsWind>(),
                 ModContent.ItemType<SpectralstormCannon>(),
                 //Magic Weapons
                 ModContent.ItemType<ArchAmaryllis>(),
@@ -855,7 +850,6 @@ namespace ToastyQoLCalamity.Core.Calls
                 //Summon Weapons
                 //Rogue Weapons
                 ModContent.ItemType<StarofDestruction>(),
-                ModContent.ItemType<LuminousStriker>(),
                 ModContent.ItemType<ShardofAntumbra>(),
                 //Classless 
                 ModContent.ItemType<EyeofMagnus>(),
@@ -874,10 +868,10 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<AstralRepeater>(),
                 ModContent.ItemType<StarSputter>(),
                 //Magic Weapons
-                ModContent.ItemType<Starfall>(),
+                ModContent.ItemType<StarShower>(),
                 ModContent.ItemType<AstralStaff>(),
                 //Summon Weapons
-                ModContent.ItemType<GodspawnHelixStaff>(),
+                ModContent.ItemType<StarspawnHelixStaff>(),
                 ModContent.ItemType<RadiantStar>(),
                 ModContent.ItemType<RegulusRiot>(),
             });
@@ -885,7 +879,7 @@ namespace ToastyQoLCalamity.Core.Calls
             AddLockInformation(() => NPC.downedMoonlord, "Moon Lord", new()
             {
                 ModContent.ItemType<ExodusWings>(),
-                ModContent.ItemType<SeraphTracers>(),
+                ModContent.ItemType<TracersCelestial>(),
                 ModContent.ItemType<StatisNinjaBelt>(),
                 ModContent.ItemType<DaawnlightSpiritOrigin>(),
                 ModContent.ItemType<EldritchSoulArtifact>(),
@@ -974,10 +968,9 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<LifefruitScythe>(),
                 ModContent.ItemType<TheMutilator>(),
                 ModContent.ItemType<Terratomere>(),
-                ModContent.ItemType<TrueTyrantYharimsUltisword>(),
+                ModContent.ItemType<DefiledGreatsword>(),
                 ModContent.ItemType<Lacerator>(),
                 ModContent.ItemType<SolarFlare>(),
-                ModContent.ItemType<Verdant>(),
                 ModContent.ItemType<SeekingScorcher>(),
                 ModContent.ItemType<Mourningstar>(),
                 ModContent.ItemType<PulseDragon>(),
@@ -1028,12 +1021,13 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<StormDragoon>(),
                 //Magic Weapons
                 ModContent.ItemType<Thunderstorm>(),
-                ModContent.ItemType<DeificThunderbolt>()
-            });
+                ModContent.ItemType<TwistingThunder>(),
+				ModContent.ItemType<RealityRupture>(),
+			});
 
             AddLockInformation(() => DownedBossSystem.downedCeaselessVoid, "Ceaseless Void", new()
             {
-                ModContent.ItemType<AstralArcanum>(),
+                ModContent.ItemType<Purity>(),
                 ModContent.ItemType<TheEvolution>(),
                 ModContent.ItemType<QuiverofNihility>(),
                 //Weapons
@@ -1048,7 +1042,8 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<VoidConcentrationStaff>(),
                 //Rogue Weapons
                 ModContent.ItemType<SealedSingularity>(),
-            });
+				ModContent.ItemType<RealityRupture>(),
+			});
 
             AddLockInformation(() => DownedBossSystem.downedSignus, "Signus", new()
             {
@@ -1061,7 +1056,8 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Cosmilamp>(),
                 //Rogue Weapons
                 ModContent.ItemType<CosmicKunai>(),
-            });
+				ModContent.ItemType<RealityRupture>(),
+			});
 
             AddLockInformation(() => DownedBossSystem.downedPolterghast, "Polterghast", new()
             {
@@ -1132,7 +1128,7 @@ namespace ToastyQoLCalamity.Core.Calls
 
             AddLockInformation(() => DownedBossSystem.downedDoG, "DoG", new()
             {
-                ModContent.ItemType<ElysianTracers>(),
+                ModContent.ItemType<TracersElysian>(),
                 ModContent.ItemType<SilvaWings>(),
                 ModContent.ItemType<DarkSunRing>(),
                 ModContent.ItemType<DimensionalSoulArtifact>(),
@@ -1156,7 +1152,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<EssenceFlayer>(),
                 ModContent.ItemType<TheEnforcer>(),
                 ModContent.ItemType<Excelsus>(),
-                ModContent.ItemType<GreatswordofBlah>(),
+                ModContent.ItemType<Orderbringer>(),
                 ModContent.ItemType<PrismaticBreaker>(),
                 ModContent.ItemType<TheObliterator>(),
                 ModContent.ItemType<Nadir>(),
@@ -1216,7 +1212,7 @@ namespace ToastyQoLCalamity.Core.Calls
 
             AddLockInformation(() => DownedBossSystem.downedYharon, "Yharon", new()
             {
-                ModContent.ItemType<CelestialTracers>(),
+                ModContent.ItemType<TracersCelestial>(),
                 ModContent.ItemType<DrewsWings>(),
                 ModContent.ItemType<DragonScales>(),
                 ModContent.ItemType<YharimsGift>(),
@@ -1304,7 +1300,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Sacrifice>(),
             });
 
-            AddLockInformation(() => DownedBossSystem.downedAdultEidolonWyrm, "AEW", new()
+            AddLockInformation(() => DownedBossSystem.downedPrimordialWyrm, "AEW", new()
             {
                 ModContent.ItemType<HalibutCannon>()
             });
@@ -1316,7 +1312,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 //Weapons
                 ModContent.ItemType<DraconicDestruction>(),
                 ModContent.ItemType<Earth>(),
-                ModContent.ItemType<ElementalExcalibur>(),
+                ModContent.ItemType<IridescentExcalibur>(),
                 ModContent.ItemType<RedSun>(),
                 ModContent.ItemType<Azathoth>(),
                 ModContent.ItemType<TriactisTruePaladinianMageHammerofMightMelee>(),

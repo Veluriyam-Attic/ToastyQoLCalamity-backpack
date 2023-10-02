@@ -23,9 +23,9 @@ namespace ToastyQoLCalamity.Content.Items
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Shiny Wand");
-            Tooltip.SetDefault("Summons a simulation of Calamitas' bullet hells\n" +
-                "Right click to change type of bullet hell forward or backward depending on mouse position\nCurrent Type");
+            // DisplayName.SetDefault("Shiny Wand");
+            /* Tooltip.SetDefault("Summons a simulation of Calamitas' bullet hells\n" +
+                "Right click to change type of bullet hell forward or backward depending on mouse position\nCurrent Type"); */
         }
 
         public override void SetDefaults()

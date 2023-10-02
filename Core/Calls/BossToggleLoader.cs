@@ -89,7 +89,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 typeof(DownedBossSystem).GetField("_downedCalamitas", ToastyQoLUtils.UniversalBindingFlags), 30f);
 
             AddBossToggle("ToastyQoLCalamity/Assets/UI/aew", "Adult Eidolon Wyrm",
-                typeof(DownedBossSystem).GetField("_downedAdultEidolonWyrm", ToastyQoLUtils.UniversalBindingFlags), 31f);
+                typeof(DownedBossSystem).GetField("_downedPrimordialWyrm", ToastyQoLUtils.UniversalBindingFlags), 31f);
         }
     }
 }

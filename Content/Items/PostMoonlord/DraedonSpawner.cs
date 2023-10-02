@@ -11,12 +11,12 @@ namespace ToastyQoLCalamity.Content.Items.PostMoonlord
     public class DraedonSpawner : ModItem
     {
         public int Amount = 1;
-        public Color TextColor = new Color(153, 0, 0);
+        public Color TextColor = new(153, 0, 0);
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Draedon Spawner");
-            Tooltip.SetDefault("Instantly summons Draedon.");
+            // DisplayName.SetDefault("Draedon Spawner");
+            // Tooltip.SetDefault("Instantly summons Draedon.");
         }
         public override void SetDefaults()
         {
@@ -24,7 +24,7 @@ namespace ToastyQoLCalamity.Content.Items.PostMoonlord
             item.width = 58;
             item.height = 64;
             item.maxStack = 1;
-            item.rare = 11;
+            item.rare = ItemRarityID.Purple;
             item.useAnimation = 20;
             item.useTime = 20;
             item.useStyle = ItemUseStyleID.Swing;

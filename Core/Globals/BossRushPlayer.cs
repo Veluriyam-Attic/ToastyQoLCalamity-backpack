@@ -107,9 +107,9 @@ namespace ToastyQoLCalamity.Core.Globals
                 BossRushActiveFrames++;
         }
 
-        public override void OnRespawn(Player player)
+        public override void OnRespawn()
         {
-            if (player.whoAmI == Main.myPlayer)
+            if (Player.whoAmI == Main.myPlayer)
                 MNLsHandler.PlayerRespawnChecks();
         }
 

@@ -13,13 +13,13 @@ namespace ToastyQoLCalamity.Content.Items.PostMoonlord
     public class ETSpawner : ModItem
     {
         public int Amount = 1;
-        public Color TextColor = new Color(153, 0, 0);
+        public Color TextColor = new(153, 0, 0);
 
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("XS-01 Artemis & XS-03 Apollo Spawner");
-            Tooltip.SetDefault("Instantly summons XS-01 Artemis & XS-03 Apollo.\n" +
-                "Right-click to increase spawn count up to 10\nSpawn Count");
+            // DisplayName.SetDefault("XS-01 Artemis & XS-03 Apollo Spawner");
+            /* Tooltip.SetDefault("Instantly summons XS-01 Artemis & XS-03 Apollo.\n" +
+                "Right-click to increase spawn count up to 10\nSpawn Count"); */
         }
         public override void SetDefaults()
         {
