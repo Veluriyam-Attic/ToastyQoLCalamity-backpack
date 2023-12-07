@@ -64,7 +64,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<GiantPearl>(),
                 ModContent.ItemType<ShieldoftheOcean>(),
                 //Weapons
-                ModContent.ItemType<AquaticDischarge>(),
+                ModContent.ItemType<SaharaSlicers>(),
                 ModContent.ItemType<Riptide>(),
                 ModContent.ItemType<AmidiasTrident>(),
                 ModContent.ItemType<RedtideSpear>(),
@@ -80,7 +80,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<StormSurge>(),
                 //Magic Weapons
                 ModContent.ItemType<AquamarineStaff>(),
-                ModContent.ItemType<StormSpray>(),
+                ModContent.ItemType<SandstreamScepter>(),
                 ModContent.ItemType<CoralSpout>(),
                 ModContent.ItemType<Waywasher>(),
                 ModContent.ItemType<SparklingEmpress>(),
@@ -957,7 +957,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<TarragonWings>(),
                 ModContent.ItemType<BloodflareCore>(),
                 ModContent.ItemType<BadgeofBravery>(),
-                ModContent.ItemType<YharimsInsignia>(),
+                ModContent.ItemType<AscendantInsignia>(),
                 ModContent.ItemType<BlazingCore>(),
                 ModContent.ItemType<ElysianAegis>(),
                 ModContent.ItemType<ProfanedSoulArtifact>(),               
@@ -1143,7 +1143,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<TheAmalgam>(),
                 ModContent.ItemType<VeneratedLocket>(),
                 ModContent.ItemType<AsgardianAegis>(),
-                ModContent.ItemType<CoreOfTheBloodGod>(),
+                ModContent.ItemType<ChaliceOfTheBloodGod>(),
                 ModContent.ItemType<RampartofDeities>(),
                 ModContent.ItemType<TheSponge>(),
                 //Weapons
@@ -1229,7 +1229,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Drataliornus>(),
                 ModContent.ItemType<AcesHigh>(),
                 ModContent.ItemType<DragonsBreath>(),
-                ModContent.ItemType<Minigun>(),
+                ModContent.ItemType<Kingsbane>(),
                 ModContent.ItemType<TyrannysEnd>(),
                 ModContent.ItemType<ChickenCannon>(),
                 //Magic Weapons

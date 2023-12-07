@@ -29,26 +29,26 @@ namespace ToastyQoLCalamity
             }
         }
 
-        public override void Load()
-        {
-            if (ModLoader.TryGetMod("InfernumMode", out Mod infernumMod))
-                InfernumMod = infernumMod;
+        public override void PostSetupContent()
+		{
+			if (ModLoader.TryGetMod("InfernumMode", out Mod infernumMod))
+				InfernumMod = infernumMod;
 
-            if (ModLoader.TryGetMod("ToastyQoL", out var mod))
-                ToastyQoLMod = mod;
-            else
-                return;
+			if (ModLoader.TryGetMod("ToastyQoL", out var mod))
+				ToastyQoLMod = mod;
+			else
+				return;
 
-            UpgradesPage.Create();
-            BossToggleLoader.SetupBossToggles();
-            LockInformationLoader.LoadLockInfo();
-            OtherTogglesLoader.Load();
-            ShroomDrawingExtraInfo.LoadExtraShroomDrawFuncs();
-            MNLLoader.Load();
-            PotionLoader.Load();
-        }
+			UpgradesPage.Create();
+			BossToggleLoader.SetupBossToggles();
+			LockInformationLoader.LoadLockInfo();
+			OtherTogglesLoader.Load();
+			ShroomDrawingExtraInfo.LoadExtraShroomDrawFuncs();
+			MNLLoader.Load();
+			PotionLoader.Load();
+		}
 
-        public override void Unload()
+		public override void Unload()
         {
             ToastyQoLMod = null;
         }
