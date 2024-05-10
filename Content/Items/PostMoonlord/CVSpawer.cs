@@ -83,7 +83,7 @@ namespace ToastyQoLCalamity.Content.Items.PostMoonlord
         {
             Recipe recipe = CreateRecipe(1);
             recipe.AddIngredient(ModContent.ItemType<UelibloomBar>(), 5);
-            recipe.AddIngredient(ModContent.ItemType<Polterplasm>(), 5);
+            recipe.AddIngredient(ModContent.ItemType<Necroplasm>(), 5);
             recipe.AddTile(TileID.WorkBenches);
             recipe.Register();
         }

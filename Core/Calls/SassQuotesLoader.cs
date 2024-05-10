@@ -27,21 +27,21 @@ namespace ToastyQoLCalamity.Core.Calls
                 "Your Iron Heart is truly full of Malice. You may have Defiled this world and Catalyzed the arrival of Armageddon upon it, but I will not allow you to send me to the " +
                 "depths of Infernum!");
 
-            AddBossSpecificSassQuote(ModContent.NPCType<Cryogen>(), new() { "You need to chill out." });
-            AddBossSpecificSassQuote(ModContent.NPCType<Yharon>(), new() { "This is my MESSAGE TO MY MASTER, this is a FIGHT YOU DID NOT WIN!" });
-            AddBossSpecificSassQuote(ModContent.NPCType<SupremeCalamitas>(), new() { "I bet you're going to go spam ping someone in #nohit-discussion now aren't you. Spoiler: No one cares.", 
-                "Another BH1 death?" });
-            AddBossSpecificSassQuote(ModContent.NPCType<Apollo>(), new() { "You fell right into his calculations..." });
-            AddBossSpecificSassQuote(ModContent.NPCType<Artemis>(), new() { "You fell right into his calculations..." });
-            AddBossSpecificSassQuote(ModContent.NPCType<AresBody>(), new() { "You fell right into his calculations..." });
-            AddBossSpecificSassQuote(ModContent.NPCType<ThanatosHead>(), new() { "You fell right into his calculations..." });
-            AddBossSpecificSassQuote(ModContent.NPCType<HiveMind>(), new() { "'Hive' got a plan for you: Give up." });
-            AddBossSpecificSassQuote(ModContent.NPCType<PlaguebringerGoliath>(), new() { "'Hive' got a plan for you: Give up." });
-            AddBossSpecificSassQuote(ModContent.NPCType<Crabulon>(), new() { "I better not see this RRed 10 times..." });
-            AddBossSpecificSassQuote(ModContent.NPCType<AquaticScourgeHead>(), new() { "Excessive Salt can lead to high blood pressure." });
-            AddBossSpecificSassQuote(ModContent.NPCType<Leviathan>(), new() { "Excessive Salt can lead to high blood pressure.", "Don't fish for compliments." });
-            AddBossSpecificSassQuote(ModContent.NPCType<Anahita>(), new() { "Excessive Salt can lead to high blood pressure.", "Don't fish for compliments." });
-            AddBossSpecificSassQuote(ModContent.NPCType<OldDuke>(), new() { "Don't fish for compliments.", "Double tap to dash!" });
+            AddBossSpecificSassQuote(ModContent.NPCType<Cryogen>(), ["You need to chill out."]);
+            AddBossSpecificSassQuote(ModContent.NPCType<Yharon>(), ["This is my MESSAGE TO MY MASTER, this is a FIGHT YOU DID NOT WIN!"]);
+            AddBossSpecificSassQuote(ModContent.NPCType<SupremeCalamitas>(), [ "I bet you're going to go spam ping someone in #nohit-discussion now aren't you. Spoiler: No one cares.", 
+                "Another BH1 death?" ]);
+            AddBossSpecificSassQuote(ModContent.NPCType<Apollo>(), ["You fell right into his calculations..."]);
+            AddBossSpecificSassQuote(ModContent.NPCType<Artemis>(), ["You fell right into his calculations..."]);
+            AddBossSpecificSassQuote(ModContent.NPCType<AresBody>(), ["You fell right into his calculations..."]);
+            AddBossSpecificSassQuote(ModContent.NPCType<ThanatosHead>(), ["You fell right into his calculations..."]);
+            AddBossSpecificSassQuote(ModContent.NPCType<HiveMind>(), ["'Hive' got a plan for you: Give up."]);
+            AddBossSpecificSassQuote(ModContent.NPCType<PlaguebringerGoliath>(), ["'Hive' got a plan for you: Give up."]);
+            AddBossSpecificSassQuote(ModContent.NPCType<Crabulon>(), ["I better not see this RRed 10 times..."]);
+            AddBossSpecificSassQuote(ModContent.NPCType<AquaticScourgeHead>(), ["Excessive Salt can lead to high blood pressure."]);
+            AddBossSpecificSassQuote(ModContent.NPCType<Leviathan>(), ["Excessive Salt can lead to high blood pressure.", "Don't fish for compliments."]);
+            AddBossSpecificSassQuote(ModContent.NPCType<Anahita>(), ["Excessive Salt can lead to high blood pressure.", "Don't fish for compliments."]);
+            AddBossSpecificSassQuote(ModContent.NPCType<OldDuke>(), ["Don't fish for compliments.", "Double tap to dash!"]);
         }
     }
 }

@@ -19,11 +19,11 @@ namespace ToastyQoLCalamity.Core.Globals
     {
         public override bool InstancePerEntity => true;
 
-        public readonly List<int> SCalTooltips = new()
-        {
-            ModContent.ItemType<ReflectiveWand>(),
+        public readonly List<int> SCalTooltips =
+		[
+			ModContent.ItemType<ReflectiveWand>(),
             ModContent.ItemType<BrimstoneTorch>(),
-        };
+        ];
 
         public override void ModifyTooltips(Item item, List<TooltipLine> tooltips)
         {

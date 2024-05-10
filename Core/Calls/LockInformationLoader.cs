@@ -44,17 +44,17 @@ namespace ToastyQoLCalamity.Core.Calls
 
         public static void LoadLockInfo()
         {
-            AddLockInformation(() => NPC.downedSlimeKing, "King Slime", new()
-            {
-                ModContent.ItemType<CrownJewel>(),
+            AddLockInformation(() => NPC.downedSlimeKing, "King Slime",
+			[
+				ModContent.ItemType<CrownJewel>(),
                 ModContent.ItemType<LoreKingSlime>(),
                 ModContent.ItemType<HeartofDarkness>(),
                 ModContent.ItemType<Laudanum>(),
                 ModContent.ItemType<StressPills>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedDesertScourge, "Desert Scourge", new()
-            {
+            AddLockInformation(() => DownedBossSystem.downedDesertScourge, "Desert Scourge",
+			[
                 //Accessories
                 ModContent.ItemType<AeroStone>(),
                 ModContent.ItemType<OceanCrest>(),
@@ -95,10 +95,10 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<SandDollar>(),
                 ModContent.ItemType<ScourgeoftheDesert>(),
                 ModContent.ItemType<SnapClam>(),
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedBoss1, "Eye of Cthulhu", new()
-            {
+            AddLockInformation(() => NPC.downedBoss1, "Eye of Cthulhu",
+			[
                 //Weapons
                 ModContent.ItemType<Basher>(),
                 ModContent.ItemType<TeardropCleaver>(),
@@ -114,10 +114,10 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<CausticCroakerStaff>(),
                 //Rogue Weapons
                 ModContent.ItemType<ContaminatedBile>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedCrabulon, "Crabulon", new()
-            {
+            AddLockInformation(() => DownedBossSystem.downedCrabulon, "Crabulon",
+			[
                 //Accessories
                 ModContent.ItemType<FungalClump>(),
                 //Weapons
@@ -129,10 +129,10 @@ namespace ToastyQoLCalamity.Core.Calls
                 //Rogue Weapons
                 ModContent.ItemType<InfestedClawmerang>(),
                 ModContent.ItemType<Mycoroot>(),
-            });
+            ]);
 
-            AddLockInformation(() => SavingSystem.DownedBrain && SavingSystem.DownedEater, "EoW/BoC", new()
-            {
+            AddLockInformation(() => SavingSystem.DownedBrain && SavingSystem.DownedEater, "EoW/BoC",
+			[
                 //Accessories
                 ModContent.ItemType<SilencingSheath>(),
                 ModContent.ItemType<EnchantedPearl>(),
@@ -146,10 +146,10 @@ namespace ToastyQoLCalamity.Core.Calls
                 //Rogue Weapons
                 ModContent.ItemType<MeteorFist>(),
                 ModContent.ItemType<SludgeSplotch>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedPerforator && DownedBossSystem.downedHiveMind, "Hive Mind/Perforators", new()
-            {
+            AddLockInformation(() => DownedBossSystem.downedPerforator && DownedBossSystem.downedHiveMind, "Hive Mind/Perforators",
+			[
                 //Accessories   
                 ModContent.ItemType<HarpyRing>(),
                 ModContent.ItemType<BloodstainedGlove>(),
@@ -195,19 +195,19 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Aestheticus>(),
                 ModContent.ItemType<Skynamite>(),
                 ItemID.BundleofBalloons
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedQueenBee, "Queen Bee", new()
-            {
-                ModContent.ItemType<CrownJewel>(),
+            AddLockInformation(() => NPC.downedQueenBee, "Queen Bee",
+			[
+				ModContent.ItemType<CrownJewel>(),
                 ModContent.ItemType<LoreKingSlime>(),
                 ModContent.ItemType<HeartofDarkness>(),
                 ModContent.ItemType<Laudanum>(),
                 ModContent.ItemType<StressPills>(),
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedBoss3, "Skeletron", new()
-            {
+            AddLockInformation(() => NPC.downedBoss3, "Skeletron",
+			[
                 //Accessories
                 ModContent.ItemType<IronBoots>(),
                 ModContent.ItemType<CounterScarf>(),
@@ -234,10 +234,10 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Cinquedea>(),
                 ModContent.ItemType<ShinobiBlade>(),
                 ModContent.ItemType<Lionfish>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedSlimeGod, "Slime God", new()
-            {
+            AddLockInformation(() => DownedBossSystem.downedSlimeGod, "Slime God",
+			[
                 //Accessories
                 ModContent.ItemType<RadiantOoze>(),
                 ModContent.ItemType<JellyChargedBattery>(),
@@ -260,10 +260,10 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<SlimePuppetStaff>(),
                 //Rogue Weapons
                 ModContent.ItemType<GelDart>(),
-            });
+            ]);
 
-            AddLockInformation(() => Main.hardMode, "Wall of Flesh", new()
-            {
+            AddLockInformation(() => Main.hardMode, "Wall of Flesh",
+			[
                 //Accessories
                 ModContent.ItemType<GrandGelatin>(),
                 ModContent.ItemType<AmalgamatedBrain>(),
@@ -297,7 +297,6 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<FlarewingBow>(),
                 ModContent.ItemType<Butcher>(),
                 ModContent.ItemType<ClamorRifle>(),
-                ModContent.ItemType<CursedCapper>(),
                 ModContent.ItemType<Needler>(),
                 ModContent.ItemType<P90>(),
                 ModContent.ItemType<SlagMagnum>(),
@@ -328,14 +327,13 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<GacruxianMollusk>(),
                 ModContent.ItemType<SlickCane>(),
                 //Classless
-                ModContent.ItemType<GoldenGun>(),
                 ModContent.ItemType<LunicEye>(),
                 ModContent.ItemType<StarStruckWater>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedCryogen, "Cryogen", new()
-            {
-                ModContent.ItemType<SoulofCryogen>(),
+            AddLockInformation(() => DownedBossSystem.downedCryogen, "Cryogen",
+			[
+				ModContent.ItemType<SoulofCryogen>(),
                 ModContent.ItemType<StarlightWings>(),
                 ModContent.ItemType<FrostFlare>(),
                 ModContent.ItemType<AmbrosialAmpoule>(),
@@ -351,11 +349,11 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<FrostbiteBlaster>(),
                 ModContent.ItemType<IcicleTrident>(),
                 ModContent.ItemType<IceStar>()
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedAquaticScourge, "Aquatic Scourge", new()
-            {
-                ModContent.ItemType<AquaticEmblem>(),
+            AddLockInformation(() => DownedBossSystem.downedAquaticScourge, "Aquatic Scourge",
+			[
+				ModContent.ItemType<AquaticEmblem>(),
                 ModContent.ItemType<CorrosiveSpine>(),
                 ModContent.ItemType<NuclearFuelRod>(),
                 ModContent.ItemType<DeepDiver>(),
@@ -375,57 +373,57 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<CorrodedCaustibow>(),
                 ModContent.ItemType<Miasma>(),
                 ModContent.ItemType<AcidicRainBarrel>()
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedMechBoss1, "Destroyer", new()
-            {
-                ModContent.ItemType<GaussPistol>(),
-            });
+            AddLockInformation(() => NPC.downedMechBoss1, "Destroyer",
+			[
+				ModContent.ItemType<GaussPistol>(),
+            ]);
 
-            AddLockInformation(() => NPC.downedMechBoss1 && (NPC.downedMechBoss2 || NPC.downedMechBoss3), "Destroyer and another Mech", new()
-            {
-                ModContent.ItemType<MajesticGuard>()
-            });
+            AddLockInformation(() => NPC.downedMechBoss1 && (NPC.downedMechBoss2 || NPC.downedMechBoss3), "Destroyer and another Mech",
+			[
+				ModContent.ItemType<MajesticGuard>()
+            ]);
 
-            AddLockInformation(() => NPC.downedMechBoss2, "Twins", new()
-            {
-                ModContent.ItemType<Arbalest>(),
+            AddLockInformation(() => NPC.downedMechBoss2, "Twins",
+			[
+				ModContent.ItemType<Arbalest>(),
                 ModContent.ItemType<SpeedBlaster>(),
                 ModContent.ItemType<FrequencyManipulator>(),
                 ModContent.ItemType<HydraulicVoltCrasher>(),
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedMechBoss3, "Skeletron Prime", new()
-            {
-                ModContent.ItemType<GraveGrimreaver>(),
+            AddLockInformation(() => NPC.downedMechBoss3, "Skeletron Prime",
+			[
+				ModContent.ItemType<GraveGrimreaver>(),
                 ModContent.ItemType<InfernaCutter>(),
                 ModContent.ItemType<MatterModulator>(),
                 ModContent.ItemType<MountedScanner>(),
                 ModContent.ItemType<ForbiddenOathblade>(),
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedMechBoss3 && (NPC.downedMechBoss2 || NPC.downedMechBoss1), "Skeletron Prime and another Mech", new()
-            {
-                ModContent.ItemType<IonBlaster>()
-            });
+            AddLockInformation(() => NPC.downedMechBoss3 && (NPC.downedMechBoss2 || NPC.downedMechBoss1), "Skeletron Prime and another Mech",
+			[
+				ModContent.ItemType<IonBlaster>()
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedCryogen && NPC.downedMechBossAny, "Cryogen and a Mech", new()
-            {
-                ModContent.ItemType<CrystalPiercer>(),
+            AddLockInformation(() => DownedBossSystem.downedCryogen && NPC.downedMechBossAny, "Cryogen and a Mech",
+			[
+				ModContent.ItemType<CrystalPiercer>(),
                 ModContent.ItemType<FlarefrostBlade>(),
                 ModContent.ItemType<DarklightGreatsword>(),
                 ModContent.ItemType<StarnightLance>(),
                 ModContent.ItemType<DarkechoGreatbow>(),
                 ModContent.ItemType<Shimmerspark>(),
-                ModContent.ItemType<ShadecrystalTome>(),
+                ModContent.ItemType<ShadecrystalBarrage>(),
                 ModContent.ItemType<DaedalusGolemStaff>(),
                 ModContent.ItemType<ShardlightPickaxe>(),
                 ModContent.ItemType<AbyssalWarhammer>()
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedMechBossAny, "Any Mech", new()
-            {
-                ModContent.ItemType<SHPC>(),
+            AddLockInformation(() => NPC.downedMechBossAny, "Any Mech",
+			[
+				ModContent.ItemType<SHPC>(),
                 ModContent.ItemType<AnarchyBlade>(),
                 ModContent.ItemType<TundraFlameBlossomsStaff>(),
                 ModContent.ItemType<ElectriciansGlove>(),
@@ -470,11 +468,11 @@ namespace ToastyQoLCalamity.Core.Calls
                 ItemID.SpiritFlame,
                 ItemID.SkyFracture,
                 ItemID.OnyxBlaster,
-            });
+            ]);
 
-            AddLockInformation(() => GetMechsDead() >= 2, "Any Two Mechs", new()
-            {
-                ModContent.ItemType<SHPC>(),
+            AddLockInformation(() => GetMechsDead() >= 2, "Any Two Mechs",
+			[
+				ModContent.ItemType<SHPC>(),
                 ModContent.ItemType<AnarchyBlade>(),
                 ModContent.ItemType<TundraFlameBlossomsStaff>(),
                 ModContent.ItemType<ElectriciansGlove>(),
@@ -519,11 +517,11 @@ namespace ToastyQoLCalamity.Core.Calls
                 ItemID.SpiritFlame,
                 ItemID.SkyFracture,
                 ItemID.OnyxBlaster,
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedMechBoss1 && NPC.downedMechBoss2 && NPC.downedMechBoss3, "All Mechs", new()
-            {
-                ModContent.ItemType<MOAB>(),
+            AddLockInformation(() => NPC.downedMechBoss1 && NPC.downedMechBoss2 && NPC.downedMechBoss3, "All Mechs",
+			[
+				ModContent.ItemType<MOAB>(),
                 ModContent.ItemType<AngelTreads>(),
                 ModContent.ItemType<HallowedRune>(),
                 ModContent.ItemType<MomentumCapacitor>(),
@@ -561,18 +559,18 @@ namespace ToastyQoLCalamity.Core.Calls
                 ItemID.ChlorophyteJackhammer,
                 ItemID.VenomStaff,
                 ItemID.DeathSickle,
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedCryogen && NPC.downedMechBoss1 && NPC.downedMechBoss2 && NPC.downedMechBoss3, "Cryogen and All Mechs", new()
-            {
-                ModContent.ItemType<ArcticBearPaw>(),
+            AddLockInformation(() => DownedBossSystem.downedCryogen && NPC.downedMechBoss1 && NPC.downedMechBoss2 && NPC.downedMechBoss3, "Cryogen and All Mechs",
+			[
+				ModContent.ItemType<ArcticBearPaw>(),
                 ModContent.ItemType<FrostyFlare>(),
                 ModContent.ItemType<CryogenicStaff>()
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedBrimstoneElemental, "Brimstone Elemental", new()
-             {
-                ModContent.ItemType<Abaddon>(),
+            AddLockInformation(() => DownedBossSystem.downedBrimstoneElemental, "Brimstone Elemental",
+			 [
+				ModContent.ItemType<Abaddon>(),
                 ModContent.ItemType<FlameLickedShell>(),
                 ModContent.ItemType<RoseStone>(),
                 ModContent.ItemType<Brimlance>(),
@@ -580,11 +578,11 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Brimlance>(),
                 ModContent.ItemType<SeethingDischarge>(),
                 ModContent.ItemType<DormantBrimseeker>()
-             });
+             ]);
 
-            AddLockInformation(() => DownedBossSystem.downedCalamitasClone, "Calamitas", new()
-            {
-                ModContent.ItemType<AbyssalDivingGear>(),
+            AddLockInformation(() => DownedBossSystem.downedCalamitasClone, "Calamitas",
+			[
+				ModContent.ItemType<AbyssalDivingGear>(),
                 ModContent.ItemType<ChaosStone>(),
                 ModContent.ItemType<LumenousAmulet>(),
                 ModContent.ItemType<VampiricTalisman>(),
@@ -615,11 +613,11 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Apoctolith>(),
                 ModContent.ItemType<CrushsawCrasher>(),
                 ModContent.ItemType<DeepWounder>(),
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedPlantBoss, "Plantera", new()
-            {
-                ModContent.ItemType<AureateBooster>(),
+            AddLockInformation(() => NPC.downedPlantBoss, "Plantera",
+			[
+				ModContent.ItemType<AureateBooster>(),
                 ModContent.ItemType<AbyssalMirror>(),
                 ModContent.ItemType<DeadshotBrooch>(),
                 ModContent.ItemType<GloveOfPrecision>(),
@@ -638,22 +636,22 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<BlightedCleaver>(),
                 ModContent.ItemType<Quagmire>(),
                 ModContent.ItemType<HellionFlowerSpear>(),
-                ModContent.ItemType<TerraLance>(),
+                ModContent.ItemType<BotanicPiercer>(),
                 ModContent.ItemType<Tumbleweed>(),
                 ModContent.ItemType<TrueArkoftheAncients>(),
                 //Ranged Weapons
                 ModContent.ItemType<TheBallista>(),
                 ModContent.ItemType<BlossomFlux>(),
-                ModContent.ItemType<CosmicBolter>(),
+                ModContent.ItemType<VernalBolter>(),
                 ModContent.ItemType<EternalBlizzard>(),
                 ModContent.ItemType<MarksmanBow>(),
-                ModContent.ItemType<BladedgeGreatbow>(),
+                ModContent.ItemType<BladedgeRailbow>(),
                 ModContent.ItemType<PearlGod>(),
-                ModContent.ItemType<TerraFlameburster>(),
+                ModContent.ItemType<WildfireBloom>(),
                 ModContent.ItemType<SandstormGun>(),
                 //Magic Weapons
                 ModContent.ItemType<ShiftingSands>(),
-                ModContent.ItemType<TerraRay>(),
+                ModContent.ItemType<Photosynthesis>(),
                 ModContent.ItemType<EvergladeSpray>(),
                 ModContent.ItemType<PrimordialEarth>(),
                 ModContent.ItemType<TearsofHeaven>(),
@@ -668,16 +666,16 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<DefectiveSphere>(),
                 ModContent.ItemType<FrostcrushValari>(),
                 ModContent.ItemType<MangroveChakram>(),
-                ModContent.ItemType<TerraDisk>(),
+                ModContent.ItemType<SamsaraSlicer>(),
                 ModContent.ItemType<MonkeyDarts>(),
                 ModContent.ItemType<FantasyTalisman>(),
                 ModContent.ItemType<Sandslasher>(),
                 //Classless
                 ModContent.ItemType<Hydra>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedAstrumAureus, "Astrum Aureus", new()
-            {
+            AddLockInformation(() => DownedBossSystem.downedAstrumAureus, "Astrum Aureus",
+			[
                 //Accessories
                 ModContent.ItemType<StarbusterCore>(),
                 ModContent.ItemType<InfectedJewel>(),
@@ -702,10 +700,10 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<AuroradicalThrow>(),
                 ModContent.ItemType<HeavenfallenStardisk>(),
                 ModContent.ItemType<LeonidProgenitor>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedLeviathan, "Leviathan", new()
-            {
+            AddLockInformation(() => DownedBossSystem.downedLeviathan, "Leviathan",
+			[
                 //Accessories
                 ModContent.ItemType<LeviathanAmbergris>(),
                 ModContent.ItemType<TheCommunity>(),
@@ -723,10 +721,10 @@ namespace ToastyQoLCalamity.Core.Calls
                 //Rogue Weapons
                 ModContent.ItemType<BrackishFlask>(),
                 ModContent.ItemType<LeviathanTeeth>(),
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedGolemBoss, "Golem", new()
-            { 
+            AddLockInformation(() => NPC.downedGolemBoss, "Golem",
+			[ 
                 //Accessories
                 ModContent.ItemType<HadalMantle>(),
                 ModContent.ItemType<PlaguedFuelPack>(),
@@ -749,7 +747,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<ClockGatlignum>(),
                 ModContent.ItemType<Helstorm>(),
                 ModContent.ItemType<BarracudaGun>(),
-                ModContent.ItemType<NullificationRifle>(),
+                ModContent.ItemType<NullificationPistol>(),
                 //Magic Weapons
                 ModContent.ItemType<InfernalRift>(),
                 ModContent.ItemType<Wingman>(),
@@ -764,10 +762,10 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<SubductionSlicer>(),
                 //Classless
                 ModContent.ItemType<YanmeisKnife>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedPlaguebringer, "Plaguebringer Goliath", new()
-            {
+            AddLockInformation(() => DownedBossSystem.downedPlaguebringer, "Plaguebringer Goliath",
+			[
                 //Accessories
                 ModContent.ItemType<PlagueHive>(),
                 ModContent.ItemType<ToxicHeart>(),
@@ -795,17 +793,17 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Malachite>(),
                 ModContent.ItemType<SystemBane>(),
                 ModContent.ItemType<TheSyringe>(),
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedFishron, "Duke Fishron", new()
-            {
-                ModContent.ItemType<BrinyBaron>(),
+            AddLockInformation(() => NPC.downedFishron, "Duke Fishron",
+			[
+				ModContent.ItemType<BrinyBaron>(),
                 ModContent.ItemType<DukesDecapitator>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedRavager, "Ravager", new()
-            {
-                ModContent.ItemType<BloodPact>(),
+            AddLockInformation(() => DownedBossSystem.downedRavager, "Ravager",
+			[
+				ModContent.ItemType<BloodPact>(),
                 ModContent.ItemType<FleshTotem>(),
                 //Weapons
                 ModContent.ItemType<UltimusCleaver>(),
@@ -819,11 +817,11 @@ namespace ToastyQoLCalamity.Core.Calls
                 //Rogue Weapons
                 ModContent.ItemType<CraniumSmasher>(),
                 ModContent.ItemType<CorpusAvertor>(),
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedAncientCultist, "Lunatic Cultist", new()
-            {
-                ModContent.ItemType<DarkMatterSheath>(),
+            AddLockInformation(() => NPC.downedAncientCultist, "Lunatic Cultist",
+			[
+				ModContent.ItemType<DarkMatterSheath>(),
                 ModContent.ItemType<StatisCurse>(),
                 ModContent.ItemType<HeartoftheElements>(),
                 ModContent.ItemType<TheAbsorber>(),
@@ -853,11 +851,11 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<ShardofAntumbra>(),
                 //Classless 
                 ModContent.ItemType<EyeofMagnus>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedAstrumDeus, "Astrum Deus", new()
-            {
-                ModContent.ItemType<DeificAmulet>(),
+            AddLockInformation(() => DownedBossSystem.downedAstrumDeus, "Astrum Deus",
+			[
+				ModContent.ItemType<DeificAmulet>(),
                 ModContent.ItemType<HideofAstrumDeus>(),
                 //Weapons
                 ModContent.ItemType<AstralBlade>(),
@@ -865,7 +863,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<TheMicrowave>(),
                 ModContent.ItemType<AstralPike>(),
                 //Ranged Weapons
-                ModContent.ItemType<AstralRepeater>(),
+                ModContent.ItemType<AstralBow>(),
                 ModContent.ItemType<StarSputter>(),
                 //Magic Weapons
                 ModContent.ItemType<StarShower>(),
@@ -874,11 +872,11 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<StarspawnHelixStaff>(),
                 ModContent.ItemType<RadiantStar>(),
                 ModContent.ItemType<RegulusRiot>(),
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedMoonlord, "Moon Lord", new()
-            {
-                ModContent.ItemType<ExodusWings>(),
+            AddLockInformation(() => NPC.downedMoonlord, "Moon Lord",
+			[
+				ModContent.ItemType<ExodusWings>(),
                 ModContent.ItemType<TracersCelestial>(),
                 ModContent.ItemType<StatisNinjaBelt>(),
                 ModContent.ItemType<DaawnlightSpiritOrigin>(),
@@ -913,7 +911,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<UltraLiquidator>(),
                 ModContent.ItemType<ApoctosisArray>(),
                 ModContent.ItemType<Effervescence>(),
-                ModContent.ItemType<Genisis>(),
+                ModContent.ItemType<Genesis>(),
                 ModContent.ItemType<AuguroftheElements>(),
                 ModContent.ItemType<NuclearFury>(),
                 //Summon Weapons
@@ -927,19 +925,19 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<UtensilPoker>(),
                 ModContent.ItemType<HellsSun>(),
                 ModContent.ItemType<CelestialReaper>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedGuardians, "Profaned Guardians", new()
-            {
-                ModContent.ItemType<WarbanneroftheSun>(),
+            AddLockInformation(() => DownedBossSystem.downedGuardians, "Profaned Guardians",
+			[
+				ModContent.ItemType<WarbanneroftheSun>(),
                 ModContent.ItemType<RelicOfConvergence>(),
                 ModContent.ItemType<RelicOfDeliverance>(),
                 ModContent.ItemType<RelicOfResilience>()
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedDragonfolly, "Dragonfolly", new()
-            {
-                ModContent.ItemType<BlunderBooster>(),
+            AddLockInformation(() => DownedBossSystem.downedDragonfolly, "Dragonfolly",
+			[
+				ModContent.ItemType<BlunderBooster>(),
                 ModContent.ItemType<DynamoStemCells>(),
                 //Weapons
                 ModContent.ItemType<Swordsplosion>(),
@@ -949,11 +947,11 @@ namespace ToastyQoLCalamity.Core.Calls
                 //Magic Weapon
                 ModContent.ItemType<MadAlchemistsCocktailGlove>(),
                 ModContent.ItemType<RougeSlash>()
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedProvidence, "Providence", new()
-            {
-                ModContent.ItemType<ElysianWings>(),
+            AddLockInformation(() => DownedBossSystem.downedProvidence, "Providence",
+			[
+				ModContent.ItemType<ElysianWings>(),
                 ModContent.ItemType<TarragonWings>(),
                 ModContent.ItemType<BloodflareCore>(),
                 ModContent.ItemType<BadgeofBravery>(),
@@ -965,12 +963,12 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<GalactusBlade>(),
                 ModContent.ItemType<Grax>(),
                 ModContent.ItemType<HolyCollider>(),
-                ModContent.ItemType<LifefruitScythe>(),
+                ModContent.ItemType<LifehuntScythe>(),
                 ModContent.ItemType<TheMutilator>(),
                 ModContent.ItemType<Terratomere>(),
                 ModContent.ItemType<DefiledGreatsword>(),
                 ModContent.ItemType<Lacerator>(),
-                ModContent.ItemType<SolarFlare>(),
+                ModContent.ItemType<BurningRevelation>(),
                 ModContent.ItemType<SeekingScorcher>(),
                 ModContent.ItemType<Mourningstar>(),
                 ModContent.ItemType<PulseDragon>(),
@@ -1012,22 +1010,22 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<ProfanedPartisan>(),
                 ModContent.ItemType<AlphaVirus>(),
                 ModContent.ItemType<BloodsoakedCrasher>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedStormWeaver, "Storm Weaver", new()
-            {
-                ModContent.ItemType<TheStorm>(),
+            AddLockInformation(() => DownedBossSystem.downedStormWeaver, "Storm Weaver",
+			[
+				ModContent.ItemType<TheStorm>(),
                 ModContent.ItemType<Seadragon>(),
                 ModContent.ItemType<StormDragoon>(),
                 //Magic Weapons
                 ModContent.ItemType<Thunderstorm>(),
                 ModContent.ItemType<TwistingThunder>(),
 				ModContent.ItemType<RealityRupture>(),
-			});
+			]);
 
-            AddLockInformation(() => DownedBossSystem.downedCeaselessVoid, "Ceaseless Void", new()
-            {
-                ModContent.ItemType<Purity>(),
+            AddLockInformation(() => DownedBossSystem.downedCeaselessVoid, "Ceaseless Void",
+			[
+				ModContent.ItemType<Radiance>(),
                 ModContent.ItemType<TheEvolution>(),
                 ModContent.ItemType<QuiverofNihility>(),
                 //Weapons
@@ -1043,11 +1041,11 @@ namespace ToastyQoLCalamity.Core.Calls
                 //Rogue Weapons
                 ModContent.ItemType<SealedSingularity>(),
 				ModContent.ItemType<RealityRupture>(),
-			});
+			]);
 
-            AddLockInformation(() => DownedBossSystem.downedSignus, "Signus", new()
-            {
-                ModContent.ItemType<SpectralVeil>(),
+            AddLockInformation(() => DownedBossSystem.downedSignus, "Signus",
+			[
+				ModContent.ItemType<SpectralVeil>(),
                 //Ranged Weapons
                 ModContent.ItemType<TheSevensStriker>(),
                 //Magic Weapons
@@ -1057,11 +1055,11 @@ namespace ToastyQoLCalamity.Core.Calls
                 //Rogue Weapons
                 ModContent.ItemType<CosmicKunai>(),
 				ModContent.ItemType<RealityRupture>(),
-			});
+			]);
 
-            AddLockInformation(() => DownedBossSystem.downedPolterghast, "Polterghast", new()
-            {
-                ModContent.ItemType<PhantomicArtifact>(),
+            AddLockInformation(() => DownedBossSystem.downedPolterghast, "Polterghast",
+			[
+				ModContent.ItemType<PhantomicArtifact>(),
                 ModContent.ItemType<ReaperToothNecklace>(),
                 ModContent.ItemType<Affliction>(),
                 //Weapons
@@ -1069,7 +1067,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<TheLastMourning>(),
                 ModContent.ItemType<LionHeart>(),
                 ModContent.ItemType<NeptunesBounty>(),
-                ModContent.ItemType<SoulEdge>(),
+                ModContent.ItemType<VoidEdge>(),
                 ModContent.ItemType<TerrorBlade>(),
                 ModContent.ItemType<BansheeHook>(),
                 ModContent.ItemType<CrescentMoon>(),
@@ -1105,11 +1103,11 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<PhantasmalRuin>(),
                 ModContent.ItemType<NightsGaze>(),
                 ModContent.ItemType<DeepSeaDumbbell>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedBoomerDuke, "Old Duke", new()
-            {
-                ModContent.ItemType<OldDukeScales>(),
+            AddLockInformation(() => DownedBossSystem.downedBoomerDuke, "Old Duke",
+			[
+				ModContent.ItemType<OldDukeScales>(),
                 ModContent.ItemType<MutatedTruffle>(),
                 //Weapons
                 ModContent.ItemType<InsidiousImpaler>(),
@@ -1124,11 +1122,11 @@ namespace ToastyQoLCalamity.Core.Calls
                 //Rogue Weapons
                 ModContent.ItemType<ToxicantTwister>(),
                 ModContent.ItemType<TheOldReaper>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedDoG, "DoG", new()
-            {
-                ModContent.ItemType<TracersElysian>(),
+            AddLockInformation(() => DownedBossSystem.downedDoG, "DoG",
+			[
+				ModContent.ItemType<TracersElysian>(),
                 ModContent.ItemType<SilvaWings>(),
                 ModContent.ItemType<DarkSunRing>(),
                 ModContent.ItemType<DimensionalSoulArtifact>(),
@@ -1186,7 +1184,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<IceBarrage>(),
                 ModContent.ItemType<SoulPiercer>(),
                 ModContent.ItemType<VoltaicClimax>(),
-                ModContent.ItemType<AlphaRay>(),
+                ModContent.ItemType<Omicron>(),
                 ModContent.ItemType<TeslaCannon>(),
                 ModContent.ItemType<EventHorizon>(),
                 ModContent.ItemType<LightGodsBrilliance>(),
@@ -1208,18 +1206,18 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<GodsParanoia>(),
                 ModContent.ItemType<ExecutionersBlade>(),
                         ModContent.ItemType<Hypothermia>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedYharon, "Yharon", new()
-            {
-                ModContent.ItemType<TracersCelestial>(),
+            AddLockInformation(() => DownedBossSystem.downedYharon, "Yharon",
+			[
+				ModContent.ItemType<TracersCelestial>(),
                 ModContent.ItemType<DrewsWings>(),
                 ModContent.ItemType<DragonScales>(),
                 ModContent.ItemType<YharimsGift>(),
-                ModContent.ItemType<GodlySoulArtifact>(),
+                ModContent.ItemType<AuricSoulArtifact>(),
                 //Weapons
                 ModContent.ItemType<Ataraxia>(),
-                ModContent.ItemType<Oracle>(),
+                ModContent.ItemType<TheOracle>(),
                 ModContent.ItemType<DragonPow>(),
                 ModContent.ItemType<ArkoftheCosmos>(),
                 ModContent.ItemType<TheBurningSky>(),
@@ -1245,14 +1243,14 @@ namespace ToastyQoLCalamity.Core.Calls
                 // Rogue Weapons
                 ModContent.ItemType<Seraphim>(),
                 ModContent.ItemType<Wrathwing>(),
-                ModContent.ItemType<FinalDawn>(),
+                ModContent.ItemType<TheFinalDawn>(),
                 ModContent.ItemType<SearedPan>(),
                 ModContent.ItemType<DynamicPursuer>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedExoMechs, "Exo Mechs", new()
-            {
-                ModContent.ItemType<DraedonsHeart>(),
+            AddLockInformation(() => DownedBossSystem.downedExoMechs, "Exo Mechs",
+			[
+				ModContent.ItemType<DraedonsHeart>(),
                 //Weapons
                 ModContent.ItemType<Exoblade>(),
                 //ModContent.ItemType<ExoGladius>(), :((((((
@@ -1275,11 +1273,11 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Celestus>(),
                 ModContent.ItemType<TheAtomSplitter>(),
                 ModContent.ItemType<RefractionRotor>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedCalamitas, "Supreme Calamitas", new()
-            {
-                ModContent.ItemType<Calamity>(),
+            AddLockInformation(() => DownedBossSystem.downedCalamitas, "Supreme Calamitas",
+			[
+				ModContent.ItemType<Calamity>(),
                 ModContent.ItemType<ShatteredCommunity>(),
                 //Weapons
                 ModContent.ItemType<GaelsGreatsword>(),
@@ -1298,16 +1296,16 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<CindersOfLament>(),
                 //Rogue Weapons
                 ModContent.ItemType<Sacrifice>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedPrimordialWyrm, "AEW", new()
-            {
-                ModContent.ItemType<HalibutCannon>()
-            });
+            AddLockInformation(() => DownedBossSystem.downedPrimordialWyrm, "AEW",
+			[
+				ModContent.ItemType<HalibutCannon>()
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedCalamitas && DownedBossSystem.downedExoMechs, "Endgame", new()
-            {
-                ModContent.ItemType<AngelicAlliance>(),
+            AddLockInformation(() => DownedBossSystem.downedCalamitas && DownedBossSystem.downedExoMechs, "Endgame",
+			[
+				ModContent.ItemType<AngelicAlliance>(),
                 ModContent.ItemType<ProfanedSoulCrystal>(),
                 //Weapons
                 ModContent.ItemType<DraconicDestruction>(),
@@ -1336,26 +1334,26 @@ namespace ToastyQoLCalamity.Core.Calls
                 //Rogue Weapons
                 ModContent.ItemType<NanoblackReaper>(),
                 ModContent.ItemType<ScarletDevil>(),
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedBoss1, "Eye of Cthulhu", new()
-            {
-                ModContent.ItemType<SulphurskinPotion>()
-            });
+            AddLockInformation(() => NPC.downedBoss1, "Eye of Cthulhu",
+			[
+				ModContent.ItemType<SulphurskinPotion>()
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedPerforator && DownedBossSystem.downedHiveMind, "Hive Mind/Perforators", new()
-            {
-                ModContent.ItemType<TeslaPotion>()
-            });
+            AddLockInformation(() => DownedBossSystem.downedPerforator && DownedBossSystem.downedHiveMind, "Hive Mind/Perforators",
+			[
+				ModContent.ItemType<TeslaPotion>()
+            ]);
 
-            AddLockInformation(() => NPC.downedBoss3, "Skeletron", new()
-            {
-                ModContent.ItemType<PotionofOmniscience>()
-            });
+            AddLockInformation(() => NPC.downedBoss3, "Skeletron",
+			[
+				ModContent.ItemType<PotionofOmniscience>()
+            ]);
 
-            AddLockInformation(() => Main.hardMode, "Wall of Flesh", new()
-            {
-                ModContent.ItemType<FabsolsVodka>(),
+            AddLockInformation(() => Main.hardMode, "Wall of Flesh",
+			[
+				ModContent.ItemType<FabsolsVodka>(),
                 ModContent.ItemType<GrapeBeer>(),
                 ModContent.ItemType<Tequila>(),
                 ModContent.ItemType<Whiskey>(),
@@ -1364,66 +1362,66 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<RedWine>(),
                 ModContent.ItemType<SoaringPotion>(),
                 ModContent.ItemType<FlaskOfCrumbling>()
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedMechBoss1 && NPC.downedMechBoss2 && NPC.downedMechBoss3, "All Mechs", new()
-            {
-                ModContent.ItemType<Vodka>(),
+            AddLockInformation(() => NPC.downedMechBoss1 && NPC.downedMechBoss2 && NPC.downedMechBoss3, "All Mechs",
+			[
+				ModContent.ItemType<Vodka>(),
                 ModContent.ItemType<Screwdriver>(),
                 ModContent.ItemType<WhiteWine>(),
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedPlantBoss, "Plantera", new()
-            {
-                ModContent.ItemType<EvergreenGin>(),
+            AddLockInformation(() => NPC.downedPlantBoss, "Plantera",
+			[
+				ModContent.ItemType<EvergreenGin>(),
                 ModContent.ItemType<Margarita>(),
                 ModContent.ItemType<CaribbeanRum>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedAstrumAureus, "Astrum Aureus", new()
-            {
-                ModContent.ItemType<Everclear>(),
+            AddLockInformation(() => DownedBossSystem.downedAstrumAureus, "Astrum Aureus",
+			[
+				ModContent.ItemType<Everclear>(),
                 ModContent.ItemType<StarBeamRye>(),
                 ModContent.ItemType<BloodyMary>(),
                 ModContent.ItemType<GravityNormalizerPotion>(),
                 ModContent.ItemType<AureusCell>(),
                 ModContent.ItemType<AstralInjection>()
-            });
+            ]);
 
-            AddLockInformation(() => NPC.downedGolemBoss, "Golem", new()
-            {
-                ModContent.ItemType<MoscowMule>(),
+            AddLockInformation(() => NPC.downedGolemBoss, "Golem",
+			[
+				ModContent.ItemType<MoscowMule>(),
                 ModContent.ItemType<TequilaSunrise>(),
                 ModContent.ItemType<Moonshine>(),
                 ModContent.ItemType<CinnamonRoll>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedCalamitasClone, "Calamitas", new()
-            {
-                ModContent.ItemType<FlaskOfBrimstone>(),
-            });
+            AddLockInformation(() => DownedBossSystem.downedCalamitasClone, "Calamitas",
+			[
+				ModContent.ItemType<FlaskOfBrimstone>(),
+            ]);
 
-            AddLockInformation(() => NPC.downedMoonlord, "Moonlord", new()
-            {
-                ModContent.ItemType<SupremeHealingPotion>(),
+            AddLockInformation(() => NPC.downedMoonlord, "Moonlord",
+			[
+				ModContent.ItemType<SupremeHealingPotion>(),
                 ModContent.ItemType<SupremeManaPotion>(),
                 ModContent.ItemType<FlaskOfHolyFlames>(),
-            });
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedProvidence, "Providence", new()
-            {
-                ModContent.ItemType<Bloodfin>()
-            });
+            AddLockInformation(() => DownedBossSystem.downedProvidence, "Providence",
+			[
+				ModContent.ItemType<Bloodfin>()
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedCeaselessVoid, "Ceaseless Void", new()
-            {
-                ModContent.ItemType<CeaselessHungerPotion>()
-            });
+            AddLockInformation(() => DownedBossSystem.downedCeaselessVoid, "Ceaseless Void",
+			[
+				ModContent.ItemType<CeaselessHungerPotion>()
+            ]);
 
-            AddLockInformation(() => DownedBossSystem.downedDoG, "DoG", new()
-            {
-                ModContent.ItemType<OmegaHealingPotion>()
-            });
+            AddLockInformation(() => DownedBossSystem.downedDoG, "DoG",
+			[
+				ModContent.ItemType<OmegaHealingPotion>()
+            ]);
         }
     }
 }
