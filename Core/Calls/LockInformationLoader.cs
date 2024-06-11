@@ -767,7 +767,7 @@ namespace ToastyQoLCalamity.Core.Calls
             AddLockInformation(() => DownedBossSystem.downedPlaguebringer, "Plaguebringer Goliath",
 			[
                 //Accessories
-                ModContent.ItemType<PlagueHive>(),
+                //ModContent.ItemType<PlagueHive>(),
                 ModContent.ItemType<ToxicHeart>(),
                 
                 //Weapons
