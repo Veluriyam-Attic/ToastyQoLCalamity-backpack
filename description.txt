@@ -13,4 +13,4 @@ Items:
 - Adds more boss spawners for Calamity bosses.
 - Adds "Potion of Rage", a potion that gives you max rage for 2 seconds if no boss is alive.
 
-Maintained by Midnight295, if you have any questions, problems, or complaints please direct them to me @Midnight295 on discord.
+Maintained by Midnight295, if you have any questions, problems, or complaints please direct them to me @midnight295 on Discord.
