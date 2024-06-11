@@ -10,6 +10,12 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using ToastyQoLCalamity.Content.Items;
 using ToastyQoLCalamity.Content.Tiles;
+using CalamityMod.Dusts;
+using CalamityMod.Items.Weapons.Summon;
+using Terraria.Audio;
+using CalamityMod.Systems;
+using System.Threading;
+using System.Timers;
 
 namespace ToastyQoLCalamity.Content.NPCs
 {
@@ -17,16 +23,19 @@ namespace ToastyQoLCalamity.Content.NPCs
     {
         private float offset = 1f;
         private bool spawnArena = false;
-        private bool firstMoonSpawned = false;
         private int spawnX = 0;
         private int spawnX2 = 0;
         private int spawnXReset = 0;
         private int spawnXReset2 = 0;
         private int spawnY = 0;
         private int spawnYReset = 0;
-        private static float moonAI = 0;
+        private int MoonSpawned = 0;
+        
+        
+        
 
         private Rectangle safeBox = default;
+
 
         public override void SetStaticDefaults()
         {
@@ -263,30 +272,11 @@ namespace ToastyQoLCalamity.Content.NPCs
                     case 3:
                         SCalBH3Sim(player, NPC.ai[1], NPC.ai[2], SpawnFrequency, offset);
                         break;
-                    case 4:
-                        int divisor = RevengeanceMode ? 225 : Main.expertMode ? 450 : 675;
-                        if (npc.ai[1] % divisor == 0 && Main.expertMode) // Moons
-                        {
-                            if (!firstMoonSpawned)
-                            {
-                                moonAI = 0;
-                                firstMoonSpawned = true;
-                            }
-                            else
-                            {
-                                moonAI++;
-                            }
-                        }
-                        SCalBH4Sim(player, NPC.ai[1], NPC.ai[2], SpawnFrequency, offset, RevengeanceMode, moonAI);
+                    case 4:                   
+                        SCalBH4Sim(player, NPC.ai[1], NPC.ai[2], SpawnFrequency, offset);
                         break;
                     case 5:
-                        if (!firstMoonSpawned)
-                        {
-                            SCalBH5Sim(player, NPC.ai[1], NPC.ai[2], SpawnFrequency, offset);
-                            firstMoonSpawned = true;
-                        }
-                        else
-                            SCalBH5Sim(player, NPC.ai[1], NPC.ai[2], SpawnFrequency, offset);
+                        SCalBH5Sim(player, NPC.ai[1], NPC.ai[2], SpawnFrequency, offset);
                         break;
                     default:
                         SCalBH1Sim(player, NPC.ai[1], NPC.ai[2], SpawnFrequency, offset);
@@ -455,25 +445,31 @@ namespace ToastyQoLCalamity.Content.NPCs
                 }
             }
         }
-        public void SCalBH4Sim(Player player, float overallTimer, float bhStageCounter, int SpawnFrequency, float offset, bool RevengeanceMode, float moonAI)
+        public void SCalBH4Sim(Player player, float overallTimer, float bhStageCounter, int SpawnFrequency, float offset)
         {
 
             if (Main.netMode != NetmodeID.MultiplayerClient) // Gigablasts and Fireblasts
             {
                 if (overallTimer < 900)
                     overallTimer += 2700f;
+
+                Vector2 spawnSpot = safeBox.Center(); //Moon now spawns in the middle of the box.
+                if (overallTimer % 20 == 0)
+                {
+
+                    if (MoonSpawned < 1)
+                    {
+                        SoundEngine.PlaySound(new SoundStyle("CalamityMod/Sounds/Custom/SCalAltarSummon") with { Pitch = 0.3f }, player.Center);
+                        Projectile.NewProjectile(NPC.GetSource_FromAI(), spawnSpot, Vector2.Zero, ModContent.ProjectileType<BrimstoneMonster>(), 1, 0f, Main.myPlayer, 0f, 0);
+                        MoonSpawned = 1;
+                    }
+                }
+            
                 if (overallTimer % 180 == 0)
                     Projectile.NewProjectile(NPC.GetSource_FromAI(), player.position.X + Main.rand.Next(-1000, 1001), player.position.Y - 1000f, 0f, 5f * offset, fireBlastProj, 1, 0f, Main.myPlayer);
 
                 if (overallTimer % 240 == 0)
                     Projectile.NewProjectile(NPC.GetSource_FromAI(), player.position.X + Main.rand.Next(-1000, 1001), player.position.Y - 1000f, 0f, 10f * offset, gigaBlastProj, 1, 0f, Main.myPlayer);
-
-                int divisor = RevengeanceMode ? 225 : Main.expertMode ? 450 : 675;
-                if (overallTimer % divisor == 0 && Main.expertMode) // Moons
-                {
-                    Projectile.NewProjectile(NPC.GetSource_FromAI(), player.position.X + Main.rand.Next(-1000, 1001), player.position.Y - 1000f, 0f, 1f * offset, ModContent.ProjectileType<BrimstoneMonster>(), 1, 0f, Main.myPlayer, 0f, moonAI);
-
-                }
 
                 int BH4Frequency = SpawnFrequency + 6;
 
@@ -514,12 +510,11 @@ namespace ToastyQoLCalamity.Content.NPCs
 
                     overallTimer += 3600;
                 }
+                Vector2 spawnSpot = safeBox.Center(); //Moon now spawns in the middle of the box.
                 if (overallTimer == 3605)
                 {
-                    Projectile.NewProjectile(NPC.GetSource_FromAI(), player.position.X, player.position.Y - 500f, 0f, 1f * offset, ModContent.ProjectileType<BrimstoneMonster>(), 1, 0f, Main.myPlayer, 0f, 0);
-                    Projectile.NewProjectile(NPC.GetSource_FromAI(), player.position.X, player.position.Y - 500f, 0f, 1f * offset, ModContent.ProjectileType<BrimstoneMonster>(), 1, 0f, Main.myPlayer, 0f, 1);
-                    Projectile.NewProjectile(NPC.GetSource_FromAI(), player.position.X, player.position.Y - 500f, 0f, 1f * offset, ModContent.ProjectileType<BrimstoneMonster>(), 1, 0f, Main.myPlayer, 0f, 2);
-                    Projectile.NewProjectile(NPC.GetSource_FromAI(), player.position.X, player.position.Y - 500f, 0f, 1f * offset, ModContent.ProjectileType<BrimstoneMonster>(), 1, 0f, Main.myPlayer, 0f, 3);
+                    SoundEngine.PlaySound(new SoundStyle("CalamityMod/Sounds/Custom/SCalAltarSummon") with { Pitch = 0.3f }, player.Center);
+                    Projectile.NewProjectile(NPC.GetSource_FromAI(), spawnSpot , Vector2.Zero ,ModContent.ProjectileType<BrimstoneMonster>(), 1, 0f, Main.myPlayer, 0f, 0);
                 }
                 if (overallTimer % 240 == 0)
                     Projectile.NewProjectile(NPC.GetSource_FromAI(), player.position.X + Main.rand.Next(-1000, 1001), player.position.Y - 1000f, 0f, 5f * offset, fireBlastProj, 1, 0f, Main.myPlayer);
