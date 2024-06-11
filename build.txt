@@ -2,3 +2,4 @@ displayName = Toasty's QoL: Calamity
 author = Toasty
 version = 1.25
 modReferences = CalamityMod, ToastyQoL
+buildIgnore = CalamityMod.dll ToastyQol.dll
