@@ -49,7 +49,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 AddPotionElementToMod(ModName, "Fireball", "Multiplies all fire-based debuff damage by 1.25. Reduces life regen by 1",
                     "ToastyQoLCalamity/Assets/UI/Potions/fireball", ModContent.BuffType<FireballBuff>(), () => Main.hardMode, PostWallOfFlesh, 0.8f);
 
-                AddPotionElementToMod(ModName, "Flask of Crumbling", "Melee, Whip, and Rogue attacks inflict Armor Crunch on enemies",
+                AddPotionElementToMod(ModName, "Flask of Crumbling", "Melee, Whip, and Rogue attacks inflict Crumbling on enemies",
                     "ToastyQoLCalamity/Assets/UI/Potions/flaskOfCrumbling", ModContent.BuffType<WeaponImbueCrumbling>(), () => Main.hardMode, PostWallOfFlesh, 0.8f);
 
                 AddPotionElementToMod(ModName, "Gravity Normalizer", "Disables the low gravity of space and grants immunity to the distorted debuff",
@@ -108,6 +108,9 @@ namespace ToastyQoLCalamity.Core.Calls
 
                 AddPotionElementToMod(ModName, "Zerg", "Vastly increases enemy spawn rate",
                     "ToastyQoLCalamity/Assets/UI/Potions/zerg", ModContent.BuffType<Zerg>(), () => DownedBossSystem.downedSlimeGod, PostSkeletron + 0.5f, 0.8f);
+
+                AddPotionElementToMod(ModName, "Old Fashioned", "Multiplies all accessory and set bonus damage by 1.5x. Decreases all damage by 25%",
+                    "ToastyQolCalamity/Assets/UI/Potions/oldFashioned", ModContent.BuffType<OldFashionedBuff>(), () => NPC.downedPlantBoss, 0.8f);
             }
         }
     }
