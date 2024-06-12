@@ -297,6 +297,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<YinYo>(),
                 ModContent.ItemType<EarthenPike>(),
                 ModContent.ItemType<ClamCrusher>(),
+                ModContent.ItemType<TheDarkMaster>(), //this weapon is such a fucking meme lmao
                 //Ranged Weapons
                 ModContent.ItemType<FlarewingBow>(),
                 ModContent.ItemType<Butcher>(),
@@ -839,6 +840,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<GrandGuardian>(),
                 ModContent.ItemType<StormRuler>(),
                 ModContent.ItemType<TenebreusTides>(),
+                ModContent.ItemType<Respiteblock>(),
                 //Ranged Weapons
                 ModContent.ItemType<ConferenceCall>(),
                 ModContent.ItemType<Shroomer>(),
@@ -963,7 +965,6 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<TarragonWings>(),
                 ModContent.ItemType<BloodflareCore>(),
                 ModContent.ItemType<BadgeofBravery>(),
-                ModContent.ItemType<AscendantInsignia>(),
                 ModContent.ItemType<BlazingCore>(),
                 ModContent.ItemType<ElysianAegis>(),
                 ModContent.ItemType<ProfanedSoulArtifact>(),               
@@ -1033,7 +1034,6 @@ namespace ToastyQoLCalamity.Core.Calls
 
             AddLockInformation(() => DownedBossSystem.downedCeaselessVoid, "Ceaseless Void",
 			[
-				ModContent.ItemType<Radiance>(),
                 ModContent.ItemType<TheEvolution>(),
                 ModContent.ItemType<QuiverofNihility>(),
                 //Weapons
@@ -1070,6 +1070,7 @@ namespace ToastyQoLCalamity.Core.Calls
 				ModContent.ItemType<PhantomicArtifact>(),
                 ModContent.ItemType<ReaperToothNecklace>(),
                 ModContent.ItemType<Affliction>(),
+                ModContent.ItemType<AscendantInsignia>(),
                 //Weapons
                 ModContent.ItemType<GalileoGladius>(),
                 ModContent.ItemType<TheLastMourning>(),
@@ -1153,6 +1154,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<ChaliceOfTheBloodGod>(),
                 ModContent.ItemType<RampartofDeities>(),
                 ModContent.ItemType<TheSponge>(),
+                ModContent.ItemType<Radiance>(),
                 //Weapons
                 ModContent.ItemType<CosmicShiv>(),
                 ModContent.ItemType<DevilsDevastation>(),
@@ -1385,6 +1387,7 @@ namespace ToastyQoLCalamity.Core.Calls
 				ModContent.ItemType<EvergreenGin>(),
                 ModContent.ItemType<Margarita>(),
                 ModContent.ItemType<CaribbeanRum>(),
+                ModContent.ItemType<OldFashioned>(),
             ]);
 
             AddLockInformation(() => DownedBossSystem.downedAstrumAureus, "Astrum Aureus",
