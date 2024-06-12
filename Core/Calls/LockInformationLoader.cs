@@ -138,8 +138,12 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<EnchantedPearl>(),
                 //Weapons
                 ModContent.ItemType<TaintedBlade>(),
-                //Magic Weapons
+                //Ranged Weapons
                 ModContent.ItemType<MagnaCannon>(),
+                ModContent.ItemType<OpalStriker>(),
+                ModContent.ItemType<FirestormCannon>(),
+                //Magic Weapons
+                
                 //Summon Weapons
                 ModContent.ItemType<ScabRipper>(),
                 ModContent.ItemType<VileFeeder>(),
@@ -303,6 +307,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Meowthrower>(),
                 ModContent.ItemType<PolarisParrotfish>(),
                 ModContent.ItemType<MidasPrime>(),
+                ModContent.ItemType<ThermoclineBlaster>(),
                 //Magic Weapons
                 ModContent.ItemType<GloriousEnd>(),
                 ModContent.ItemType<FrigidflashBolt>(),
@@ -582,35 +587,24 @@ namespace ToastyQoLCalamity.Core.Calls
 
             AddLockInformation(() => DownedBossSystem.downedCalamitasClone, "Calamitas",
 			[
-				ModContent.ItemType<AbyssalDivingGear>(),
+				//Accessories
                 ModContent.ItemType<ChaosStone>(),
-                ModContent.ItemType<LumenousAmulet>(),
                 ModContent.ItemType<VampiricTalisman>(),
                 ModContent.ItemType<VoidofCalamity>(),
                 ModContent.ItemType<Regenator>(),
                 //Weapons
-                ModContent.ItemType<AbyssBlade>(),
                 ModContent.ItemType<Brimlash>(),
-                ModContent.ItemType<Floodtide>(),
-                ModContent.ItemType<Oblivion>(),
-                ModContent.ItemType<TyphonsGreed>(),
+                ModContent.ItemType<Oblivion>(),               
                 //Ranged Weapons
                 ModContent.ItemType<Animosity>(),
-                ModContent.ItemType<Megalodon>(),
                 ModContent.ItemType<HavocsBreath>(),
-                ModContent.ItemType<FlakKraken>(),
                 //Magic Weapons
-                ModContent.ItemType<ArtAttack>(),
-                ModContent.ItemType<UndinesRetribution>(),
-                ModContent.ItemType<LashesofChaos>(),
-                ModContent.ItemType<HadalUrn>(),
+                ModContent.ItemType<ArtAttack>(),               
+                ModContent.ItemType<LashesofChaos>(),            
                 //Summon Weapons
                 ModContent.ItemType<EntropysVigil>(),
-                ModContent.ItemType<DreadmineStaff>(),
                 //Rogue Weapons
-                ModContent.ItemType<BallisticPoisonBomb>(),
                 ModContent.ItemType<TotalityBreakers>(),
-                ModContent.ItemType<Apoctolith>(),
                 ModContent.ItemType<CrushsawCrasher>(),
                 ModContent.ItemType<DeepWounder>(),
             ]);
@@ -646,9 +640,9 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<EternalBlizzard>(),
                 ModContent.ItemType<MarksmanBow>(),
                 ModContent.ItemType<BladedgeRailbow>(),
-                ModContent.ItemType<PearlGod>(),
                 ModContent.ItemType<WildfireBloom>(),
                 ModContent.ItemType<SandstormGun>(),
+                ModContent.ItemType<Arietes41>(),
                 //Magic Weapons
                 ModContent.ItemType<ShiftingSands>(),
                 ModContent.ItemType<Photosynthesis>(),
@@ -708,19 +702,32 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<LeviathanAmbergris>(),
                 ModContent.ItemType<TheCommunity>(),
                 ModContent.ItemType<PearlofEnthrallment>(),
+                ModContent.ItemType<AbyssalMirror>(),
+                ModContent.ItemType<AbyssalDivingSuit>(),
+                ModContent.ItemType<LumenousAmulet>(),
                 //Weapons
                 ModContent.ItemType<Greentide>(),
+                ModContent.ItemType<AbyssBlade>(),
+                ModContent.ItemType<Floodtide>(),
+                ModContent.ItemType<TyphonsGreed>(),
                 //Ranged Weapons
                 ModContent.ItemType<Leviatitan>(),
+                ModContent.ItemType<FlakKraken>(),
+                ModContent.ItemType<Megalodon>(),
                 //Magic Weapons
                 ModContent.ItemType<Atlantis>(),
                 ModContent.ItemType<Keelhaul>(),
                 ModContent.ItemType<AnahitasArpeggio>(),
+                ModContent.ItemType<HadalUrn>(),
+                ModContent.ItemType<UndinesRetribution>(),
                 //Summon Weapons
                 ModContent.ItemType<GastricBelcherStaff>(),
+                ModContent.ItemType<DreadmineStaff>(),
                 //Rogue Weapons
                 ModContent.ItemType<BrackishFlask>(),
                 ModContent.ItemType<LeviathanTeeth>(),
+                ModContent.ItemType<Apoctolith>(),
+                ModContent.ItemType<BallisticPoisonBomb>(),
             ]);
 
             AddLockInformation(() => NPC.downedGolemBoss, "Golem",
@@ -748,6 +755,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Helstorm>(),
                 ModContent.ItemType<BarracudaGun>(),
                 ModContent.ItemType<NullificationPistol>(),
+                ModContent.ItemType<PearlGod>(),
                 //Magic Weapons
                 ModContent.ItemType<InfernalRift>(),
                 ModContent.ItemType<Wingman>(),
@@ -1033,7 +1041,6 @@ namespace ToastyQoLCalamity.Core.Calls
                 //Ranged Weapons
                 ModContent.ItemType<MolecularManipulator>(),
                 //Magic Weapons
-                ModContent.ItemType<MagneticMeltdown>(),
                 ModContent.ItemType<Mistlestorm>(),
                 ModContent.ItemType<TacticiansTrumpCard>(),
                 //Summon Weapons
@@ -1050,6 +1057,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<TheSevensStriker>(),
                 //Magic Weapons
                 ModContent.ItemType<AethersWhisper>(),
+                ModContent.ItemType<MagneticMeltdown>(),
                 //Summon Weapons
                 ModContent.ItemType<Cosmilamp>(),
                 //Rogue Weapons
@@ -1080,6 +1088,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<DodusHandcannon>(),
                 ModContent.ItemType<HalleysInferno>(),
                 ModContent.ItemType<SulphuricAcidCannon>(),
+                ModContent.ItemType<PearlGod>(),
                 //Magic Weapons
                 ModContent.ItemType<ClamorNoctus>(),
                 ModContent.ItemType<EidolonStaff>(),
@@ -1161,6 +1170,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<FourSeasonsGalaxia>(),
                 ModContent.ItemType<Phaseslayer>(),
                 ModContent.ItemType<ScourgeoftheCosmos>(),
+                ModContent.ItemType<Murasama>(),
                 //Ranged Weapons
                 ModContent.ItemType<Alluvion>(),
                 ModContent.ItemType<Deathwind>(),
@@ -1222,7 +1232,6 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<ArkoftheCosmos>(),
                 ModContent.ItemType<TheBurningSky>(),
                 ModContent.ItemType<DragonRage>(),
-                ModContent.ItemType<Murasama>(),
                 //Ranged Weapons
                 ModContent.ItemType<Drataliornus>(),
                 ModContent.ItemType<AcesHigh>(),
