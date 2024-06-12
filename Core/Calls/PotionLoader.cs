@@ -110,7 +110,7 @@ namespace ToastyQoLCalamity.Core.Calls
                     "ToastyQoLCalamity/Assets/UI/Potions/zerg", ModContent.BuffType<Zerg>(), () => DownedBossSystem.downedSlimeGod, PostSkeletron + 0.5f, 0.8f);
 
                 AddPotionElementToMod(ModName, "Old Fashioned", "Multiplies all accessory and set bonus damage by 1.5x. Decreases all damage by 25%",
-                    "ToastyQolCalamity/Assets/UI/Potions/oldFashioned", ModContent.BuffType<OldFashionedBuff>(), () => NPC.downedPlantBoss, 0.8f);
+                    "ToastyQolCalamity/Assets/UI/Potions/oldFashioned", ModContent.BuffType<OldFashionedBuff>(), () => NPC.downedPlantBoss, PostPlantera, 0.8f);
             }
         }
     }
