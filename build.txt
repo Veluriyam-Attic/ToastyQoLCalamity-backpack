@@ -1,5 +1,5 @@
 displayName = Toasty's QoL: Calamity
 author = Toasty
-version = 1.25
+version = 1.26
 modReferences = CalamityMod, ToastyQoL
-buildIgnore = CalamityMod.dll ToastyQol.dll
+buildIgnore = CalamityMod.dll, ToastyQol.dll, bin\*, *.csproj
