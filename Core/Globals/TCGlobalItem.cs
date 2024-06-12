@@ -13,6 +13,7 @@ using ToastyQoLCalamity.Content.Items.PostMoonlord;
 using ToastyQoLCalamity.Core.Systems;
 using static ToastyQoLCalamity.ToastyQoLCalamity;
 
+
 namespace ToastyQoLCalamity.Core.Globals
 {
     internal class TCGlobalItem : GlobalItem
@@ -49,22 +50,10 @@ namespace ToastyQoLCalamity.Core.Globals
 
             if (GetToggleStatus("InfinitePotions"))
             {
-                if (item.type == ModContent.ItemType<VigorousCandle>())
-                    player.AddBuff(ModContent.BuffType<CirrusPinkCandleBuff>(), 2);
-
-                else if (item.type == ModContent.ItemType<SpitefulCandle>())
-                    player.AddBuff(ModContent.BuffType<CirrusYellowCandleBuff>(), 2);
-
-                else if (item.type == ModContent.ItemType<WeightlessCandle>())
-                    player.AddBuff(ModContent.BuffType<CirrusBlueCandleBuff>(), 2);
-
-                else if (item.type == ModContent.ItemType<ResilientCandle>())
-                    player.AddBuff(ModContent.BuffType<CirrusPurpleCandleBuff>(), 2);
-
-                else if (item.type == ModContent.ItemType<CrimsonEffigy>())
+                if (item.type == ModContent.ItemType<CrimsonEffigy>())
                     player.AddBuff(ModContent.BuffType<CrimsonEffigyBuff>(), 2);
 
-                else if (item.type == ModContent.ItemType<CorruptionEffigy>())
+                if (item.type == ModContent.ItemType<CorruptionEffigy>())
                     player.AddBuff(ModContent.BuffType<CorruptionEffigyBuff>(), 2);
             }
         }
