@@ -1,7 +1,3 @@
-UPDATE 1.26
+Toasty QoL: Update 1.27
 
-Updated Reflective Wand to correctly reflect Whispering Maelstrom's new effects.
-
-Cirrus Candles no longer give you their buff when in your inventory, seeing as they no longer stack effects and you can now right click them and to permanently get their buff. (which stays even through death)
-
-Updated some of the progression lock tooltips to correctly state which bosses items are locked behind. If there are any that I missed feel free to DM me about it.
+Added more Progression Locks, shifted some to their correct tiers.
