@@ -1,3 +1,5 @@
 Toasty QoL: Update 1.27
 
 Added more Progression Locks, shifted some to their correct tiers.
+
+Corrected some MNL's.
