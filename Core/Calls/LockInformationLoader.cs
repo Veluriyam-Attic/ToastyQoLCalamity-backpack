@@ -143,7 +143,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<OpalStriker>(),
                 ModContent.ItemType<FirestormCannon>(),
                 //Magic Weapons
-                
+                ModContent.ItemType<TheCauldron>(),
                 //Summon Weapons
                 ModContent.ItemType<ScabRipper>(),
                 ModContent.ItemType<VileFeeder>(),
@@ -284,6 +284,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<UrsaSergeant>(),
                 ModContent.ItemType<SpelunkersAmulet>(),
                 ModContent.ItemType<SupremeBaitTackleBoxFishingStation>(),
+                ModContent.ItemType<DeepDiver>(),
                 //Weapons
                 ModContent.ItemType<Aftershock>(),
                 ModContent.ItemType<AxeofPurity>(),
@@ -309,6 +310,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<PolarisParrotfish>(),
                 ModContent.ItemType<MidasPrime>(),
                 ModContent.ItemType<ThermoclineBlaster>(),
+                ModContent.ItemType<NitroExpressRifle>(),
                 //Magic Weapons
                 ModContent.ItemType<GloriousEnd>(),
                 ModContent.ItemType<FrigidflashBolt>(),
@@ -362,7 +364,6 @@ namespace ToastyQoLCalamity.Core.Calls
 				ModContent.ItemType<AquaticEmblem>(),
                 ModContent.ItemType<CorrosiveSpine>(),
                 ModContent.ItemType<NuclearFuelRod>(),
-                ModContent.ItemType<DeepDiver>(),
                 ModContent.ItemType<SubmarineShocker>(),
                 ModContent.ItemType<Barinautical>(),
                 ModContent.ItemType<Downpour>(),
@@ -448,6 +449,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<OrichalcumSpikedGemstone>(),
                 ModContent.ItemType<AnarchyBlade>(),
                 ModContent.ItemType<SHPC>(),
+                ModContent.ItemType<DeepcoreGK2>(),
                 ItemID.OrichalcumSword,
                 ItemID.OrichalcumRepeater,
                 ItemID.OrichalcumHalberd,
@@ -924,6 +926,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Genesis>(),
                 ModContent.ItemType<AuguroftheElements>(),
                 ModContent.ItemType<NuclearFury>(),
+                ModContent.ItemType<ChronomancersScythe>(),
                 //Summon Weapons
                 ModContent.ItemType<ElementalAxe>(),
                 ModContent.ItemType<FlowersOfMortality>(),
@@ -935,6 +938,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<UtensilPoker>(),
                 ModContent.ItemType<HellsSun>(),
                 ModContent.ItemType<CelestialReaper>(),
+                ModContent.ItemType<AlphaVirus>(),
             ]);
 
             AddLockInformation(() => DownedBossSystem.downedGuardians, "Profaned Guardians",
@@ -1017,7 +1021,6 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<ShatteredSun>(),
                 ModContent.ItemType<TarragonThrowingDart>(),
                 ModContent.ItemType<ProfanedPartisan>(),
-                ModContent.ItemType<AlphaVirus>(),
                 ModContent.ItemType<BloodsoakedCrasher>(),
             ]);
 
@@ -1030,6 +1033,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Thunderstorm>(),
                 ModContent.ItemType<TwistingThunder>(),
 				ModContent.ItemType<RealityRupture>(),
+                ModContent.ItemType<Teslastaff>(),
 			]);
 
             AddLockInformation(() => DownedBossSystem.downedCeaselessVoid, "Ceaseless Void",
@@ -1060,6 +1064,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<MagneticMeltdown>(),
                 //Summon Weapons
                 ModContent.ItemType<Cosmilamp>(),
+                ModContent.ItemType<KingofConstellationsTenryu>(),
                 //Rogue Weapons
                 ModContent.ItemType<CosmicKunai>(),
 				ModContent.ItemType<RealityRupture>(),
@@ -1251,6 +1256,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 //Summon Weapons
                 ModContent.ItemType<MidnightSunBeacon>(),
                 ModContent.ItemType<YharonsKindleStaff>(),
+                ModContent.ItemType<LiliesOfFinality>(),
                 // Rogue Weapons
                 ModContent.ItemType<Seraphim>(),
                 ModContent.ItemType<Wrathwing>(),
