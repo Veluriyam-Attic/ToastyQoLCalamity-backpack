@@ -1,5 +1,8 @@
-Toasty QoL: Update 1.27
+Toasty QoL: Update 1.27 @ Update 1.27.1
 
 Added more Progression Locks, shifted some to their correct tiers.
 
 Corrected some MNL's.
+
+Vulnerability Hex now kills you (your welcome scal nohitters :P)
+
