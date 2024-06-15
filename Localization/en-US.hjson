@@ -18,7 +18,7 @@ Mods: {
 				Tooltip:
 					'''
 					Favorite to disable certain rule-breaking buffs
-					Instantly kills the player under the effects of Holy Inferno
+					Instantly kills the player under the effects of Holy Inferno, Vulnerability Hex, and Madness
 					'''
 			}
 
