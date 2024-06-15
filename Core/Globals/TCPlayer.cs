@@ -45,7 +45,7 @@ namespace ToastyQoLCalamity.Core.Globals
                 {
                     InfernumMode.TryFind("Madness", out ModBuff Madness);
                         if (Player.FindBuffIndex(Madness.Type) > -1)                                           
-                            Player.KillMe(PlayerDeathReason.ByCustomReason(Player.name + " was overwhelmed with madness"), 1000.0, 0, false);
+                            Player.KillMe(PlayerDeathReason.ByCustomReason(Player.name + " went mad"), 1000.0, 0, false);
                 }
                 Player.buffImmune[ModContent.BuffType<TarragonImmunity>()] = true;
                 Player.buffImmune[ModContent.BuffType<SilvaRevival>()] = true;
