@@ -11,6 +11,7 @@ using Terraria.ID;
 using Terraria.DataStructures;
 using Terraria.ModLoader;
 
+
 namespace ToastyQoLCalamity.Content.Items
 {
     public class BuffSuppressant : ModItem
@@ -36,17 +37,27 @@ namespace ToastyQoLCalamity.Content.Items
             {
                 if (player.FindBuffIndex(ModContent.BuffType<HolyInferno>()) > -1)
                 {
-                    player.KillMe(PlayerDeathReason.ByOther(11), 1000.0, 0, false);
+                    player.KillMe(PlayerDeathReason.ByCustomReason(player.name + " was erased by the Holy Inferno"), 1000.0, 0, false);
                 }
                 if (player.FindBuffIndex(BuffID.BrainOfConfusionBuff) > -1)
                 {
                     player.KillMe(PlayerDeathReason.ByCustomReason(player.name + " was unable to comprehend the big brain power."), 1000.0, 0, false);
+                }
+                if (player.FindBuffIndex(ModContent.BuffType<VulnerabilityHex>()) > -1)
+                    player.KillMe(PlayerDeathReason.ByCustomReason(player.name + "'s mental fortitude faded away"), 1000.0, 0, false);
+
+                if (ModLoader.TryGetMod("InfernumMode", out Mod InfernumMode))
+                {
+                    InfernumMode.TryFind("Madness", out ModBuff Madness);
+                    if (player.FindBuffIndex(Madness.Type) > -1)
+                        player.KillMe(PlayerDeathReason.ByCustomReason(player.name + " was overwhelmed with madness"), 1000.0, 0, false);
                 }
 
                 player.buffImmune[BuffID.ShadowDodge] = true;
                 player.onHitDodge = false;
 
                 player.buffImmune[ModContent.BuffType<TarragonImmunity>()] = true;
+                player.buffImmune[ModContent.BuffType<SilvaRevival>()] = true;
                 player.Calamity().tarragonImmunity = false;
 
                 if (!NPC.downedSlimeKing)
