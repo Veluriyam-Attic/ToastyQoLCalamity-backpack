@@ -36,13 +36,21 @@ namespace ToastyQoLCalamity.Core.Globals
             if (GetToggleStatus("InstantDeath"))
             {
                 if (Player.FindBuffIndex(ModContent.BuffType<HolyInferno>()) > -1)
-                    Player.KillMe(PlayerDeathReason.ByCustomReason(Player.name + " was burnt by the Holy Inferno"), 1000.0, 0, false);
+                    Player.KillMe(PlayerDeathReason.ByCustomReason(Player.name + " was erased by the Holy Inferno"), 1000.0, 0, false);
 
                 if (Player.FindBuffIndex(ModContent.BuffType<VulnerabilityHex>()) > -1)
                     Player.KillMe(PlayerDeathReason.ByCustomReason(Player.name + "'s mental fortitude faded away"), 1000.0, 0, false);
 
+                if (ModLoader.TryGetMod("InfernumMode", out Mod InfernumMode))
+                {
+                    InfernumMode.TryFind("Madness", out ModBuff Madness);
+                        if (Player.FindBuffIndex(Madness.Type) > -1)                                           
+                            Player.KillMe(PlayerDeathReason.ByCustomReason(Player.name + " was overwhelmed with madness"), 1000.0, 0, false);
+                }
                 Player.buffImmune[ModContent.BuffType<TarragonImmunity>()] = true;
-                Player.Calamity().tarragonImmunity = false;          
+                Player.buffImmune[ModContent.BuffType<SilvaRevival>()] = true;
+                Player.Calamity().tarragonImmunity = false;
+                Player.Calamity().hasSilvaEffect = false;
             }
         }
 
