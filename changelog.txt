@@ -1,8 +1,24 @@
-Toasty QoL: Update 1.27 @ Update 1.27.1
+Toasty Calamity QoL: Update 1.27, Update 1.27.1, and Update 1.27.2
+
+1.27:
 
 Added more Progression Locks, shifted some to their correct tiers.
 
 Corrected some MNL's.
 
-Vulnerability Hex now kills you (your welcome scal nohitters :P)
+1.27.1:
+
+Vulnerability Hex (Whispering Maelstrom debuff) now kills you with instadeath on.
+
+1.27.2:
+
+Made it so Silva Revive is disabled with Instadeath on, Buff Suppressant also disables Silva Revive when favorited.
+
+Made it so Madness (Infernum Border Debuff) kills you with instadeath enabled.
+
+Made it so Vulnerability Hex and Madness instakills you with Buff Suppressant Favorited.
+
+Updated a lot of potion descriptions, fixed some, and made all of the potions list their life regen in HP/s.
+
+
 
