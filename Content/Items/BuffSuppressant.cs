@@ -50,7 +50,7 @@ namespace ToastyQoLCalamity.Content.Items
                 {
                     InfernumMode.TryFind("Madness", out ModBuff Madness);
                     if (player.FindBuffIndex(Madness.Type) > -1)
-                        player.KillMe(PlayerDeathReason.ByCustomReason(player.name + " was overwhelmed with madness"), 1000.0, 0, false);
+                        player.KillMe(PlayerDeathReason.ByCustomReason(player.name + " went mad"), 1000.0, 0, false);
                 }
 
                 player.buffImmune[BuffID.ShadowDodge] = true;
