@@ -94,100 +94,100 @@ namespace ToastyQoLCalamity.Content.Items
                         TypeText = IsInfernumOn ? "Profaned Guardians" : "The Slime God";
                         break;
                     case 13:
-                        TypeText = IsInfernumOn ? "Ceaseless Void" : "Wall of Flesh";
+                        TypeText = IsInfernumOn ? "Storm Weaver" : "Wall of Flesh";
                         TextColor = new Color(225, 174, 255);
                         TierType = 1;
                         break;
                     case 14:
-                        TypeText = IsInfernumOn ? "Storm Weaver" : "Queen Slime";
+                        TypeText = IsInfernumOn ? "Brimstone Elemental" : "Queen Slime";
                         TextColor = new Color(134, 151, 189); //8697BD
                         TierType = 2;
                         break;
                     case 15:
-                        TypeText = IsInfernumOn ? "Brimstone Elemental" : "Cryogen";
+                        TypeText = IsInfernumOn ? "Leviathan and Anahita" : "Cryogen";
                         break;
                     case 16:
-                        TypeText = IsInfernumOn ? "Leviathan and Anahita" : "The Twins";
+                        TypeText = IsInfernumOn ? "Ravager" : "The Twins";
                         break;
                     case 17:
-                        TypeText = IsInfernumOn ? "Wall of Flesh" : "Aquatic Scourge";
+                        TypeText = IsInfernumOn ? "Hive Mind" : "Aquatic Scourge";
                         break;
                     case 18:
-                        TypeText = IsInfernumOn ? "Hive Mind" : "The Destroyer";
+                        TypeText = IsInfernumOn ? "Duke Fishron" : "The Destroyer";
                         break;
                     case 19:
-                        TypeText = IsInfernumOn ? "Duke Fishron" : "Brimstone Elemental";
+                        TypeText = IsInfernumOn ? "Cryogen" : "Brimstone Elemental";
                         break;
                     case 20:
-                        TypeText = IsInfernumOn ? "Cryogen" : "Skeletron Prime";
+                        TypeText = IsInfernumOn ? "Brain of Cthulhu" : "Skeletron Prime";
                         break;
                     case 21:
-                        TypeText = IsInfernumOn ? "Brain of Cthulhu" : "Calamitas";
+                        TypeText = IsInfernumOn ? "Deerclops" : "Calamitas";
                         break;
                     case 22:
-                        TypeText = IsInfernumOn ? "Deerclops" : "Plantera";
+                        TypeText = IsInfernumOn ? "Signus" : "Plantera";
                         TextColor = new Color(134, 151, 189); //8697BD
                         TierType = 2;
                         break;
                     case 23:
-                        TypeText = IsInfernumOn ? "Signus" : "Leviathan and Anahita";
+                        TypeText = IsInfernumOn ? "Dragonfolly" : "Leviathan and Anahita";
                         TextColor = new Color(111, 214, 255);
                         TierType = 3;
                         break;
                     case 24:
-                        TypeText = IsInfernumOn ? "The Dragonfolly" : "Astrum Aureus";
+                        TypeText = IsInfernumOn ? "Slime God" : "Astrum Aureus";
                         break;
                     case 25:
-                        TypeText = IsInfernumOn ? "The Slime God" : "Golem";
+                        TypeText = IsInfernumOn ? "Skeletron" : "Golem";
                         break;
                     case 26:
-                        TypeText = IsInfernumOn ? "Skeletron" : "The Plaguebringer Goliath";
+                        TypeText = IsInfernumOn ? "Plantera" : "The Plaguebringer Goliath";
                         break;
                     case 27:
-                        TypeText = IsInfernumOn ? "Plantera" : "Empress of Light";
+                        TypeText = IsInfernumOn ? "The Destroyer" : "Empress of Light";
                         break;
                     case 28:
-                        TypeText = IsInfernumOn ? "The Destroyer" : "Duke Fishron";
+                        TypeText = IsInfernumOn ? "The Plaguebringer Goliath" : "Duke Fishron";
                         break;
                     case 29:
-                        TypeText = IsInfernumOn ? "The Plaguebringer Goliath" : "Ravager";
+                        TypeText = IsInfernumOn ? "Astrum Deus" : "Ravager";
                         break;
                     case 30:
-                        TypeText = IsInfernumOn ? "Astrum Deus" : "Lunatic Cultist";
+                        TypeText = IsInfernumOn ? "Lunatic Cultist" : "Lunatic Cultist";
                         break;
                     case 31:
-                        TypeText = IsInfernumOn ? "Lunatic Cultist" : "Astrum Deus";
+                        TypeText = IsInfernumOn ? "Lunatic Cultist 2" : "Astrum Deus";
                         TextColor = new Color(111, 214, 255);
                         TierType = 3;
                         break;
                     case 32:
-                        TypeText = IsInfernumOn ? "Lunatic Cultist" : "Moon Lord";
+                        TypeText = IsInfernumOn ? "Skeletron Prime" : "Moon Lord";
                         TextColor = new Color(230, 126, 35); //E67E23
                         TierType = 4;
                         break;
                     case 33:
-                        TypeText = IsInfernumOn ? "Skeletron Prime" : "Profaned Guardians";
+                        TypeText = IsInfernumOn ? "Old Duke" : "Profaned Guardians";
                         break;
                     case 34:
-                        TypeText = IsInfernumOn ? "Old Duke" : "The Dragonfolly";
+                        TypeText = IsInfernumOn ? "Golem" : "The Dragonfolly";
                         break;
                     case 35:
-                        TypeText = IsInfernumOn ? "Golem" : "Providence";
+                        TypeText = IsInfernumOn ? "Empress of Light" : "Providence";
                         break;
                     case 36:
-                        TypeText = IsInfernumOn ? "Empress of Light" : "Ceaseless Void";
+                        TypeText = IsInfernumOn ? "The Twins" : "Ceaseless Void";
                         break;
                     case 37:
-                        TypeText = IsInfernumOn ? "The Twins" : "Storm Weaver";
+                        TypeText = IsInfernumOn ? "Polterghast" : "Storm Weaver";
                         break;
                     case 38:
-                        TypeText = IsInfernumOn ? "Polterghast" : "Signus";
+                        TypeText = IsInfernumOn ? "Moon Lord" : "Signus";
                         break;
                     case 39:
-                        TypeText = IsInfernumOn ? "Calamitas" : "Polterghast";
+                        TypeText = IsInfernumOn ? "Ceaseless Void" : "Polterghast";
                         break;
                     case 40:
-                        TypeText = IsInfernumOn ? "Moon Lord" : "The Old Duke";
+                        TypeText = IsInfernumOn ? "Calamitas" : "The Old Duke";
                         break;
                     case 41:
                         TypeText = IsInfernumOn ? "The Devourer of Gods" : "The Devourer of Gods";
