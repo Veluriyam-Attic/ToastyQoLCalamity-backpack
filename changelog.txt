@@ -20,5 +20,9 @@ Made it so Vulnerability Hex and Madness instakills you with Buff Suppressant Fa
 
 Updated a lot of potion descriptions, fixed some, and made all of the potions list their life regen in HP/s.
 
+1.27.3:
+
+Fixed Broken Ritual Boss Order.
+
 
 
