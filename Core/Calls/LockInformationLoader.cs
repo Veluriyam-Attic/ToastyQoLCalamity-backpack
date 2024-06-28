@@ -162,6 +162,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<FeatherCrown>(),
                 ModContent.ItemType<RottenBrain>(),
                 ModContent.ItemType<SkylineWings>(),
+                ItemID.HorseshoeBundle,
                 //Weapons
                 ModContent.ItemType<BrokenBiomeBlade>(),
                 ModContent.ItemType<GaussDagger>(),
@@ -379,7 +380,8 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<Bonebreaker>(),
                 ModContent.ItemType<CorrodedCaustibow>(),
                 ModContent.ItemType<Miasma>(),
-                ModContent.ItemType<AcidicRainBarrel>()
+                ModContent.ItemType<AcidicRainBarrel>(),
+                ModContent.ItemType<SeasSearing>(),
             ]);
 
             AddLockInformation(() => NPC.downedMechBoss1, "Destroyer",
