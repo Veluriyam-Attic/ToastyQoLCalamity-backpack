@@ -24,5 +24,9 @@ Updated a lot of potion descriptions, fixed some, and made all of the potions li
 
 Fixed Broken Ritual Boss Order.
 
+1.27.4:
+
+Updated more progression locks
+
 
 
