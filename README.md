@@ -1,6 +1,6 @@
-# ToastyQoLCalamity
+# ImogenQoLCalamity
 
-An addon mod for ToastyQoL that adds Calamity features to the mod. This uses a strong reference, however this is not required and is used for convinience as this mod does nothing without the main QoL mod.
+An addon mod for ImogenQoL that adds Calamity features to the mod. This uses a strong reference, however this is not required and is used for convinience as this mod does nothing without the main QoL mod.
 
 ## UI:
 
