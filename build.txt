@@ -1,6 +1,6 @@
-displayName = Toasty's QoL: Calamity
-author = Toasty
-version = 1.27.4
+displayName = Imogen's QoL: Calamity
+author = Imogen
+version = 1.27.41
 modReferences = CalamityMod, ToastyQoL
 buildIgnore = CalamityMod.dll, ToastyQol.dll, bin\*, *.csproj
 
