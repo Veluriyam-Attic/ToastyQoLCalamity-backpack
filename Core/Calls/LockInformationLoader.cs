@@ -312,6 +312,8 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<MidasPrime>(),
                 ModContent.ItemType<ThermoclineBlaster>(),
                 ModContent.ItemType<NitroExpressRifle>(),
+                ItemID.RocketI,
+                ItemID.RocketII,
                 //Magic Weapons
                 ModContent.ItemType<GloriousEnd>(),
                 ModContent.ItemType<FrigidflashBolt>(),
@@ -648,6 +650,8 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<WildfireBloom>(),
                 ModContent.ItemType<SandstormGun>(),
                 ModContent.ItemType<Arietes41>(),
+                ItemID.RocketIII,
+                ItemID.RocketIV,
                 //Magic Weapons
                 ModContent.ItemType<ShiftingSands>(),
                 ModContent.ItemType<Photosynthesis>(),
@@ -919,6 +923,8 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<ElementalEruption>(),
                 ModContent.ItemType<ElementalBlaster>(),
                 ModContent.ItemType<Starfleet>(),
+                ItemID.MiniNukeI,
+                ItemID.MiniNukeII,
                 //Magic Weapons
                 ModContent.ItemType<AsteroidStaff>(),
                 ModContent.ItemType<ElementalRay>(),
