@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Terraria;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using ToastyQoLCalamity.Content.NPCs;
 
@@ -19,7 +20,7 @@ namespace ToastyQoLCalamity.Content.Items
             private set;
         } = 1;
 
-        private string TypeText = "Bullet Hell 1 (100%)";
+        private string TypeText = Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.1");
 
         public override void SetStaticDefaults()
         {
@@ -55,15 +56,15 @@ namespace ToastyQoLCalamity.Content.Items
 
                 TypeText = bhType switch
                 {
-                    1 => "Bullet Hell 1 (100%)",
-                    2 => "Bullet Hell 2 (75%)",
-                    3 => "Bullet Hell 3 (50%)",
-                    4 => "Bullet Hell 4 (30%)",
-                    5 => "Bullet Hell 5 (10%)",
-                    _ => "None",
+                    1 => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.1"),
+                    2 => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.2"),
+                    3 => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.3"),
+                    4 => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.4"),
+                    5 => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.5"),
+                    _ => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.6"),
                 };
                 BHType = bhType;
-                ToastyQoLUtils.DisplayText("Type changed to: " + TypeText, Color.DarkRed);
+                ToastyQoLUtils.DisplayText(Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.Type", TypeText), Color.DarkRed);
             }
             else
                 CalamityUtils.SpawnBossBetter(player.Center + new Vector2(0, -1), ModContent.NPCType<BulletHellSimulator>());
@@ -81,12 +82,12 @@ namespace ToastyQoLCalamity.Content.Items
                 if (l.Text == null)
                     continue;
 
-                if (l.Text.StartsWith("Current Type"))
+                if (l.Text.StartsWith(Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.Type", TypeText)))
                 {
                     if (TypeText != null)
                     {
                         l.OverrideColor = Color.Firebrick;
-                        l.Text = "Current Type: " + TypeText;
+                        l.Text = Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.Type", TypeText);
                     }
                 }
             }

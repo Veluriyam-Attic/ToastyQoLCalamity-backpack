@@ -340,6 +340,17 @@ ReflectiveWand: {
 		Right click to change type of bullet hell forward or backward depending on mouse position
 		Current Type
 		'''
+
+	BulletHell: { // Unused, couldn't get it to work.
+		1: Bullet Hell 1 (100%)
+		2: Bullet Hell 2 (75%)
+		3: Bullet Hell 3 (50%)
+		4: Bullet Hell 4 (30%)
+		5: Bullet Hell 5 (10%)
+		6: None
+		Type: Type changed to: {0}
+	}
+	
 }
 
 ShinyWand: {
