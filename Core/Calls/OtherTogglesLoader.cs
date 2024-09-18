@@ -6,6 +6,7 @@ using Terraria;
 using Terraria.ModLoader;
 using static ToastyQoLCalamity.ToastyQoLCalamity;
 using static ToastyQoL.ToastyQoLUtils;
+using Terraria.Localization;
 
 namespace ToastyQoLCalamity.Core.Calls
 {
@@ -18,7 +19,7 @@ namespace ToastyQoLCalamity.Core.Calls
         {
             AddToggle("MiscManager", ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/charge", AssetRequestMode.ImmediateLoad).Value, 
                 ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/charge", AssetRequestMode.ImmediateLoad).Value,
-                () => "Toggle Arsenal Recharge", () => "Toggles fully charging Arsenal Weapons on respawn", 5.5f, () =>
+                () => Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Toggles.Other.ArsenalRecharge.Name"), () => Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Toggles.Other.ArsenalRecharge.Description"), 5.5f, () =>
                 {
                     CalToggles.AutoChargeDraedonWeapons = !CalToggles.AutoChargeDraedonWeapons;
                     for (int i = 0; i < Main.LocalPlayer.inventory.Length; i++)
@@ -35,7 +36,7 @@ namespace ToastyQoLCalamity.Core.Calls
 
             AddToggle("MiscManager", ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/tester", AssetRequestMode.ImmediateLoad).Value,
                 ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/tester", AssetRequestMode.ImmediateLoad).Value,
-                () => "Toggle Fight Length Type", () => "Enable to have the MNL Indicator use testing times instead]\n[c/ffcc44:of nohit times", 8.5f, () =>
+                () => Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Toggles.Other.FightLength.Name"), () => Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Toggles.Other.FightLength.Description"), 8.5f, () =>
                 {
                     CalToggles.TesterTimes = !CalToggles.TesterTimes;
                 }, typeof(CalToggles).GetField("TesterTimes", UniversalBindingFlags));

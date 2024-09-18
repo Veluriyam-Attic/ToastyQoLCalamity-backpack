@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework;
 using System.Collections.Generic;
 using System.Linq;
 using Terraria;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using ToastyQoLCalamity.Content.Items;
 using ToastyQoLCalamity.Content.Items.PostMoonlord;
@@ -32,7 +33,7 @@ namespace ToastyQoLCalamity.Core.Globals
             if (item.type == ModContent.ItemType<TheCommunity>())
             {
                 string bossName = ProgressionSystem.GetLatestBossKilled();
-                TooltipLine obj2 = new(Mod, "ProgressionTooltip", "Current power level: " + bossName);
+                TooltipLine obj2 = new(Mod, "ProgressionTooltip", Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Community", bossName));
                 tooltips.Add(obj2);
             }
 

@@ -2,6 +2,7 @@
 using CalamityMod.Buffs.Alcohol;
 using CalamityMod.Buffs.Potions;
 using Terraria;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using static ToastyQoL.Content.UI.Weights;
 using static ToastyQoLCalamity.ToastyQoLCalamity;
@@ -22,96 +23,98 @@ namespace ToastyQoLCalamity.Core.Calls
 
             if (CheckIfPotionModIsRegistered(ModName))
             {
-                AddPotionElementToMod(ModName, "Bloody Mary", "Boosts damage and movement speed by 10% during a Blood Moon. Reduces life regen by 2 HP/s and defense by 4%",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.BloodyMary.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.BloodyMary.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/bloodyMary", ModContent.BuffType<BloodyMaryBuff>(), () => DownedBossSystem.downedAstrumAureus, PostPlantera + 0.66f, 0.8f);
 
-                AddPotionElementToMod(ModName, "Bounding", "Grants 5% increased jump speed, 25 extra blocks of fall damage resistance, and increased jump height",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Bounding.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Bounding.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/bounding", ModContent.BuffType<BoundingBuff>(), () => true, PreBoss, 0.8f);
 
-                AddPotionElementToMod(ModName, "Calcium", "Grants immunity to fall damage",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Calcium.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Calcium.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/calcium", ModContent.BuffType<CalciumBuff>(), () => true, PreBoss, 0.8f);
 
-                AddPotionElementToMod(ModName, "Caribbean Rum", "Boosts life regen by 1 HP/s, movement speed by 10% and wing flight time by 20% chance. Makes you floaty, -10 defense",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.CaribbeanRum.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.CaribbeanRum.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/caribbeanRum", ModContent.BuffType<CaribbeanRumBuff>(), () => NPC.downedPlantBoss, PostPlantera, 0.8f);
 
-                AddPotionElementToMod(ModName, "Cinnamon Roll", "Boosts mana regeneration rate and multiplies all fire-based debuff damage by 1.5. -10% defense",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.CinnamonRoll.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.CinnamonRoll.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/cinnamonRoll", ModContent.BuffType<CinnamonRollBuff>(), () => NPC.downedGolemBoss, PostGolem, 0.8f);
 
-                AddPotionElementToMod(ModName, "Everclear", "Boosts damage by 25%. Reduces life regen by 5 HP/s and defense by 30%",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Everclear.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Everclear.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/everclear", ModContent.BuffType<EverclearBuff>(), () => DownedBossSystem.downedAstrumAureus, PostPlantera + 0.66f, 0.7f);
 
-                AddPotionElementToMod(ModName, "Evergreen Gin", "Multiplies all sickness and water-related debuff damage by 1.25. Reduces life regen by 0.5 HP/s",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.EvergreenGin.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.EvergreenGin.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/evergreenGin", ModContent.BuffType<EvergreenGinBuff>(), () => NPC.downedPlantBoss, PostPlantera, 0.8f);
 
-                AddPotionElementToMod(ModName, "Fabsol's Vodka", "Boosts all damage stats by 8% but lowers defense by 5%. Increases immune time after being struck",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.FabsolVodka.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.FabsolVodka.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/fabsolsVodka", ModContent.BuffType<FabsolVodkaBuff>(), () => Main.hardMode, PostWallOfFlesh, 0.7f);
 
-                AddPotionElementToMod(ModName, "Fireball", "Multiplies all fire-based debuff damage by 1.25. Reduces life regen by 0.5 HP/s",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Fireball.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Fireball.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/fireball", ModContent.BuffType<FireballBuff>(), () => Main.hardMode, PostWallOfFlesh, 0.8f);
 
-                AddPotionElementToMod(ModName, "Flask of Crumbling", "Melee, Whip, and Rogue attacks inflict Crumbling on enemies",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.FlaskCrumbling.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.FlaskCrumbling.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/flaskOfCrumbling", ModContent.BuffType<WeaponImbueCrumbling>(), () => Main.hardMode, PostWallOfFlesh, 0.8f);
 
-                AddPotionElementToMod(ModName, "Gravity Normalizer", "Disables the low gravity of space and grants immunity to the distorted debuff",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.GravityNormalizer.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.GravityNormalizer.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/gravityNormalizer", ModContent.BuffType<GravityNormalizerBuff>(), () => DownedBossSystem.downedAstrumAureus, PostPlantera + 0.66f, 0.8f);
 
-                AddPotionElementToMod(ModName, "Moonshine", "Increases defense by 10 and damage reduction by 3%. Reduces life regen by 0.5 HP/s",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Moonshine.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Moonshine.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/moonshine", ModContent.BuffType<MoonshineBuff>(), () => NPC.downedGolemBoss, PostGolem, 0.8f);
 
-                AddPotionElementToMod(ModName, "Moscow Mule", "Boosts damage and knockback by 9% and critical strike chance by 3%. Reduces life regen by 2 HP/s",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.MoscowMule.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.MoscowMule.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/moscowMule", ModContent.BuffType<MoscowMuleBuff>(), () => NPC.downedGolemBoss, PostGolem, 0.8f);
 
-                AddPotionElementToMod(ModName, "Omniscience", "Highlights nearby creatures, enemy projectiles, danger sources, and treasure",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Omniscience.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Omniscience.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/omniscience", ModContent.BuffType<Omniscience>(), () => NPC.downedBoss3, PostSkeletron, 0.8f);
 
-                AddPotionElementToMod(ModName, "Photosynthesis", "You regen life quickly while not moving, this effect is five times as strong during daytime. Dropped hearts heal more HP",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Photosynthesis.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Photosynthesis.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/photosynthesis", ModContent.BuffType<PhotosynthesisBuff>(), () => Main.hardMode, PostWallOfFlesh, 0.8f);
 
-                AddPotionElementToMod(ModName, "Rum", "Boosts life regen by 1 HP/s and movement speed by 10%. Reduces defense by 5%",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Rum.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Rum.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/rum", ModContent.BuffType<RumBuff>(), () => Main.hardMode, PostWallOfFlesh, 0.8f);
 
-                AddPotionElementToMod(ModName, "Screwdriver", "Multiplies piercing projectile damage by 1.05. Reduces life regen by 0.5 HP/s",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Screwdriver.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Screwdriver.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/screwdriver", ModContent.BuffType<ScrewdriverBuff>(), () => NPC.downedMechBoss1 && NPC.downedMechBoss2 && NPC.downedMechBoss3, PostSkeletronPrime, 0.8f);
 
-                AddPotionElementToMod(ModName, "Shadow", "Rogue weapons spawn projectiles on hit Stealth generation is increased by 8%",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Shadow.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Shadow.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/shadow", ModContent.BuffType<ShadowBuff>(), () => NPC.downedBoss3, PostSkeletron, 0.8f);
 
-                AddPotionElementToMod(ModName, "Soaring", "Increases flight time and horizontal flight speed by 10%. Restores a fraction of your wing flight time after a true melee strike",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Soaring.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Soaring.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/soaring", ModContent.BuffType<Soaring>(), () => Main.hardMode, PostWallOfFlesh, 0.8f);
 
-                AddPotionElementToMod(ModName, "Star Beam Rye", "Boosts max mana by 50, magic damage by 8%, and reduces mana usage by 10%. Reduces defense by 6% and life regen by -1 HP/s",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.StarBeamRye.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.StarBeamRye.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/starBeamRye", ModContent.BuffType<StarBeamRyeBuff>(), () => DownedBossSystem.downedAstrumAureus, PostPlantera + 0.66f, 0.8f);
 
-                AddPotionElementToMod(ModName, "Sulphurskin", "Reduces the effects of the sulphuric waters",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.SulphurSkin.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.SulphurSkin.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/sulphurskin", ModContent.BuffType<SulphurskinBuff>(), () => true, PreBoss, 0.8f);
 
-                AddPotionElementToMod(ModName, "Tequila", "Increases knockback by 10%, crit chance by 4%, and defense by 5 during the daytime. -0.5 HP/s life regen",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Tequila.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Tequila.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/tequila", ModContent.BuffType<TequilaBuff>(), () => Main.hardMode, PostWallOfFlesh, 0.8f);
 
-                AddPotionElementToMod(ModName, "Tequila Sunrise", "Increases knockback by 20%, crit chance by 8%, and defense by 10 during the daytime. -1 HP/s life regen",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.TequilaSunrise.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.TequilaSunrise.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/tequilaSunrise", ModContent.BuffType<TequilaSunriseBuff>(), () => NPC.downedGolemBoss, PostGolem, 0.8f);
 
-                AddPotionElementToMod(ModName, "Tesla", "Summons an aura of electricity that electrifies and slows enemies. Reduces the duration of the Electrified debuff",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Tesla.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Tesla.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/tesla", ModContent.BuffType<TeslaBuff>(), () => DownedBossSystem.downedPerforator, PostBrainOfCthulhu + 0.5f, 0.8f);
 
-                AddPotionElementToMod(ModName, "Vodka", "Boosts damage by 6% and critical strike chance by 2%. Reduces life regen by 0.5 HP/s and defense by 5%",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Vodka.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Vodka.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/vodka", ModContent.BuffType<VodkaBuff>(), () => NPC.downedMechBoss1 && NPC.downedMechBoss2 && NPC.downedMechBoss3, PostSkeletronPrime, 0.8f);
 
-                AddPotionElementToMod(ModName, "Whiskey", "Boosts damage by 4%, knockback by 20%, and crit chance by 2%. Reduces defense by 5%",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Whiskey.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Whiskey.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/whiskey", ModContent.BuffType<WhiskeyBuff>(), () => Main.hardMode, PostWallOfFlesh, 0.8f);
 
-                AddPotionElementToMod(ModName, "White Wine", "Restores 400 mana and boosts magic damage by 8%. Reduces defense by 6% and life regen by 0.5 HP/s",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.WhiteWine.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.WhiteWine.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/whiteWine", ModContent.BuffType<WhiteWineBuff>(), () => NPC.downedMechBoss1 && NPC.downedMechBoss2 && NPC.downedMechBoss3, PostSkeletronPrime, 0.7f);
 
-                AddPotionElementToMod(ModName, "Zen", "Vastly decreases enemy spawn rate",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Zen.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Zen.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/zen", ModContent.BuffType<Zen>(), () => DownedBossSystem.downedSlimeGod, PostSkeletron + 0.5f, 0.8f);
 
-                AddPotionElementToMod(ModName, "Zerg", "Vastly increases enemy spawn rate",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Zerg.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.Zerg.Description"),
                     "ToastyQoLCalamity/Assets/UI/Potions/zerg", ModContent.BuffType<Zerg>(), () => DownedBossSystem.downedSlimeGod, PostSkeletron + 0.5f, 0.8f);
 
-                AddPotionElementToMod(ModName, "Old Fashioned", "Multiplies all accessory and set bonus damage by 1.5x. Decreases all damage by 25%",
+                AddPotionElementToMod(ModName, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.OldFashioned.Name"), Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Potions.OldFashioned.Description"),
                     "ToastyQolCalamity/Assets/UI/Potions/oldFashioned", ModContent.BuffType<OldFashionedBuff>(), () => NPC.downedPlantBoss, PostPlantera, 0.8f);
             }
+
+          
         }
     }
 }

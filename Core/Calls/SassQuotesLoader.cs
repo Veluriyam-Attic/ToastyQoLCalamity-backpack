@@ -11,6 +11,7 @@ using CalamityMod.NPCs.OldDuke;
 using CalamityMod.NPCs.PlaguebringerGoliath;
 using CalamityMod.NPCs.SupremeCalamitas;
 using CalamityMod.NPCs.Yharon;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using static ToastyQoLCalamity.ToastyQoLCalamity;
 
@@ -20,21 +21,21 @@ namespace ToastyQoLCalamity.Core.Calls
     {
         public static void Load()
         {
-            AddSassQuoteLose("You can adjust the difficulty by clicking on the difficulty indicator in the top right corner!");
-            AddSassQuoteLose("Did you get your loadout from CMT?");
+            AddSassQuoteLose(Language.GetTextValue($"Mods.ToastyQoLCalamity.SassQuotes.DifficultyIndicator"));
+            AddSassQuoteLose(Language.GetTextValue($"Mods.ToastyQoLCalamity.SassQuotes.CMT"));
 
-            AddSassQuoteWin("You have been a Calamity to my kingdom.I only wanted my Revengeance, but you in your Vanities have led me to my Death. " +
-                "Your Iron Heart is truly full of Malice. You may have Defiled this world and Catalyzed the arrival of Armageddon upon it, but I will not allow you to send me to the " +
-                "depths of Infernum!");
+            AddSassQuoteWin(Language.GetTextValue($"Mods.ToastyQoLCalamity.SassQuotes.Calamity.1") +
+                Language.GetTextValue($"Mods.ToastyQoLCalamity.SassQuotes.Calamity.2") +
+                Language.GetTextValue($"Mods.ToastyQoLCalamity.SassQuotes.Calamity.3"));
 
             AddBossSpecificSassQuote(ModContent.NPCType<Cryogen>(), ["You need to chill out."]);
-            AddBossSpecificSassQuote(ModContent.NPCType<Yharon>(), ["This is my MESSAGE TO MY MASTER, this is a FIGHT YOU DID NOT WIN!"]);
+            AddBossSpecificSassQuote(ModContent.NPCType<Yharon>(), [Language.GetTextValue($"Mods.ToastyQoLCalamity.SassQuotes.Yharon")]);
             AddBossSpecificSassQuote(ModContent.NPCType<SupremeCalamitas>(), [ "I bet you're going to go spam ping someone in #nohit-discussion now aren't you. Spoiler: No one cares.", 
                 "Another BH1 death?" ]);
-            AddBossSpecificSassQuote(ModContent.NPCType<Apollo>(), ["You fell right into his calculations..."]);
-            AddBossSpecificSassQuote(ModContent.NPCType<Artemis>(), ["You fell right into his calculations..."]);
-            AddBossSpecificSassQuote(ModContent.NPCType<AresBody>(), ["You fell right into his calculations..."]);
-            AddBossSpecificSassQuote(ModContent.NPCType<ThanatosHead>(), ["You fell right into his calculations..."]);
+            AddBossSpecificSassQuote(ModContent.NPCType<Apollo>(), [Language.GetTextValue($"Mods.ToastyQoLCalamity.SassQuotes.Draedon")]);
+            AddBossSpecificSassQuote(ModContent.NPCType<Artemis>(), [Language.GetTextValue($"Mods.ToastyQoLCalamity.SassQuotes.Draedon")]);
+            AddBossSpecificSassQuote(ModContent.NPCType<AresBody>(), [Language.GetTextValue($"Mods.ToastyQoLCalamity.SassQuotes.Draedon")]);
+            AddBossSpecificSassQuote(ModContent.NPCType<ThanatosHead>(), [Language.GetTextValue($"Mods.ToastyQoLCalamity.SassQuotes.Draedon")]);
             AddBossSpecificSassQuote(ModContent.NPCType<HiveMind>(), ["'Hive' got a plan for you: Give up."]);
             AddBossSpecificSassQuote(ModContent.NPCType<PlaguebringerGoliath>(), ["'Hive' got a plan for you: Give up."]);
             AddBossSpecificSassQuote(ModContent.NPCType<Crabulon>(), ["I better not see this RRed 10 times..."]);

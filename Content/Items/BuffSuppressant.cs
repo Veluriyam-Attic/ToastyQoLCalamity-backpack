@@ -10,6 +10,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.DataStructures;
 using Terraria.ModLoader;
+using Terraria.Localization;
 
 
 namespace ToastyQoLCalamity.Content.Items
@@ -37,20 +38,20 @@ namespace ToastyQoLCalamity.Content.Items
             {
                 if (player.FindBuffIndex(ModContent.BuffType<HolyInferno>()) > -1)
                 {
-                    player.KillMe(PlayerDeathReason.ByCustomReason(player.name + " was erased by the Holy Inferno"), 1000.0, 0, false);
+                    player.KillMe(PlayerDeathReason.ByCustomReason(Language.GetTextValue($"Mods.ToastyQoLCalamity.DeathMessages.HolyInferno", player.name)), 1000.0, 0, false);
                 }
                 if (player.FindBuffIndex(BuffID.BrainOfConfusionBuff) > -1)
                 {
-                    player.KillMe(PlayerDeathReason.ByCustomReason(player.name + " was unable to comprehend the big brain power."), 1000.0, 0, false);
+                    player.KillMe(PlayerDeathReason.ByCustomReason(Language.GetTextValue($"Mods.ToastyQoLCalamity.DeathMessages.BrainOfConfusion", player.name)), 1000.0, 0, false);
                 }
                 if (player.FindBuffIndex(ModContent.BuffType<VulnerabilityHex>()) > -1)
-                    player.KillMe(PlayerDeathReason.ByCustomReason(player.name + "'s mental fortitude faded away"), 1000.0, 0, false);
+                    player.KillMe(PlayerDeathReason.ByCustomReason(Language.GetTextValue($"Mods.ToastyQoLCalamity.DeathMessages.VulnerabilityHex", player.name)), 1000.0, 0, false);
 
                 if (ModLoader.TryGetMod("InfernumMode", out Mod InfernumMode))
                 {
                     InfernumMode.TryFind("Madness", out ModBuff Madness);
                     if (player.FindBuffIndex(Madness.Type) > -1)
-                        player.KillMe(PlayerDeathReason.ByCustomReason(player.name + " went mad"), 1000.0, 0, false);
+                        player.KillMe(PlayerDeathReason.ByCustomReason(Language.GetTextValue($"Mods.ToastyQoLCalamity.DeathMessages.Madness", player.name)), 1000.0, 0, false);
                 }
 
                 player.buffImmune[BuffID.ShadowDodge] = true;

@@ -1,0 +1,207 @@
+Toggles: {
+	Other: {
+		ArsenalRecharge: {
+			Name: Toggle Arsenal Recharge
+			Description: Toggles fully charging Arsenal Weapons on respawn
+		}
+
+		FightLength: {
+			Name: Toggle Fight Length Type
+			Description:
+				'''
+				Enable to have the MNL Indicator use testing times instead]
+				[c/ffcc44:of nohit times
+				'''
+		}
+		
+		Community: Current power level: {0}
+	}
+	MNL: 
+	'''
+	[c/e7684bCurrent Time: {0}
+	'''
+}
+
+Misc: {
+	BossRushMNL:{
+		Attempt:
+		Length:
+		Amount: '''[c/e7684b:Amount {0} MNL:]'''
+		Amount2: '''[c/fccccf:{0}]'''
+	}
+	// I could not figure out how to get this working, Apologies.
+}
+
+
+
+Upgrades: {
+	Name: Upgrades Toggles
+	NextUpgrade: Next Upgrade: {0}
+	AutoSystemDisable: Disable Automated System to toggle!
+	ToggleHP: Toggle HP Upgrades
+	ToggleMana: Toggle Mana Upgrades
+	ToggleRage: Toggle Rage Upgrades
+	ToggleAdren: Toggle Adrenaline Upgrades
+	ToggleAccessory: Toggle Accessory Upgrades
+
+	ToggleAutoSystem: {
+		Name: Toggle Automated System
+		Description:
+			'''
+			Automated System enables every upgrade]
+			[c/ffcc44:up to your latest boss in progression killed
+			'''
+	}
+}
+
+Potions: {
+	BloodyMary: {
+		Name: Bloody Mary
+		Description: Boosts damage and movement speed by 10% during a Blood Moon. Reduces life regen by 2 HP/s and defense by 4%
+	}
+
+	Bounding: {
+		Name: Bounding
+		Description: Grants 5% increased jump speed, 25 extra blocks of fall damage resistance, and increased jump height
+	}
+
+	Calcium: {
+		Name: Calcium
+		Description: Grants immunity to fall damage
+	}
+
+	CaribbeanRum: {
+		Name: Caribbean Rum
+		Description: Boosts life regen by 1 HP/s, movement speed by 10% and wing flight time by 20% chance. Makes you floaty, -10 defense
+	}
+
+	CinnamonRoll: {
+		Name: Cinnamon Roll
+		Description: Boosts mana regeneration rate and multiplies all fire-based debuff damage by 1.5. -10% defense
+	}
+
+	Everclear: {
+		Name: Everclear
+		Description: Boosts damage by 25%. Reduces life regen by 5 HP/s and defense by 30%
+	}
+
+	EvergreenGin: {
+		Name: Evergreen Gin
+		Description: Multiplies all sickness and water-related debuff damage by 1.25. Reduces life regen by 0.5 HP/s
+	}
+
+	FabsolVodka: {
+		Name: Fabsol's Vodka
+		Description: Boosts all damage stats by 8% but lowers defense by 5%. Increases immune time after being struck
+	}
+
+	Fireball: {
+		Name: Fireball
+		Description: Multiplies all fire-based debuff damage by 1.25. Reduces life regen by 0.5 HP/s
+	}
+
+	FlaskCrumbling: {
+		Name: Flask of Crumbling
+		Description: Melee, Whip, and Rogue attacks inflict Crumbling on enemies
+	}
+
+	GravityNormalizer: {
+		Name: Gravity Normalizer
+		Description: Disables the low gravity of space and grants immunity to the distorted debuff
+	}
+
+	Moonshine: {
+		Name: Moonshine
+		Description: Increases defense by 10 and damage reduction by 3%. Reduces life regen by 0.5 HP/s
+	}
+
+	MoscowMule: {
+		Name: Moscow Mule
+		Description: Boosts damage and knockback by 9% and critical strike chance by 3%. Reduces life regen by 2 HP/s
+	}
+
+	Omniscience: {
+		Name: Omniscience
+		Description: Highlights nearby creatures, enemy projectiles, danger sources, and treasure
+	}
+
+	Photosynthesis: {
+		Name: Photosynthesis
+		Description: You regen life quickly while not moving, this effect is five times as strong during daytime. Dropped hearts heal more HP
+	}
+
+	Rum: {
+		Name: Rum
+		Description: Boosts life regen by 1 HP/s and movement speed by 10%. Reduces defense by 5%
+	}
+
+	Screwdriver: {
+		Name: Screwdriver
+		Description: Multiplies piercing projectile damage by 1.05. Reduces life regen by 0.5 HP/s
+	}
+
+	Shadow: {
+		Name: Shadow
+		Description: Rogue weapons spawn projectiles on hit Stealth generation is increased by 8%
+	}
+
+	Soaring: {
+		Name: Soaring
+		Description: Increases flight time and horizontal flight speed by 10%. Restores a fraction of your wing flight time after a true melee strike
+	}
+
+	StarBeamRye: {
+		Name: Star Beam Rye
+		Description: Boosts max mana by 50, magic damage by 8%, and reduces mana usage by 10%. Reduces defense by 6% and life regen by -1 HP/s
+	}
+
+	SulphurSkin: {
+		Name: Sulphurskin
+		Description: Reduces the effects of the sulphuric waters
+	}
+
+	Tequila: {
+		Name: Tequila
+		Description: Increases knockback by 10%, crit chance by 4%, and defense by 5 during the daytime. -0.5 HP/s life regen
+	}
+
+	TequilaSunrise: {
+		Name: Tequila Sunrise
+		Description: Increases knockback by 20%, crit chance by 8%, and defense by 10 during the daytime. -1 HP/s life regen
+	}
+
+	Tesla: {
+		Name: Tesla
+		Description: Summons an aura of electricity that electrifies and slows enemies. Reduces the duration of the Electrified debuff
+	}
+
+	Vodka: {
+		Name: Vodka
+		Description: Boosts damage by 6% and critical strike chance by 2%. Reduces life regen by 0.5 HP/s and defense by 5%
+	}
+
+	Whiskey: {
+		Name: Whiskey
+		Description: Boosts damage by 4%, knockback by 20%, and crit chance by 2%. Reduces defense by 5%
+	}
+
+	WhiteWine: {
+		Name: White Wine
+		Description: Restores 400 mana and boosts magic damage by 8%. Reduces defense by 6% and life regen by 0.5 HP/s
+	}
+
+	Zen: {
+		Name: Zen
+		Description: Vastly decreases enemy spawn rate
+	}
+
+	Zerg: {
+		Name: Zerg
+		Description: Vastly increases enemy spawn rate
+	}
+
+	OldFashioned: {
+		Name: Old Fashioned
+		Description: Multiplies all accessory and set bonus damage by 1.5x. Decreases all damage by 25%
+	}
+}

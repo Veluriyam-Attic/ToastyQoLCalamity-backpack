@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Terraria;
+using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace ToastyQoLCalamity.Core.Globals
@@ -35,7 +36,7 @@ namespace ToastyQoLCalamity.Core.Globals
                     seconds = "0" + time.Seconds.ToString();
 
                 string line = hours + minutes + seconds;
-                ToastyQoLUtils.DisplayText($"[c/e7684b:Current Time:] [c/fccccf:{line}]");
+                ToastyQoLUtils.DisplayText(Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.MNL", line));
             }
         }
     }

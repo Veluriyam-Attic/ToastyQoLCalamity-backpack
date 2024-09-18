@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using ReLogic.Content;
 using Terraria;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using static ToastyQoL.ToastyQoLUtils;
 using static ToastyQoLCalamity.Core.CalToggles;
@@ -16,18 +17,18 @@ namespace ToastyQoLCalamity.Core.Calls
     {
         public static void Create()
         {
-            AddPage("UpgradesManager", "Upgrades Toggles", ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/UpgradesUIIcon", AssetRequestMode.ImmediateLoad).Value
+            AddPage("UpgradesManager", Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.Name"), ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/UpgradesUIIcon", AssetRequestMode.ImmediateLoad).Value
                 , 3f, false, () => { }, null);
 
             if (PageExists("UpgradesManager"))
             {
                 AddToggle("UpgradesManager", ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/Auto", AssetRequestMode.ImmediateLoad).Value,
-                    ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/AutoGlow", AssetRequestMode.ImmediateLoad).Value, () => { return "Toggle Automated System"; },
-                    () => { return "Automated System enables every upgrade]\n[c/ffcc44:up to your latest boss in progression killed"; }, 1f, () => { AutomatedSystem = !AutomatedSystem; },
+                    ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/AutoGlow", AssetRequestMode.ImmediateLoad).Value, () => { return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.ToggleAutoSystem.Name"); },
+                    () => { return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.ToggleAutoSystem.Description"); }, 1f, () => { AutomatedSystem = !AutomatedSystem; },
                     typeof(CalToggles).GetField("AutomatedSystem", UniversalBindingFlags));
 
                 AddToggle("UpgradesManager", ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/BloodOrange", AssetRequestMode.ImmediateLoad).Value,
-                    ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/BloodOrangeGlow", AssetRequestMode.ImmediateLoad).Value, () => { return "Toggle HP Upgrades"; },
+                    ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/BloodOrangeGlow", AssetRequestMode.ImmediateLoad).Value, () => { return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.ToggleHP"); },
                     () =>
                     {
                         string nextUpgrade;
@@ -42,7 +43,7 @@ namespace ToastyQoLCalamity.Core.Calls
                         else
                             nextUpgrade = "BloodOrange";
 
-                        return $"Next Upgrade: {nextUpgrade}";
+                        return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.NextUpgrade", nextUpgrade);
                     }, 2f,
                     () =>
                     {
@@ -82,10 +83,10 @@ namespace ToastyQoLCalamity.Core.Calls
                             Main.LocalPlayer.Calamity().eBerry = false;
                             Main.LocalPlayer.Calamity().dFruit = false;
                         }
-                    }, null, true, () => !AutomatedSystem, "Disable Automated System to toggle");
+                    }, null, true, () => !AutomatedSystem, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.AutoSystemDisable"));
 
                 AddToggle("UpgradesManager", ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/CometShard", AssetRequestMode.ImmediateLoad).Value,
-                    ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/CometShardGlow", AssetRequestMode.ImmediateLoad).Value, () => { return "Toggle Mana Upgrades"; },
+                    ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/CometShardGlow", AssetRequestMode.ImmediateLoad).Value, () => { return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.ToggleMana"); },
                     () =>
                     {
                         string nextUpgrade;
@@ -98,7 +99,7 @@ namespace ToastyQoLCalamity.Core.Calls
                         else
                             nextUpgrade = "Comet Shard";
 
-                        return $"Next Upgrade: {nextUpgrade}";
+                        return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.NextUpgrade", nextUpgrade);
                     }, 3f,
                     () =>
                     {
@@ -126,10 +127,10 @@ namespace ToastyQoLCalamity.Core.Calls
                             Main.LocalPlayer.Calamity().eCore = false;
                             Main.LocalPlayer.Calamity().pHeart = false;
                         }
-                    }, null, true, () => !AutomatedSystem, "Disable Automated System to toggle");
+                    }, null, true, () => !AutomatedSystem, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.AutoSystemDisable"));
 
                 AddToggle("UpgradesManager", ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/MushroomPlasmaRoot", AssetRequestMode.ImmediateLoad).Value,
-                    ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/MushroomPlasmaRootGlow", AssetRequestMode.ImmediateLoad).Value, () => { return "Toggle Rage Upgrades"; },
+                    ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/MushroomPlasmaRootGlow", AssetRequestMode.ImmediateLoad).Value, () => { return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.ToggleRage"); },
                     () =>
                     {
                         string nextUpgrade;
@@ -142,7 +143,7 @@ namespace ToastyQoLCalamity.Core.Calls
                         else
                             nextUpgrade = "Mushroom PlasmaRoot";
 
-                        return $"Next Upgrade: {nextUpgrade}";
+                        return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.NextUpgrade", nextUpgrade);
                     }, 4f,
                     () =>
                     {
@@ -170,10 +171,10 @@ namespace ToastyQoLCalamity.Core.Calls
                             Main.LocalPlayer.Calamity().rageBoostTwo = false;
                             Main.LocalPlayer.Calamity().rageBoostThree = false;
                         }
-                    }, null, true, () => !AutomatedSystem, "Disable Automated System to toggle");
+                    }, null, true, () => !AutomatedSystem, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.AutoSystemDisable"));
 
                 AddToggle("UpgradesManager", ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/ElectrolyteGelPack", AssetRequestMode.ImmediateLoad).Value,
-                    ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/ElectrolyteGelPackGlow", AssetRequestMode.ImmediateLoad).Value, () => { return "Toggle Adren Upgrades"; },
+                    ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/ElectrolyteGelPackGlow", AssetRequestMode.ImmediateLoad).Value, () => { return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.ToggleAdren"); },
                     () =>
                     {
                         string nextUpgrade;
@@ -186,7 +187,7 @@ namespace ToastyQoLCalamity.Core.Calls
                         else
                             nextUpgrade = "Electrolyte Gel Pack";
 
-                        return $"Next Upgrade: {nextUpgrade}";
+                        return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.NextUpgrade", nextUpgrade);
                     }, 5f,
                     () =>
                     {
@@ -214,10 +215,10 @@ namespace ToastyQoLCalamity.Core.Calls
                             Main.LocalPlayer.Calamity().adrenalineBoostTwo = false;
                             Main.LocalPlayer.Calamity().adrenalineBoostThree = false;
                         }
-                    }, null, true, () => !AutomatedSystem, "Disable Automated System to toggle");
+                    }, null, true, () => !AutomatedSystem, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.AutoSystemDisable"));
 
                 AddToggle("UpgradesManager", ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/DemonHeart", AssetRequestMode.ImmediateLoad).Value,
-                    ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/DemonHeartGlow", AssetRequestMode.ImmediateLoad).Value, () => { return "Toggle Accessory Upgrades"; },
+                    ModContent.Request<Texture2D>("ToastyQoLCalamity/Assets/UI/DemonHeartGlow", AssetRequestMode.ImmediateLoad).Value, () => { return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.ToggleAccessory"); },
                     () =>
                     {
                         string nextUpgrade;
@@ -228,7 +229,7 @@ namespace ToastyQoLCalamity.Core.Calls
                         else
                             nextUpgrade = "Demon Heart";
 
-                        return $"Next Upgrade: {nextUpgrade}";
+                        return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.NextUpgrade", nextUpgrade);
                     }, 6f,
                     () =>
                     {
@@ -247,7 +248,7 @@ namespace ToastyQoLCalamity.Core.Calls
                             Main.LocalPlayer.extraAccessory = true;
                             Main.LocalPlayer.Calamity().extraAccessoryML = false;
                         }
-                    }, null, true, () => !AutomatedSystem, "Disable Automated System to toggle");
+                    }, null, true, () => !AutomatedSystem, Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.AutoSystemDisable"));
             }
         }
     }

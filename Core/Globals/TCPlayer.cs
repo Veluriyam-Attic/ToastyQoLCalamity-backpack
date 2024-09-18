@@ -4,6 +4,7 @@ using CalamityMod.Buffs.StatBuffs;
 using CalamityMod.Items;
 using Terraria;
 using Terraria.DataStructures;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using ToastyQoLCalamity.Content.NPCs;
 using ToastyQoLCalamity.Content.Projectiles;
@@ -36,16 +37,16 @@ namespace ToastyQoLCalamity.Core.Globals
             if (GetToggleStatus("InstantDeath"))
             {
                 if (Player.FindBuffIndex(ModContent.BuffType<HolyInferno>()) > -1)
-                    Player.KillMe(PlayerDeathReason.ByCustomReason(Player.name + " was erased by the Holy Inferno"), 1000.0, 0, false);
+                    Player.KillMe(PlayerDeathReason.ByCustomReason(Language.GetTextValue($"Mods.ToastyQoLCalamity.DeathMessages.HolyInferno", Player.name)), 1000.0, 0, false);
 
                 if (Player.FindBuffIndex(ModContent.BuffType<VulnerabilityHex>()) > -1)
-                    Player.KillMe(PlayerDeathReason.ByCustomReason(Player.name + "'s mental fortitude faded away"), 1000.0, 0, false);
+                    Player.KillMe(PlayerDeathReason.ByCustomReason(Language.GetTextValue($"Mods.ToastyQoLCalamity.DeathMessages.VulnerabilityHex", Player.name)), 1000.0, 0, false);
 
                 if (ModLoader.TryGetMod("InfernumMode", out Mod InfernumMode))
                 {
                     InfernumMode.TryFind("Madness", out ModBuff Madness);
                         if (Player.FindBuffIndex(Madness.Type) > -1)                                           
-                            Player.KillMe(PlayerDeathReason.ByCustomReason(Player.name + " went mad"), 1000.0, 0, false);
+                            Player.KillMe(PlayerDeathReason.ByCustomReason(Language.GetTextValue($"Mods.ToastyQoLCalamity.DeathMessages.Madness", Player.name)), 1000.0, 0, false);
                 }
                 Player.buffImmune[ModContent.BuffType<TarragonImmunity>()] = true;
                 Player.buffImmune[ModContent.BuffType<SilvaRevival>()] = true;
