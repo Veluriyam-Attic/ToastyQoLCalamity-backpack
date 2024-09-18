@@ -341,7 +341,8 @@ ReflectiveWand: {
 		Current Type
 		'''
 
-	BulletHell: { // Unused, couldn't get it to work.
+	BulletHell: {
+		// Unused, couldn't get it to work.
 		1: Bullet Hell 1 (100%)
 		2: Bullet Hell 2 (75%)
 		3: Bullet Hell 3 (50%)
@@ -350,7 +351,6 @@ ReflectiveWand: {
 		6: None
 		Type: Type changed to: {0}
 	}
-	
 }
 
 ShinyWand: {

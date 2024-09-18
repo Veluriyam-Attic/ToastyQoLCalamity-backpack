@@ -21,7 +21,8 @@ Toggles: {
 }
 
 Misc: {
-	BossRushMNL: { //Unused, couldn't get it to work.
+	BossRushMNL: {
+		//Unused, couldn't get it to work.
 		Attempt: Length:
 		Amount: "[c/e7684b:Amount {0} MNL:]"
 		Amount2: "[c/fccccf:{0}]"
