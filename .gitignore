@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/CalamityMod.dll
+/ToastyQoL.dll
+/ToastyQoLCalamity.csproj
