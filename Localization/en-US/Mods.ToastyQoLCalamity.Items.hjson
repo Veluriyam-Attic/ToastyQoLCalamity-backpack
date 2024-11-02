@@ -338,11 +338,10 @@ ReflectiveWand: {
 		'''
 		Summons a simulation of Supreme Calamitas' bullet hells
 		Right click to change type of bullet hell forward or backward depending on mouse position
-		Current Type
+		[Current Type]
 		'''
 
 	BulletHell: {
-		// Unused, couldn't get it to work.
 		1: Bullet Hell 1 (100%)
 		2: Bullet Hell 2 (75%)
 		3: Bullet Hell 3 (50%)
@@ -359,6 +358,12 @@ ShinyWand: {
 		'''
 		Summons a simulation of Calamitas' bullet hells
 		Right click to change type of bullet hell forward or backward depending on mouse position
-		Current Type
+		[Current Type]
 		'''
+
+		BulletHell: {
+		1: Bullet Hell 1 (70%)
+		2: Bullet Hell 2 (10%)
+		Type: Type changed to: {0}
+		}
 }

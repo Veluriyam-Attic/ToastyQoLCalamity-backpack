@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Terraria;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
 using ToastyQoLCalamity.Content.NPCs;
 
@@ -19,7 +20,7 @@ namespace ToastyQoLCalamity.Content.Items
             private set;
         } = 1;
 
-        private string TypeText = "Bullet Hell 1 (70%)";
+        private string TypeText = Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ShinyWand.BulletHell.1");
 
         public override void SetStaticDefaults()
         {
@@ -58,14 +59,14 @@ namespace ToastyQoLCalamity.Content.Items
                 switch (bhType)
                 {
                     case 1:
-                        TypeText = "Bullet Hell 1 (70%)";
+                        TypeText = Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ShinyWand.BulletHell.1");
                         break;
                     case 2:
-                        TypeText = "Bullet Hell 2 (10%)";
+                        TypeText = Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ShinyWand.BulletHell.2");
                         break;
                 }
                 BHType = bhType;
-                Main.NewText("Type changed to: " + TypeText, Color.DarkRed);
+                ToastyQoLUtils.DisplayText(Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ShinyWand.BulletHell.Type", TypeText), Color.DarkRed);
             }
             else
             {
@@ -88,12 +89,12 @@ namespace ToastyQoLCalamity.Content.Items
                 if (l.Text == null)
                     continue;
 
-                if (l.Text.StartsWith("Current Type"))
+                if (l.Text.StartsWith("[Current Type]"))
                 {
                     if (TypeText != null)
                     {
                         l.OverrideColor = Color.Firebrick;
-                        l.Text = "Current Type: " + TypeText;
+                        l.Text = Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ShinyWand.BulletHell.Type", TypeText);
                     }
 
                 }
