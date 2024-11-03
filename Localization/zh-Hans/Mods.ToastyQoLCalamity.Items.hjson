@@ -30,307 +30,307 @@ DollOfFury: {
 }
 
 AASpawner: {
-	DisplayName: Astrum Aureus Spawner
-	/* Tooltip:
+	DisplayName: 白金星舰召唤器
+	Tooltip:
 		'''
-		Instantly summons Astrum Aureus.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.AstrumAureus.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 ADSpawner: {
-	// DisplayName: Astrum Deus Spawner
-	/* Tooltip:
+	DisplayName: 星神游龙召唤器
+	Tooltip:
 		'''
-		Instantly summons Astrum Deus.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.AstrumDeusHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 ALSpawner: {
-	// DisplayName: Anahita & Leviathan Spawner
-	/* Tooltip:
+	DisplayName: 利维坦和阿娜希塔召唤器
+	Tooltip:
 		'''
-		Instantly summons Anahita & Leviathan.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.Items.Lore.LoreLeviathanAnahita.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 ASSpawner: {
-	// DisplayName: Aquatic Scourge Spawner
-	/* Tooltip:
+	DisplayName: 渊海灾虫召唤器
+	Tooltip:
 		'''
-		Instantly summons Aquatic Scourge.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.AquaticScourgeHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 BESpawner: {
-	// DisplayName: Brimstone Elemental Spawner
-	/* Tooltip:
+	DisplayName: 硫磺火元素召唤器
+	Tooltip:
 		'''
-		Instantly summons Brimstone Elemental.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.BrimstoneElemental.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 CCSpawner: {
-	// DisplayName: Calamitas Spawner
-	/* Tooltip:
+	DisplayName: 灾厄之影召唤器
+	Tooltip:
 		'''
-		Instantly summons Calamitas.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.CalamitasClone.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 CryoSpawner: {
-	// DisplayName: Cryogen Spawner
-	/* Tooltip:
+	DisplayName: 极地之灵召唤器
+	Tooltip:
 		'''
-		Instantly summons Cryogen.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Cryogen.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 PBGSpawner: {
-	// DisplayName: Plaguebringer Goliath Spawner
-	/* Tooltip:
+	DisplayName: 瘟疫使者歌莉娅召唤器
+	Tooltip:
 		'''
-		Instantly summons Plaguebringer Goliath.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.PlaguebringerGoliath.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 RavSpawner: {
-	// DisplayName: Ravager Spawner
-	/* Tooltip:
+	DisplayName: 毁灭魔像召唤器
+	Tooltip:
 		'''
-		Instantly summons Ravager.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.RavagerBody.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 BrimstoneTorch: {
-	// DisplayName: Brimstone Torch
-	/* Tooltip:
+	DisplayName: 硫火烛炬
+	Tooltip:
 		'''
-		Instantly summons Supreme Calamitas
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.SupremeCalamitas.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 CVSpawner: {
-	// DisplayName: Ceaseless Void Spawner
-	/* Tooltip:
+	DisplayName: 无尽虚空召唤器
+	Tooltip:
 		'''
-		Instantly summons Ceaseless Void.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.CeaselessVoid.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 DoGSpawner: {
-	// DisplayName: Devourer Of Gods Spawner
-	/* Tooltip:
+	DisplayName: 神明吞噬者召唤器
+	Tooltip:
 		'''
-		Instantly summons Devourer Of Gods.		
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.DevourerofGodsHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 DraedonSpawner: {
-	// DisplayName: Draedon Spawner
-	// Tooltip: Instantly summons Draedon.
+	DisplayName: 嘉登召唤器
+	Tooltip: "{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Draedon.DisplayName}"
 }
 
 EASpawner: {
-	// DisplayName: XF-09 Ares Spawner
-	/* Tooltip:
+	DisplayName: XF-09 “阿瑞斯”召唤器
+	Tooltip:
 		'''
-		Instantly summons XF-09 Ares.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.AresBody.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 EidolicRod: {
-	// DisplayName: Eidolic Rod
-	/* Tooltip:
+	DisplayName: 幻妖请灵杖
+	Tooltip:
 		'''
-		Summons the Adult Eidolon Wyrm
-		Grants Amidias' Blessing when summoned
-		Can be used regardless of biome		
-		''' */
+		召唤{$Mods.CalamityMod.NPCs.PrimordialWyrmHead.DisplayName}
+		召唤时给予海王的祝福
+		可以在任何环境使用
+		'''
 }
 
 EThanosSpawner: {
-	// DisplayName: XM-05 Thanatos Spawner
-	/* Tooltip:
+	DisplayName: XM-05 “塔纳托斯”召唤器
+	Tooltip:
 		'''
-		Instantly summons XM-05 Thanatos.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.ThanatosHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 ETSpawner: {
-	// DisplayName: XS-01 Artemis & XS-03 Apollo Spawner
-	/* Tooltip:
+	DisplayName: XS-01 “阿尔忒弥斯”与 XS-03 “阿波罗”召唤器
+	Tooltip:
 		'''
-		Instantly summons XS-01 Artemis & XS-03 Apollo.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.UI.ExoTwinsNameNormal}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 ODSpawner: {
-	// DisplayName: Old Duke Spawner
-	/* Tooltip:
+	DisplayName: 硫海遗爵召唤器
+	Tooltip:
 		'''
-		Instantly summons Old Duke.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.OldDuke.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 PGSpawner: {
-	// DisplayName: Profaned Guardians Spawner
-	/* Tooltip:
+	DisplayName: 亵渎守卫召唤器
+	Tooltip:
 		'''
-		Instantly summons Profaned Guardians.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.BossChecklistIntegration.ProfanedGuardians.EntryName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 PolterSpawner: {
-	// DisplayName: Polterghast Spawner
-	/* Tooltip:
+	DisplayName: 噬魂幽花召唤器
+	Tooltip:
 		'''
-		Instantly summons Polterghast.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Polterghast.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 PtPGSpawner: {
-	// DisplayName: Providence Spawner
-	/* Tooltip:
+	DisplayName: 普罗维登斯召唤器
+	Tooltip:
 		'''
-		Instantly summons Providence.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Providence.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 SignusSpawner: {
-	// DisplayName: Signus Spawner
-	/* Tooltip:
+	DisplayName: 西格纳斯召唤器
+	Tooltip:
 		'''
-		Instantly summons Signus.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Signus.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 SWSpawner: {
-	// DisplayName: Storm Weaver Spawner
-	/* Tooltip:
+	DisplayName: 风暴编织者召唤器
+	Tooltip:
 		'''
-		Instantly summons Storm Weaver.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.StormWeaverHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 TDFSpawner: {
-	// DisplayName: Dragonfolly Spawner
-	/* Tooltip:
+	DisplayName: 痴愚金龙召唤器
+	Tooltip:
 		'''
-		Instantly summons Dragonfolly.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Bumblefuck.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 YharonSpawner: {
-	// DisplayName: Yharon Spawner
-	/* Tooltip:
+	DisplayName: 犽戎召唤器
+	Tooltip:
 		'''
-		Instantly summons Yharon.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Yharon.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 PotionOfDarkness: {
-	// DisplayName: Potion of Rage
-	/* Tooltip:
+	DisplayName: 红温药水
+	Tooltip:
 		'''
-		Fills your rage bar, and keeps it from draining for 2 seconds after using
-		Does not work while a boss is alive
-		''' */
+		使用后充满你的怒气条，并保持2秒不衰减
+		有Boss存活时不可使用
+		'''
 }
 
 CrabSpawner: {
-	// DisplayName: Crabulon Spawner
-	/* Tooltip:
+	DisplayName: 菌生蟹召唤器
+	Tooltip:
 		'''
-		Instantly summons Crabulon.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Crabulon.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 DSSpawner: {
-	// DisplayName: Desert Scourge Spawner
-	/* Tooltip:
+	DisplayName: 荒漠灾虫召唤器
+	Tooltip:
 		'''
-		Instantly summons Desert Scourge.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.DesertScourgeHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 HMSpawner: {
-	// DisplayName: Hive Mind Spawner
-	/* Tooltip:
+	DisplayName: 腐巢意志召唤器
+	Tooltip:
 		'''
-		Instantly summons Hive Mind.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.HiveMind.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 PHSpawner: {
-	// DisplayName: Perforator Hive Spawner
-	/* Tooltip:
+	DisplayName: 血肉宿主召唤器
+	Tooltip:
 		'''
-		Instantly summons Perforator Hive.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.PerforatorHive.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 SGSpawner: {
-	// DisplayName: Slime God Spawner
-	/* Tooltip:
+	DisplayName: 史莱姆之神召唤器
+	Tooltip:
 		'''
-		Instantly summons Slime God.
-		Right-click to increase spawn count up to 10
+		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.SlimeGodCore.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
 		Spawn Count
-		''' */
+		'''
 }
 
 ReflectiveWand: {
