@@ -30,22 +30,22 @@ Misc: {
 }
 
 Upgrades: {
-	// Name: Upgrades Toggles
-	// NextUpgrade: Next Upgrade: {0}
-	// AutoSystemDisable: Disable Automated System to toggle!
-	// ToggleHP: Toggle HP Upgrades
-	// ToggleMana: Toggle Mana Upgrades
-	// ToggleRage: Toggle Rage Upgrades
-	// ToggleAdren: Toggle Adrenaline Upgrades
-	// ToggleAccessory: Toggle Accessory Upgrades
+	Name: 设置永久升级
+	NextUpgrade: 下一升级：{0}
+	AutoSystemDisable: 关闭自动升级以手动切换！
+	ToggleHP: 设置最大生命值升级
+	ToggleMana: 设置最大魔力值升级
+	ToggleRage: 设置怒气值升级
+	ToggleAdren: 设置肾上腺素升级
+	ToggleAccessory: 设置饰品栏升级
+	NoUpgrades: 清空永久升级
 
 	ToggleAutoSystem: {
-		// Name: Toggle Automated System
-		/* Description:
+		Name: 切换自动升级
+		Description:
 			'''
-			Automated System enables every upgrade]
-			[c/ffcc44:up to your latest boss in progression killed
-			''' */
+			可根据你击杀的时期最晚Boss自动为你升级所有项目
+			'''
 	}
 }
 

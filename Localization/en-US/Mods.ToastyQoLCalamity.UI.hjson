@@ -38,6 +38,7 @@ Upgrades: {
 	ToggleRage: Toggle Rage Upgrades
 	ToggleAdren: Toggle Adrenaline Upgrades
 	ToggleAccessory: Toggle Accessory Upgrades
+	NoUpgrades: None
 
 	ToggleAutoSystem: {
 		Name: Toggle Automated System
