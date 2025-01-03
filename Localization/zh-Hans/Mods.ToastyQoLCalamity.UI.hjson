@@ -1,31 +1,26 @@
 Toggles: {
 	Other: {
 		ArsenalRecharge: {
-			// Name: Toggle Arsenal Recharge
-			// Description: Toggles fully charging Arsenal Weapons on respawn
+			Name: 切换军械库自动充能
+			Description: 在复活时自动将嘉登军械库武器电量充满
 		}
 
 		FightLength: {
-			// Name: Toggle Fight Length Type
-			/* Description:
-				'''
-				Enable to have the MNL Indicator use testing times instead]
-				[c/ffcc44:of nohit times
-				''' */
+			Name: 切换战斗时长类型
+			Description: 使用测试推荐时长代替最低无伤时长作为击杀时间显示
 		}
-
-		// Community: Current power level: {0}
 	}
-
-	// MNL: "[c/e7684bCurrent Time: {0}"
 }
+
+Community: 当前解锁进度：{0}
+MNL: "[c/e7684b:Current Time: {0}"
 
 Misc: {
 	BossRushMNL: {
 		//Unused, couldn't get it to work.
-		// Attempt: Length:
-		// Amount: "[c/e7684b:Amount {0} MNL:]"
-		// Amount2: "[c/fccccf:{0}]"
+		Attempt: Length:
+		Amount: "[c/e7684b:Amount {0} MNL:]"
+		Amount2: "[c/fccccf:{0}]"
 	}
 }
 

@@ -13,12 +13,11 @@ Toggles: {
 				[c/ffcc44:of nohit times
 				'''
 		}
-
-		Community: Current power level: {0}
 	}
-
-	MNL: "[c/e7684bCurrent Time: {0}"
 }
+
+Community: Current power level: {0}
+MNL: "[c/e7684b:Current Time: {0}"
 
 Misc: {
 	BossRushMNL: {
