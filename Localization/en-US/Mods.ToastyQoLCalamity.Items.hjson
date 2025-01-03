@@ -32,9 +32,9 @@ AASpawner: {
 	DisplayName: Astrum Aureus Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.AstrumAureus.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.AstrumAureus.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -42,9 +42,9 @@ ADSpawner: {
 	DisplayName: Astrum Deus Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.AstrumDeusHead.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.AstrumDeusHead.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -52,9 +52,9 @@ ALSpawner: {
 	DisplayName: Anahita & Leviathan Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.Items.Lore.LoreLeviathanAnahita.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.Items.Lore.LoreLeviathanAnahita.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -62,9 +62,9 @@ ASSpawner: {
 	DisplayName: Aquatic Scourge Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.AquaticScourgeHead.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.AquaticScourgeHead.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -72,9 +72,9 @@ BESpawner: {
 	DisplayName: Brimstone Elemental Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.BrimstoneElemental.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.BrimstoneElemental.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -82,9 +82,9 @@ CCSpawner: {
 	DisplayName: Calamitas Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.CalamitasClone.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.CalamitasClone.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -92,9 +92,9 @@ CryoSpawner: {
 	DisplayName: Cryogen Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Cryogen.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Cryogen.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -102,9 +102,9 @@ PBGSpawner: {
 	DisplayName: Plaguebringer Goliath Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.PlaguebringerGoliath.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.PlaguebringerGoliath.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -112,9 +112,9 @@ RavSpawner: {
 	DisplayName: Ravager Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.RavagerBody.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.RavagerBody.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -122,9 +122,9 @@ BrimstoneTorch: {
 	DisplayName: Brimstone Torch
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.SupremeCalamitas.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.SupremeCalamitas.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -132,9 +132,9 @@ CVSpawner: {
 	DisplayName: Ceaseless Void Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.CeaselessVoid.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.CeaselessVoid.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -142,24 +142,24 @@ DoGSpawner: {
 	DisplayName: Devourer Of Gods Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.DevourerofGodsHead.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.DevourerofGodsHead.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
 DraedonSpawner: {
 	DisplayName: Draedon Spawner
-	Tooltip: "{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Draedon.DisplayName}"
+	Tooltip: "{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Draedon.DisplayName}"
 }
 
 EASpawner: {
 	DisplayName: XF-09 Ares Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.AresBody.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.AresBody.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -177,9 +177,9 @@ EThanosSpawner: {
 	DisplayName: XM-05 Thanatos Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.ThanatosHead.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.ThanatosHead.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -187,9 +187,9 @@ ETSpawner: {
 	DisplayName: XS-01 Artemis & XS-03 Apollo Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.UI.ExoTwinsNameNormal}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.UI.ExoTwinsNameNormal}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -197,9 +197,9 @@ ODSpawner: {
 	DisplayName: Old Duke Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.OldDuke.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.OldDuke.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -207,9 +207,9 @@ PGSpawner: {
 	DisplayName: Profaned Guardians Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.BossChecklistIntegration.ProfanedGuardians.EntryName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.BossChecklistIntegration.ProfanedGuardians.EntryName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -217,9 +217,9 @@ PolterSpawner: {
 	DisplayName: Polterghast Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Polterghast.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Polterghast.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -227,9 +227,9 @@ PtPGSpawner: {
 	DisplayName: Providence Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Providence.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Providence.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -237,9 +237,9 @@ SignusSpawner: {
 	DisplayName: Signus Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Signus.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Signus.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -247,9 +247,9 @@ SWSpawner: {
 	DisplayName: Storm Weaver Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.StormWeaverHead.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.StormWeaverHead.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -257,9 +257,9 @@ TDFSpawner: {
 	DisplayName: Dragonfolly Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Bumblefuck.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Bumblefuck.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -267,9 +267,9 @@ YharonSpawner: {
 	DisplayName: Yharon Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Yharon.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Yharon.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -286,9 +286,9 @@ CrabSpawner: {
 	DisplayName: Crabulon Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Crabulon.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Crabulon.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -296,9 +296,9 @@ DSSpawner: {
 	DisplayName: Desert Scourge Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.DesertScourgeHead.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.DesertScourgeHead.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -306,9 +306,9 @@ HMSpawner: {
 	DisplayName: Hive Mind Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.HiveMind.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.HiveMind.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -316,9 +316,9 @@ PHSpawner: {
 	DisplayName: Perforator Hive Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.PerforatorHive.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.PerforatorHive.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -326,9 +326,9 @@ SGSpawner: {
 	DisplayName: Slime God Spawner
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.SlimeGodCore.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.SlimeGodCore.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 

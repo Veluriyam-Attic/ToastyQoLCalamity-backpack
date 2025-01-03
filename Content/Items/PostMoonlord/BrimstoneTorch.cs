@@ -7,6 +7,7 @@ using System.Linq;
 using Terraria;
 using Terraria.Audio;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace ToastyQoLCalamity.Content.Items.PostMoonlord
@@ -15,6 +16,8 @@ namespace ToastyQoLCalamity.Content.Items.PostMoonlord
     {
         public int Amount = 1;
         public Color TextColor = new(153, 0, 0);
+
+        public string bossname = Language.GetTextValue($"Mods.CalamityMod.NPCs.SupremeCalamitas.DisplayName");
 
         public override void SetStaticDefaults()
         {
@@ -48,8 +51,7 @@ namespace ToastyQoLCalamity.Content.Items.PostMoonlord
                 if (Amount < 1)
                     Amount = 20;
 
-                Main.NewText("Supreme Calamitas Spawn Count: " + Amount, TextColor);
-                return true;
+                Main.NewText(Language.GetTextValue($"Mods.ToastyQoL.Items.SpawnCountChat", bossname, Amount), TextColor);
             }
             else
             {
@@ -84,12 +86,10 @@ namespace ToastyQoLCalamity.Content.Items.PostMoonlord
                 if (l.Text == null)
                     continue;
 
-                if (l.Text.StartsWith("Spawn Count"))
+                if (l.Text.StartsWith("[Spawn Count]"))
                 {
                     l.OverrideColor = Color.Firebrick;
-                    l.Text = "Spawn Count: " + Amount;
-
-
+                    l.Text = Language.GetTextValue($"Mods.ToastyQoL.Items.SpawnCountTooltip", Amount);
                 }
             }
         }

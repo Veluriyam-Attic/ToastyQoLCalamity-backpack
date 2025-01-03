@@ -33,9 +33,9 @@ AASpawner: {
 	DisplayName: 白金星舰召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.AstrumAureus.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.AstrumAureus.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -43,9 +43,9 @@ ADSpawner: {
 	DisplayName: 星神游龙召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.AstrumDeusHead.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.AstrumDeusHead.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -53,9 +53,9 @@ ALSpawner: {
 	DisplayName: 利维坦和阿娜希塔召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.Items.Lore.LoreLeviathanAnahita.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.Items.Lore.LoreLeviathanAnahita.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -63,9 +63,9 @@ ASSpawner: {
 	DisplayName: 渊海灾虫召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.AquaticScourgeHead.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.AquaticScourgeHead.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -73,9 +73,9 @@ BESpawner: {
 	DisplayName: 硫磺火元素召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.BrimstoneElemental.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.BrimstoneElemental.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -83,9 +83,9 @@ CCSpawner: {
 	DisplayName: 灾厄之影召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.CalamitasClone.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.CalamitasClone.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -93,9 +93,9 @@ CryoSpawner: {
 	DisplayName: 极地之灵召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Cryogen.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Cryogen.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -103,9 +103,9 @@ PBGSpawner: {
 	DisplayName: 瘟疫使者歌莉娅召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.PlaguebringerGoliath.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.PlaguebringerGoliath.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -113,9 +113,9 @@ RavSpawner: {
 	DisplayName: 毁灭魔像召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.RavagerBody.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.RavagerBody.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -123,9 +123,9 @@ BrimstoneTorch: {
 	DisplayName: 硫火烛炬
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.SupremeCalamitas.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.SupremeCalamitas.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -133,9 +133,9 @@ CVSpawner: {
 	DisplayName: 无尽虚空召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.CeaselessVoid.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.CeaselessVoid.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -143,24 +143,24 @@ DoGSpawner: {
 	DisplayName: 神明吞噬者召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.DevourerofGodsHead.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.DevourerofGodsHead.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
 DraedonSpawner: {
 	DisplayName: 嘉登召唤器
-	Tooltip: "{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Draedon.DisplayName}"
+	Tooltip: "{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Draedon.DisplayName}"
 }
 
 EASpawner: {
 	DisplayName: XF-09 “阿瑞斯”召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.AresBody.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.AresBody.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -178,9 +178,9 @@ EThanosSpawner: {
 	DisplayName: XM-05 “塔纳托斯”召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.ThanatosHead.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.ThanatosHead.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -188,9 +188,9 @@ ETSpawner: {
 	DisplayName: XS-01 “阿尔忒弥斯”与 XS-03 “阿波罗”召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.UI.ExoTwinsNameNormal}
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.UI.ExoTwinsNameNormal}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -198,9 +198,9 @@ ODSpawner: {
 	DisplayName: 硫海遗爵召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.OldDuke.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.OldDuke.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -208,9 +208,9 @@ PGSpawner: {
 	DisplayName: 亵渎守卫召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.BossChecklistIntegration.ProfanedGuardians.EntryName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.BossChecklistIntegration.ProfanedGuardians.EntryName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -218,9 +218,9 @@ PolterSpawner: {
 	DisplayName: 噬魂幽花召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Polterghast.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Polterghast.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -228,9 +228,9 @@ PtPGSpawner: {
 	DisplayName: 普罗维登斯召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Providence.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Providence.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -238,9 +238,9 @@ SignusSpawner: {
 	DisplayName: 西格纳斯召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Signus.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Signus.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -248,9 +248,9 @@ SWSpawner: {
 	DisplayName: 风暴编织者召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.StormWeaverHead.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.StormWeaverHead.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -258,9 +258,9 @@ TDFSpawner: {
 	DisplayName: 痴愚金龙召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Bumblefuck.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Bumblefuck.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -268,9 +268,9 @@ YharonSpawner: {
 	DisplayName: 犽戎召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Yharon.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Yharon.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -287,9 +287,9 @@ CrabSpawner: {
 	DisplayName: 菌生蟹召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.Crabulon.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Crabulon.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -297,9 +297,9 @@ DSSpawner: {
 	DisplayName: 荒漠灾虫召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.DesertScourgeHead.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.DesertScourgeHead.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -307,9 +307,9 @@ HMSpawner: {
 	DisplayName: 腐巢意志召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.HiveMind.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.HiveMind.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -317,9 +317,9 @@ PHSpawner: {
 	DisplayName: 血肉宿主召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.PerforatorHive.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.PerforatorHive.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
@@ -327,9 +327,9 @@ SGSpawner: {
 	DisplayName: 史莱姆之神召唤器
 	Tooltip:
 		'''
-		{$Mods.ToastyQoL.Items.IntantlySummons} {$Mods.CalamityMod.NPCs.SlimeGodCore.DisplayName}
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.SlimeGodCore.DisplayName}
 		{$Mods.ToastyQoL.Items.RightClickToTen}
-		Spawn Count
+		[Spawn Count]
 		'''
 }
 
