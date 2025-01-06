@@ -386,7 +386,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<SeasSearing>(),
             ]);
 
-            AddLockInformation(() => NPC.downedMechBoss1, $"NPCName.TheDestroyer",
+            AddLockInformation(() => NPC.downedMechBoss1, $"Mods.ToastyQoL.Tiering.DestroyerShort",
 			[
 				ModContent.ItemType<GaussPistol>(),
             ]);
@@ -705,7 +705,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<LeonidProgenitor>(),
             ]);
 
-            AddLockInformation(() => DownedBossSystem.downedLeviathan, $"Mods.CalamityMod.Items.Lore.LoreLeviathanAnahita.DisplayName",
+            AddLockInformation(() => DownedBossSystem.downedLeviathan, $"Mods.ToastyQoLCalamity.Tiering.LeviathanShort",
 			[
                 //Accessories
                 ModContent.ItemType<LeviathanAmbergris>(),
@@ -836,7 +836,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<CorpusAvertor>(),
             ]);
 
-            AddLockInformation(() => NPC.downedAncientCultist, $"NPCName.CultistBoss",
+            AddLockInformation(() => NPC.downedAncientCultist, $"Mods.ToastyQoL.Tiering.CultistShort",
 			[
 				ModContent.ItemType<DarkMatterSheath>(),
                 ModContent.ItemType<StatisCurse>(),
@@ -971,7 +971,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<RougeSlash>()
             ]);
 
-            AddLockInformation(() => DownedBossSystem.downedProvidence, $"Mods.CalamityMod.NPCs.Providence.DisplayName",
+            AddLockInformation(() => DownedBossSystem.downedProvidence, $"Mods.ToastyQoLCalamity.Tiering.ProviShort",
 			[
 				ModContent.ItemType<ElysianWings>(),
                 ModContent.ItemType<TarragonWings>(),
@@ -1062,7 +1062,7 @@ namespace ToastyQoLCalamity.Core.Calls
 				ModContent.ItemType<RealityRupture>(),
 			]);
 
-            AddLockInformation(() => DownedBossSystem.downedSignus, $"Mods.CalamityMod.NPCs.Signus.DisplayName",
+            AddLockInformation(() => DownedBossSystem.downedSignus, $"Mods.ToastyQoLCalamity.Tiering.SignusShort",
 			[
 				ModContent.ItemType<SpectralVeil>(),
                 //Ranged Weapons
@@ -1147,7 +1147,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<TheOldReaper>(),
             ]);
 
-            AddLockInformation(() => DownedBossSystem.downedDoG, $"Mods.CalamityMod.NPCs.DevourerofGodsHead.DisplayName",
+            AddLockInformation(() => DownedBossSystem.downedDoG, $"Mods.ToastyQoLCalamity.Tiering.DoGShort",
 			[
 				ModContent.ItemType<TracersElysian>(),
                 ModContent.ItemType<SilvaWings>(),
@@ -1233,7 +1233,7 @@ namespace ToastyQoLCalamity.Core.Calls
                         ModContent.ItemType<Hypothermia>(),
             ]);
 
-            AddLockInformation(() => DownedBossSystem.downedYharon, $"Mods.CalamityMod.NPCs.Yharon.DisplayName",
+            AddLockInformation(() => DownedBossSystem.downedYharon, $"Mods.ToastyQoLCalamity.Tiering.YharonShort",
 			[
 				ModContent.ItemType<TracersCelestial>(),
                 ModContent.ItemType<DrewsWings>(),
@@ -1273,7 +1273,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<DynamicPursuer>(),
             ]);
 
-            AddLockInformation(() => DownedBossSystem.downedExoMechs, $"Mods.CalamityMod.BossChecklistIntegration.ExoMechs.EntryName",
+            AddLockInformation(() => DownedBossSystem.downedExoMechs, $"Mods.ToastyQoLCalamity.Tiering.ExoShort",
 			[
 				ModContent.ItemType<DraedonsHeart>(),
                 //Weapons
@@ -1300,7 +1300,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<RefractionRotor>(),
             ]);
 
-            AddLockInformation(() => DownedBossSystem.downedCalamitas, $"Mods.CalamityMod.NPCs.SupremeCalamitas.DisplayName",
+            AddLockInformation(() => DownedBossSystem.downedCalamitas, $"Mods.ToastyQoLCalamity.Tiering.SCalShort",
 			[
 				ModContent.ItemType<Calamity>(),
                 ModContent.ItemType<ShatteredCommunity>(),
@@ -1434,7 +1434,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<FlaskOfHolyFlames>(),
             ]);
 
-            AddLockInformation(() => DownedBossSystem.downedProvidence, $"Mods.CalamityMod.NPCs.Providence.DisplayName",
+            AddLockInformation(() => DownedBossSystem.downedProvidence, $"Mods.ToastyQoLCalamity.Tiering.ProviShort",
 			[
 				ModContent.ItemType<Bloodfin>()
             ]);
@@ -1444,7 +1444,7 @@ namespace ToastyQoLCalamity.Core.Calls
 				ModContent.ItemType<CeaselessHungerPotion>()
             ]);
 
-            AddLockInformation(() => DownedBossSystem.downedDoG, $"Mods.CalamityMod.NPCs.DevourerofGodsHead.DisplayName",
+            AddLockInformation(() => DownedBossSystem.downedDoG, $"Mods.ToastyQoLCalamity.Tiering.DogShort",
 			[
 				ModContent.ItemType<OmegaHealingPotion>()
             ]);

@@ -1,9 +1,21 @@
 Hmpf: 腐巢或宿主
-DesAndOne: 毁灭者加其他机械一王
-SPAndOne: 机械骷髅王加其他机械一王
-CryoAndOne: 冰灵加机械一王
-OneMech: 机械一王
-TwoMech: 机械二王
-AllMech: 机械三王
-CryoAndAll: 冰灵加机械三王
+DesAndOne: 毁灭者与任一机械Boss
+SPAndOne: 机械骷髅王与任一机械Boss
+CryoAndOne: 冰灵与任一机械Boss
+OneMech: 任一机械Boss
+TwoMech: 两个机械Boss
+AllMech: 全部机械Boss
+CryoAndAll: 冰灵加全部机械Boss
 Endgame: 通关
+
+# short names for existing bosses.
+# some full names are not suitable in the progression tooltip. Like, we don't say "This is post Providence, The Profaned Goddess", it should be just "Providence"
+# The situation may vary in different languages. If new short names in other languages are added here and used in Core\Calls\LockInformationLoader.cs, please keep the existing full names in other languages.
+# e.g., you make a short name for Crabulon in your language, you may write "CrabShort: BlahBlah" in your language, and you should also write "CrabShort: {$Mods.CalamityMod.NPCs.Crabulon.DisplayName}" in other languages.
+LeviathanShort: 利维坦
+ProviShort: 亵渎天神
+SignusShort: 西格纳斯
+DogShort: "{$Mods.CalamityMod.NPCs.DevourerofGodsHead.DisplayName}"
+YharonShort: 犽戎
+ExoShort: "{$Mods.CalamityMod.BossChecklistIntegration.ExoMechs.EntryName}"
+SCalShort: 至尊灾厄

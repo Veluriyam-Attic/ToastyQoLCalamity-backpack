@@ -226,7 +226,7 @@ PolterSpawner: {
 }
 
 PtPGSpawner: {
-	DisplayName: 普罗维登斯召唤器
+	DisplayName: 亵渎天神召唤器
 	Tooltip:
 		'''
 		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Providence.DisplayName}
