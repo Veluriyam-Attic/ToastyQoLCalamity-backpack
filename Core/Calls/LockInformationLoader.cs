@@ -1147,7 +1147,7 @@ namespace ToastyQoLCalamity.Core.Calls
                 ModContent.ItemType<TheOldReaper>(),
             ]);
 
-            AddLockInformation(() => DownedBossSystem.downedDoG, $"Mods.ToastyQoLCalamity.Tiering.DoGShort",
+            AddLockInformation(() => DownedBossSystem.downedDoG, $"Mods.ToastyQoLCalamity.Tiering.DogShort",
 			[
 				ModContent.ItemType<TracersElysian>(),
                 ModContent.ItemType<SilvaWings>(),
