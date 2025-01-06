@@ -5,9 +5,10 @@ BrokenRitual: {
 		召唤Boss Rush中的单独Boss
 		单击以根据鼠标所在位置切换Boss
 		在Boss Rush事件中使用会让其立即停止
-		Boss Count
-		Infernum Enabled
+		[Boss Count]
 		'''
+	BossCountInfo: 当前Boss: {0} (试炼第{1}阶段，总第{2}位Boss)
+	InfernumMessage: 炼狱已启用
 }
 
 BuffSuppressant: {

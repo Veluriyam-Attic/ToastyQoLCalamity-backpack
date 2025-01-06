@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace ToastyQoLCalamity.Content.Items
@@ -56,164 +57,164 @@ namespace ToastyQoLCalamity.Content.Items
                 switch (BRType)
                 {
                     case 1:
-                        TypeText = IsInfernumOn ? "King Slime" : "King Slime";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.KingSlime") : Language.GetTextValue($"NPCName.KingSlime");
                         TextColor = new Color(225, 174, 255); //E1EAFF
                         TierType = 1;
                         break;
                     case 2:
-                        TypeText = IsInfernumOn ? "Eye of Cthulhu" : "Desert Scourge";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.EyeofCthulhu") : Language.GetTextValue($"Mods.CalamityMod.NPCs.DesertScourgeHead.DisplayName");
                         break;
                     case 3:
-                        TypeText = IsInfernumOn ? "Eater of Worlds" : "Eye of Cthulhu";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.EaterofWorldsHead") : Language.GetTextValue($"NPCName.EyeofCthulhu");
                         break;
                     case 4:
-                        TypeText = IsInfernumOn ? "Wall of Flesh" : "Crabulon";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.WallofFlesh") : Language.GetTextValue($"Mods.CalamityMod.NPCs.Crabulon.DisplayName");
                         break;
                     case 5:
-                        TypeText = IsInfernumOn ? "The Perforators" : "Eater of Worlds";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.PerforatorHive.DisplayName") : Language.GetTextValue($"NPCName.EaterofWorldsHead");
                         break;
                     case 6:
-                        TypeText = IsInfernumOn ? "Queen Bee" : "Brain of Cthulhu";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.QueenBee") : Language.GetTextValue($"NPCName.BrainofCthulhu");
                         break;
                     case 7:
-                        TypeText = IsInfernumOn ? "Queen Slime" : "The Hive Mind";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.QueenSlimeBoss") : Language.GetTextValue($"Mods.CalamityMod.NPCs.HiveMind.DisplayName");
                         break;
                     case 8:
-                        TypeText = IsInfernumOn ? "Astrum Aureus" : "The Perforators";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.AstrumAureus.DisplayName") : Language.GetTextValue($"Mods.CalamityMod.NPCs.PerforatorHive.DisplayName");
                         break;
                     case 9:
-                        TypeText = IsInfernumOn ? "Crabulon" : "Queen Bee";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.Crabulon.DisplayName") : Language.GetTextValue($"NPCName.QueenBee");
                         break;
                     case 10:
-                        TypeText = IsInfernumOn ? "Aquatic Scourge" : "Deerclops";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.AquaticScourgeHead.DisplayName") : Language.GetTextValue($"NPCName.Deerclops");
                         break;
                     case 11:
-                        TypeText = IsInfernumOn ? "Desert Scourge" : "Skeletron";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.DesertScourgeHead.DisplayName") : Language.GetTextValue($"NPCName.SkeletronHead");
                         break;
                     case 12:
-                        TypeText = IsInfernumOn ? "Profaned Guardians" : "The Slime God";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.BossChecklistIntegration.ProfanedGuardians.EntryName") : Language.GetTextValue($"Mods.CalamityMod.NPCs.SlimeGodCore.DisplayName");
                         break;
                     case 13:
-                        TypeText = IsInfernumOn ? "Storm Weaver" : "Wall of Flesh";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.StormWeaverHead.DisplayName") : Language.GetTextValue($"NPCName.WallofFlesh");
                         TextColor = new Color(225, 174, 255);
                         TierType = 1;
                         break;
                     case 14:
-                        TypeText = IsInfernumOn ? "Brimstone Elemental" : "Queen Slime";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.BrimstoneElemental.DisplayName") : Language.GetTextValue($"NPCName.QueenSlimeBoss");
                         TextColor = new Color(134, 151, 189); //8697BD
                         TierType = 2;
                         break;
                     case 15:
-                        TypeText = IsInfernumOn ? "Leviathan and Anahita" : "Cryogen";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.Items.Lore.LoreLeviathanAnahita.DisplayName") : Language.GetTextValue($"Mods.CalamityMod.NPCs.Cryogen.DisplayName");
                         break;
                     case 16:
-                        TypeText = IsInfernumOn ? "Ravager" : "The Twins";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.RavagerBody.DisplayName") : Language.GetTextValue($"Enemies.TheTwins");
                         break;
                     case 17:
-                        TypeText = IsInfernumOn ? "Hive Mind" : "Aquatic Scourge";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.HiveMind.DisplayName") : Language.GetTextValue($"Mods.CalamityMod.NPCs.AquaticScourgeHead.DisplayName");
                         break;
                     case 18:
-                        TypeText = IsInfernumOn ? "Duke Fishron" : "The Destroyer";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.DukeFishron") : Language.GetTextValue($"NPCName.TheDestroyer");
                         break;
                     case 19:
-                        TypeText = IsInfernumOn ? "Cryogen" : "Brimstone Elemental";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.Cryogen.DisplayName") : Language.GetTextValue($"Mods.CalamityMod.NPCs.BrimstoneElemental.DisplayName");
                         break;
                     case 20:
-                        TypeText = IsInfernumOn ? "Brain of Cthulhu" : "Skeletron Prime";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.BrainofCthulhu") : Language.GetTextValue($"NPCName.SkeletronPrime");
                         break;
                     case 21:
-                        TypeText = IsInfernumOn ? "Deerclops" : "Calamitas";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.Deerclops") : Language.GetTextValue($"Mods.CalamityMod.NPCs.CalamitasClone.DisplayName");
                         break;
                     case 22:
-                        TypeText = IsInfernumOn ? "Signus" : "Plantera";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.Signus.DisplayName") : Language.GetTextValue($"NPCName.Plantera");
                         TextColor = new Color(134, 151, 189); //8697BD
                         TierType = 2;
                         break;
                     case 23:
-                        TypeText = IsInfernumOn ? "Dragonfolly" : "Leviathan and Anahita";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.Bumblefuck.DisplayName") : Language.GetTextValue($"Mods.CalamityMod.Items.Lore.LoreLeviathanAnahita.DisplayName");
                         TextColor = new Color(111, 214, 255);
                         TierType = 3;
                         break;
                     case 24:
-                        TypeText = IsInfernumOn ? "Slime God" : "Astrum Aureus";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.SlimeGodCore.DisplayName") : Language.GetTextValue($"Mods.CalamityMod.NPCs.AstrumAureus.DisplayName");
                         break;
                     case 25:
-                        TypeText = IsInfernumOn ? "Skeletron" : "Golem";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.SkeletronHead") : Language.GetTextValue($"NPCName.Golem");
                         break;
                     case 26:
-                        TypeText = IsInfernumOn ? "Plantera" : "The Plaguebringer Goliath";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.Plantera") : Language.GetTextValue($"Mods.CalamityMod.NPCs.PlaguebringerGoliath.DisplayName");
                         break;
                     case 27:
-                        TypeText = IsInfernumOn ? "The Destroyer" : "Empress of Light";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.TheDestroyer") : Language.GetTextValue($"NPCName.HallowBoss");
                         break;
                     case 28:
-                        TypeText = IsInfernumOn ? "The Plaguebringer Goliath" : "Duke Fishron";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.PlaguebringerGoliath.DisplayName") : Language.GetTextValue($"NPCName.DukeFishron");
                         break;
                     case 29:
-                        TypeText = IsInfernumOn ? "Astrum Deus" : "Ravager";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.AstrumDeusHead.DisplayName") : Language.GetTextValue($"Mods.CalamityMod.NPCs.RavagerBody.DisplayName");
                         break;
                     case 30:
-                        TypeText = IsInfernumOn ? "Lunatic Cultist" : "Lunatic Cultist";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.CultistBoss") : Language.GetTextValue($"NPCName.CultistBoss");
                         break;
                     case 31:
-                        TypeText = IsInfernumOn ? "Lunatic Cultist 2" : "Astrum Deus";
+                        TypeText = IsInfernumOn ? "Lunatic Cultist 2" : Language.GetTextValue($"Mods.CalamityMod.NPCs.AstrumDeusHead.DisplayName");
                         TextColor = new Color(111, 214, 255);
                         TierType = 3;
                         break;
                     case 32:
-                        TypeText = IsInfernumOn ? "Skeletron Prime" : "Moon Lord";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.SkeletronPrime") : Language.GetTextValue($"Enemies.MoonLord");
                         TextColor = new Color(230, 126, 35); //E67E23
                         TierType = 4;
                         break;
                     case 33:
-                        TypeText = IsInfernumOn ? "Old Duke" : "Profaned Guardians";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.OldDuke.DisplayName") : Language.GetTextValue($"Mods.CalamityMod.BossChecklistIntegration.ProfanedGuardians.EntryName");
                         break;
                     case 34:
-                        TypeText = IsInfernumOn ? "Golem" : "The Dragonfolly";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.Golem") : Language.GetTextValue($"Mods.CalamityMod.NPCs.Bumblefuck.DisplayName");
                         break;
                     case 35:
-                        TypeText = IsInfernumOn ? "Empress of Light" : "Providence";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"NPCName.HallowBoss") : Language.GetTextValue($"Mods.CalamityMod.NPCs.Providence.DisplayName");
                         break;
                     case 36:
-                        TypeText = IsInfernumOn ? "The Twins" : "Ceaseless Void";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Enemies.TheTwins") : Language.GetTextValue($"Mods.CalamityMod.NPCs.CeaselessVoid.DisplayName");
                         break;
                     case 37:
-                        TypeText = IsInfernumOn ? "Polterghast" : "Storm Weaver";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.Polterghast.DisplayName") : Language.GetTextValue($"Mods.CalamityMod.NPCs.StormWeaverHead.DisplayName");
                         break;
                     case 38:
-                        TypeText = IsInfernumOn ? "Moon Lord" : "Signus";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Enemies.MoonLord") : Language.GetTextValue($"Mods.CalamityMod.NPCs.Signus.DisplayName");
                         break;
                     case 39:
-                        TypeText = IsInfernumOn ? "Ceaseless Void" : "Polterghast";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.CeaselessVoid.DisplayName") : Language.GetTextValue($"Mods.CalamityMod.NPCs.Polterghast.DisplayName");
                         break;
                     case 40:
-                        TypeText = IsInfernumOn ? "Calamitas" : "The Old Duke";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.CalamitasClone.DisplayName") : Language.GetTextValue($"Mods.CalamityMod.NPCs.OldDuke.DisplayName");
                         break;
                     case 41:
-                        TypeText = IsInfernumOn ? "The Devourer of Gods" : "The Devourer of Gods";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.DevourerofGodsHead.DisplayName") : Language.GetTextValue($"Mods.CalamityMod.NPCs.DevourerofGodsHead.DisplayName");
                         TextColor = new Color(230, 126, 35); //E67E23
                         TierType = 4;
                         break;
                     case 42:
-                        TypeText = IsInfernumOn ? "Yharon" : "Yharon";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.Yharon.DisplayName") : Language.GetTextValue($"Mods.CalamityMod.NPCs.Yharon.DisplayName");
                         TextColor = Color.White;
                         TierType = 5;
                         break;
                     case 43:
-                        TypeText = IsInfernumOn ? "Providence" : "Exo Mechs";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.Providence.DisplayName") : Language.GetTextValue($"Mods.CalamityMod.BossChecklistIntegration.ExoMechs.EntryName");
                         break;
                     case 44:
-                        TypeText = IsInfernumOn ? "Exo Mechs" : "SCal";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.BossChecklistIntegration.ExoMechs.EntryName") : Language.GetTextValue($"Mods.CalamityMod.NPCs.SupremeCalamitas.DisplayName");
                         TextColor = Color.White;
                         TierType = 5;
                         break;
                     case 45:
-                        TypeText = IsInfernumOn ? "SCal" : "SCal";
+                        TypeText = IsInfernumOn ? Language.GetTextValue($"Mods.CalamityMod.NPCs.SupremeCalamitas.DisplayName") : Language.GetTextValue($"Mods.CalamityMod.NPCs.SupremeCalamitas.DisplayName");
                         TextColor = Color.White;
                         TierType = 5;
                         break;
                 }
-                Main.NewText("Current Boss: " + TypeText + " (Tier #" + TierType + ", Boss #" + BRType + ")", TextColor);
+                Main.NewText(Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.BrokenRitual.BossCountInfo", TypeText, TierType, BRType), TextColor);
             }
             else
             {
@@ -242,15 +243,16 @@ namespace ToastyQoLCalamity.Content.Items
                 if (l.Text == null)
                     continue;
 
-                if (l.Text.StartsWith("Boss Count"))
+                if (l.Text.StartsWith("[Boss Count]"))
                 {
                     l.OverrideColor = TextColor;
 
-                    l.Text = "Current Boss: " + TypeText + " (Tier #" + TierType + ", Boss #" + BRType + ")";
-
+                    l.Text = Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.BrokenRitual.BossCountInfo", TypeText, TierType, BRType);
                 }
-                if (l.Text.StartsWith("Infernum Enabled"))
-                    l.OverrideColor = ToastyQoLUtils.TwoColorPulse(Color.Firebrick, Color.Orange, 2f);
+            }
+            if (IsInfernumOn)
+            {
+                tooltips.Add(new TooltipLine(Mod, "InfernumMessage", Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.BrokenRitual.InfernumMessage")) { OverrideColor = ToastyQoLUtils.TwoColorPulse(Color.Firebrick, Color.Orange, 2f) });
             }
         }
         public override void AddRecipes()

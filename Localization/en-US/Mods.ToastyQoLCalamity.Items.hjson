@@ -5,9 +5,10 @@ BrokenRitual: {
 		Set to a specific boss in Boss Rush
 		Right click to change boss forward or backward depending on mouse position
 		Use while the event is active to instantly end the event
-		Boss Count
-		Infernum Enabled
+		[Boss Count]
 		'''
+	BossCountInfo: Current Boss: {0} (Tier #{1}, Boss #{2})
+	InfernumMessage: Infernum Enabled
 }
 
 BuffSuppressant: {
