@@ -20,7 +20,7 @@ namespace ToastyQoLCalamity.Content.Items
             private set;
         } = 1;
 
-        private string TypeText = Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.1");
+        private string TypeText = Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.BulletHell.1");
 
         public override void SetStaticDefaults()
         {
@@ -56,15 +56,15 @@ namespace ToastyQoLCalamity.Content.Items
 
                 TypeText = bhType switch
                 {
-                    1 => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.1"),
-                    2 => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.2"),
-                    3 => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.3"),
-                    4 => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.4"),
-                    5 => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.5"),
-                    _ => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.6"),
+                    1 => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.BulletHell.1"),
+                    2 => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.BulletHell.2"),
+                    3 => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.BulletHell.3"),
+                    4 => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.BulletHell.4"),
+                    5 => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.BulletHell.5"),
+                    _ => Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.BulletHell.6"),
                 };
                 BHType = bhType;
-                ToastyQoLUtils.DisplayText(Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.Type", TypeText), Color.DarkRed);
+                ToastyQoLUtils.DisplayText(Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.BulletHell.Type", TypeText), Color.DarkRed);
             }
             else
                 CalamityUtils.SpawnBossBetter(player.Center + new Vector2(0, -1), ModContent.NPCType<BulletHellSimulator>());
@@ -82,12 +82,12 @@ namespace ToastyQoLCalamity.Content.Items
                 if (l.Text == null)
                     continue;
 
-                if (l.Text.StartsWith(Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.Type", TypeText)))
+                if (l.Text.StartsWith("[Current Type]"))
                 {
                     if (TypeText != null)
                     {
                         l.OverrideColor = Color.Firebrick;
-                        l.Text = Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.Type", TypeText);
+                        l.Text = Language.GetTextValue($"Mods.ToastyQoLCalamity.Items.ReflectiveWand.BulletHell.Type", TypeText);
                     }
                 }
             }

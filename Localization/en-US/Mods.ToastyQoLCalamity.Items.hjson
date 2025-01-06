@@ -5,9 +5,10 @@ BrokenRitual: {
 		Set to a specific boss in Boss Rush
 		Right click to change boss forward or backward depending on mouse position
 		Use while the event is active to instantly end the event
-		Boss Count
-		Infernum Enabled
+		[Boss Count]
 		'''
+	BossCountInfo: Current Boss: {0} (Tier #{1}, Boss #{2})
+	InfernumMessage: Infernum Enabled
 }
 
 BuffSuppressant: {
@@ -32,9 +33,9 @@ AASpawner: {
 	DisplayName: Astrum Aureus Spawner
 	Tooltip:
 		'''
-		Instantly summons Astrum Aureus.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.AstrumAureus.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -42,9 +43,9 @@ ADSpawner: {
 	DisplayName: Astrum Deus Spawner
 	Tooltip:
 		'''
-		Instantly summons Astrum Deus.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.AstrumDeusHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -52,9 +53,9 @@ ALSpawner: {
 	DisplayName: Anahita & Leviathan Spawner
 	Tooltip:
 		'''
-		Instantly summons Anahita & Leviathan.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.Items.Lore.LoreLeviathanAnahita.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -62,9 +63,9 @@ ASSpawner: {
 	DisplayName: Aquatic Scourge Spawner
 	Tooltip:
 		'''
-		Instantly summons Aquatic Scourge.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.AquaticScourgeHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -72,9 +73,9 @@ BESpawner: {
 	DisplayName: Brimstone Elemental Spawner
 	Tooltip:
 		'''
-		Instantly summons Brimstone Elemental.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.BrimstoneElemental.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -82,9 +83,9 @@ CCSpawner: {
 	DisplayName: Calamitas Spawner
 	Tooltip:
 		'''
-		Instantly summons Calamitas.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.CalamitasClone.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -92,9 +93,9 @@ CryoSpawner: {
 	DisplayName: Cryogen Spawner
 	Tooltip:
 		'''
-		Instantly summons Cryogen.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Cryogen.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -102,9 +103,9 @@ PBGSpawner: {
 	DisplayName: Plaguebringer Goliath Spawner
 	Tooltip:
 		'''
-		Instantly summons Plaguebringer Goliath.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.PlaguebringerGoliath.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -112,9 +113,9 @@ RavSpawner: {
 	DisplayName: Ravager Spawner
 	Tooltip:
 		'''
-		Instantly summons Ravager.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.RavagerBody.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -122,9 +123,9 @@ BrimstoneTorch: {
 	DisplayName: Brimstone Torch
 	Tooltip:
 		'''
-		Instantly summons Supreme Calamitas
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.SupremeCalamitas.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -132,9 +133,9 @@ CVSpawner: {
 	DisplayName: Ceaseless Void Spawner
 	Tooltip:
 		'''
-		Instantly summons Ceaseless Void.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.CeaselessVoid.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -142,24 +143,24 @@ DoGSpawner: {
 	DisplayName: Devourer Of Gods Spawner
 	Tooltip:
 		'''
-		Instantly summons Devourer Of Gods.		
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.DevourerofGodsHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
 DraedonSpawner: {
 	DisplayName: Draedon Spawner
-	Tooltip: Instantly summons Draedon.
+	Tooltip: "{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Draedon.DisplayName}"
 }
 
 EASpawner: {
 	DisplayName: XF-09 Ares Spawner
 	Tooltip:
 		'''
-		Instantly summons XF-09 Ares.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.AresBody.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -167,7 +168,7 @@ EidolicRod: {
 	DisplayName: Eidolic Rod
 	Tooltip:
 		'''
-		Summons the Adult Eidolon Wyrm
+		Summons the {$Mods.CalamityMod.NPCs.PrimordialWyrmHead.DisplayName}
 		Grants Amidias' Blessing when summoned
 		Can be used regardless of biome		
 		'''
@@ -177,9 +178,9 @@ EThanosSpawner: {
 	DisplayName: XM-05 Thanatos Spawner
 	Tooltip:
 		'''
-		Instantly summons XM-05 Thanatos.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.ThanatosHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -187,9 +188,9 @@ ETSpawner: {
 	DisplayName: XS-01 Artemis & XS-03 Apollo Spawner
 	Tooltip:
 		'''
-		Instantly summons XS-01 Artemis & XS-03 Apollo.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.UI.ExoTwinsNameNormal}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -197,9 +198,9 @@ ODSpawner: {
 	DisplayName: Old Duke Spawner
 	Tooltip:
 		'''
-		Instantly summons Old Duke.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.OldDuke.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -207,9 +208,9 @@ PGSpawner: {
 	DisplayName: Profaned Guardians Spawner
 	Tooltip:
 		'''
-		Instantly summons Profaned Guardians.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.BossChecklistIntegration.ProfanedGuardians.EntryName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -217,9 +218,9 @@ PolterSpawner: {
 	DisplayName: Polterghast Spawner
 	Tooltip:
 		'''
-		Instantly summons Polterghast.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Polterghast.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -227,9 +228,9 @@ PtPGSpawner: {
 	DisplayName: Providence Spawner
 	Tooltip:
 		'''
-		Instantly summons Providence.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Providence.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -237,9 +238,9 @@ SignusSpawner: {
 	DisplayName: Signus Spawner
 	Tooltip:
 		'''
-		Instantly summons Signus.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Signus.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -247,9 +248,9 @@ SWSpawner: {
 	DisplayName: Storm Weaver Spawner
 	Tooltip:
 		'''
-		Instantly summons Storm Weaver.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.StormWeaverHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -257,9 +258,9 @@ TDFSpawner: {
 	DisplayName: Dragonfolly Spawner
 	Tooltip:
 		'''
-		Instantly summons Dragonfolly.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Bumblefuck.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -267,9 +268,9 @@ YharonSpawner: {
 	DisplayName: Yharon Spawner
 	Tooltip:
 		'''
-		Instantly summons Yharon.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Yharon.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -286,9 +287,9 @@ CrabSpawner: {
 	DisplayName: Crabulon Spawner
 	Tooltip:
 		'''
-		Instantly summons Crabulon.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.Crabulon.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -296,9 +297,9 @@ DSSpawner: {
 	DisplayName: Desert Scourge Spawner
 	Tooltip:
 		'''
-		Instantly summons Desert Scourge.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.DesertScourgeHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -306,9 +307,9 @@ HMSpawner: {
 	DisplayName: Hive Mind Spawner
 	Tooltip:
 		'''
-		Instantly summons Hive Mind.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.HiveMind.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -316,9 +317,9 @@ PHSpawner: {
 	DisplayName: Perforator Hive Spawner
 	Tooltip:
 		'''
-		Instantly summons Perforator Hive.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.PerforatorHive.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -326,9 +327,9 @@ SGSpawner: {
 	DisplayName: Slime God Spawner
 	Tooltip:
 		'''
-		Instantly summons Slime God.
-		Right-click to increase spawn count up to 10
-		Spawn Count
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.SlimeGodCore.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
 		'''
 }
 
@@ -338,11 +339,10 @@ ReflectiveWand: {
 		'''
 		Summons a simulation of Supreme Calamitas' bullet hells
 		Right click to change type of bullet hell forward or backward depending on mouse position
-		Current Type
+		[Current Type]
 		'''
 
 	BulletHell: {
-		// Unused, couldn't get it to work.
 		1: Bullet Hell 1 (100%)
 		2: Bullet Hell 2 (75%)
 		3: Bullet Hell 3 (50%)
@@ -359,6 +359,12 @@ ShinyWand: {
 		'''
 		Summons a simulation of Calamitas' bullet hells
 		Right click to change type of bullet hell forward or backward depending on mouse position
-		Current Type
+		[Current Type]
 		'''
+
+	BulletHell: {
+		1: Bullet Hell 1 (70%)
+		2: Bullet Hell 2 (10%)
+		Type: Type changed to: {0}
+	}
 }

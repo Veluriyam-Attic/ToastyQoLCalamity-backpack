@@ -33,15 +33,15 @@ namespace ToastyQoLCalamity.Core.Calls
                     {
                         string nextUpgrade;
                         if (Main.LocalPlayer.Calamity().dFruit)
-                            nextUpgrade = "None";
+                            nextUpgrade = Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.NoUpgrades");
                         else if (Main.LocalPlayer.Calamity().eBerry)
-                            nextUpgrade = "Dragonfruit";
+                            nextUpgrade = Language.GetTextValue($"Mods.CalamityMod.Items.Misc.Dragonfruit.DisplayName");
                         else if (Main.LocalPlayer.Calamity().mFruit)
-                            nextUpgrade = "Elderberry";
+                            nextUpgrade = Language.GetTextValue($"Mods.CalamityMod.Items.Misc.Elderberry.DisplayName");
                         else if (Main.LocalPlayer.Calamity().bOrange)
-                            nextUpgrade = "Miracle Fruit";
+                            nextUpgrade = Language.GetTextValue($"Mods.CalamityMod.Items.Misc.MiracleFruit.DisplayName");
                         else
-                            nextUpgrade = "BloodOrange";
+                            nextUpgrade = Language.GetTextValue($"Mods.CalamityMod.Items.Misc.BloodOrange.DisplayName");
 
                         return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.NextUpgrade", nextUpgrade);
                     }, 2f,
@@ -91,13 +91,13 @@ namespace ToastyQoLCalamity.Core.Calls
                     {
                         string nextUpgrade;
                         if (Main.LocalPlayer.Calamity().pHeart)
-                            nextUpgrade = "None";
+                            nextUpgrade = Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.NoUpgrades");
                         else if (Main.LocalPlayer.Calamity().eCore)
-                            nextUpgrade = "Phantom Heart";
+                            nextUpgrade = Language.GetTextValue($"Mods.CalamityMod.Items.Misc.PhantomHeart.DisplayName");
                         else if (Main.LocalPlayer.Calamity().cShard)
-                            nextUpgrade = "Ethereal Core";
+                            nextUpgrade = Language.GetTextValue($"Mods.CalamityMod.Items.Misc.EtherealCore.DisplayName");
                         else
-                            nextUpgrade = "Comet Shard";
+                            nextUpgrade = Language.GetTextValue($"Mods.CalamityMod.Items.Misc.CometShard.DisplayName");
 
                         return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.NextUpgrade", nextUpgrade);
                     }, 3f,
@@ -135,13 +135,13 @@ namespace ToastyQoLCalamity.Core.Calls
                     {
                         string nextUpgrade;
                         if (Main.LocalPlayer.Calamity().rageBoostThree)
-                            nextUpgrade = "None";
+                            nextUpgrade = Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.NoUpgrades");
                         else if (Main.LocalPlayer.Calamity().rageBoostTwo)
-                            nextUpgrade = "Red Lightning Container";
+                            nextUpgrade = Language.GetTextValue($"Mods.CalamityMod.Items.Misc.RedLightningContainer.DisplayName");
                         else if (Main.LocalPlayer.Calamity().rageBoostOne)
-                            nextUpgrade = "Infernal Blood";
+                            nextUpgrade = Language.GetTextValue($"Mods.CalamityMod.Items.Misc.InfernalBlood.DisplayName");
                         else
-                            nextUpgrade = "Mushroom PlasmaRoot";
+                            nextUpgrade = Language.GetTextValue($"Mods.CalamityMod.Items.Misc.MushroomPlasmaRoot.DisplayName");
 
                         return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.NextUpgrade", nextUpgrade);
                     }, 4f,
@@ -179,13 +179,13 @@ namespace ToastyQoLCalamity.Core.Calls
                     {
                         string nextUpgrade;
                         if (Main.LocalPlayer.Calamity().adrenalineBoostThree)
-                            nextUpgrade = "None";
+                            nextUpgrade = Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.NoUpgrades");
                         else if (Main.LocalPlayer.Calamity().adrenalineBoostTwo)
-                            nextUpgrade = "Ectoheart";
+                            nextUpgrade = Language.GetTextValue($"Mods.CalamityMod.Items.Misc.Ectoheart.DisplayName");
                         else if (Main.LocalPlayer.Calamity().adrenalineBoostOne)
-                            nextUpgrade = "Starlight Fuel Cell";
+                            nextUpgrade = Language.GetTextValue($"Mods.CalamityMod.Items.Misc.StarlightFuelCell.DisplayName");
                         else
-                            nextUpgrade = "Electrolyte Gel Pack";
+                            nextUpgrade = Language.GetTextValue($"Mods.CalamityMod.Items.Misc.ElectrolyteGelPack.DisplayName");
 
                         return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.NextUpgrade", nextUpgrade);
                     }, 5f,
@@ -223,11 +223,11 @@ namespace ToastyQoLCalamity.Core.Calls
                     {
                         string nextUpgrade;
                         if (Main.LocalPlayer.Calamity().extraAccessoryML)
-                            nextUpgrade = "None";
+                            nextUpgrade = Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.NoUpgrades");
                         else if (Main.LocalPlayer.extraAccessory)
-                            nextUpgrade = "Celestial Onion";
+                            nextUpgrade = Language.GetTextValue($"Mods.CalamityMod.Items.Misc.CelestialOnion.DisplayName");
                         else
-                            nextUpgrade = "Demon Heart";
+                            nextUpgrade = Language.GetTextValue($"ItemName.DemonHeart");
 
                         return Language.GetTextValue($"Mods.ToastyQoLCalamity.UI.Upgrades.NextUpgrade", nextUpgrade);
                     }, 6f,

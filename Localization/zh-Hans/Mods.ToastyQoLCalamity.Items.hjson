@@ -1,0 +1,371 @@
+BrokenRitual: {
+	DisplayName: 破碎的试炼
+	Tooltip:
+		'''
+		召唤Boss Rush中的单独Boss
+		单击以根据鼠标所在位置切换Boss
+		在Boss Rush事件中使用会让其立即停止
+		[Boss Count]
+		'''
+	BossCountInfo: 当前Boss: {0} (试炼第{1}阶段，总第{2}位Boss)
+	InfernumMessage: 炼狱已启用
+}
+
+BuffSuppressant: {
+	DisplayName: 增益抑制剂
+	Tooltip:
+		'''
+		在物品栏中设为收藏以禁用超出规则的增益
+		受到控脑术、圣狱神火、孱弱巫咒、精神失常（炼狱模式）减益影响时会秒杀你
+		（即接触伤害来源但不造成受击时）
+		'''
+}
+
+DollOfFury: {
+	DisplayName: 厌胜之咒
+	Tooltip:
+		'''
+		使用以充满幻灭心元石等级
+		开启怒气模式时无法使用
+		'''
+}
+
+AASpawner: {
+	DisplayName: 白金星舰召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.AstrumAureus.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+ADSpawner: {
+	DisplayName: 星神游龙召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.AstrumDeusHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+ALSpawner: {
+	DisplayName: 利维坦和阿娜希塔召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.Items.Lore.LoreLeviathanAnahita.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+ASSpawner: {
+	DisplayName: 渊海灾虫召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.AquaticScourgeHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+BESpawner: {
+	DisplayName: 硫磺火元素召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.BrimstoneElemental.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+CCSpawner: {
+	DisplayName: 灾厄之影召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.CalamitasClone.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+CryoSpawner: {
+	DisplayName: 极地之灵召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Cryogen.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+PBGSpawner: {
+	DisplayName: 瘟疫使者歌莉娅召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.PlaguebringerGoliath.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+RavSpawner: {
+	DisplayName: 毁灭魔像召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.RavagerBody.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+BrimstoneTorch: {
+	DisplayName: 硫火烛炬
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.SupremeCalamitas.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+CVSpawner: {
+	DisplayName: 无尽虚空召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.CeaselessVoid.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+DoGSpawner: {
+	DisplayName: 神明吞噬者召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.DevourerofGodsHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+DraedonSpawner: {
+	DisplayName: 嘉登召唤器
+	Tooltip: "{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Draedon.DisplayName}"
+}
+
+EASpawner: {
+	DisplayName: XF-09 “阿瑞斯”召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.AresBody.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+EidolicRod: {
+	DisplayName: 幻妖请灵杖
+	Tooltip:
+		'''
+		召唤{$Mods.CalamityMod.NPCs.PrimordialWyrmHead.DisplayName}
+		召唤时给予海王的祝福
+		可以在任何环境使用
+		'''
+}
+
+EThanosSpawner: {
+	DisplayName: XM-05 “塔纳托斯”召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.NPCs.ThanatosHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+ETSpawner: {
+	DisplayName: XS-01 “阿尔忒弥斯”与 XS-03 “阿波罗”召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons} {$Mods.CalamityMod.UI.ExoTwinsNameNormal}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+ODSpawner: {
+	DisplayName: 硫海遗爵召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.OldDuke.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+PGSpawner: {
+	DisplayName: 亵渎守卫召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.BossChecklistIntegration.ProfanedGuardians.EntryName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+PolterSpawner: {
+	DisplayName: 噬魂幽花召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Polterghast.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+PtPGSpawner: {
+	DisplayName: 亵渎天神召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Providence.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+SignusSpawner: {
+	DisplayName: 西格纳斯召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Signus.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+SWSpawner: {
+	DisplayName: 风暴编织者召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.StormWeaverHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+TDFSpawner: {
+	DisplayName: 痴愚金龙召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Bumblefuck.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+YharonSpawner: {
+	DisplayName: 犽戎召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Yharon.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+PotionOfDarkness: {
+	DisplayName: 红温药水
+	Tooltip:
+		'''
+		使用后充满你的怒气条，并保持2秒不衰减
+		有Boss存活时不可使用
+		'''
+}
+
+CrabSpawner: {
+	DisplayName: 菌生蟹召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.Crabulon.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+DSSpawner: {
+	DisplayName: 荒漠灾虫召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.DesertScourgeHead.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+HMSpawner: {
+	DisplayName: 腐巢意志召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.HiveMind.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+PHSpawner: {
+	DisplayName: 血肉宿主召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.PerforatorHive.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+SGSpawner: {
+	DisplayName: 史莱姆之神召唤器
+	Tooltip:
+		'''
+		{$Mods.ToastyQoL.Items.InstantlySummons}{$Mods.CalamityMod.NPCs.SlimeGodCore.DisplayName}
+		{$Mods.ToastyQoL.Items.RightClickToTen}
+		[Spawn Count]
+		'''
+}
+
+ReflectiveWand: {
+	DisplayName: 忏罪之杖
+	Tooltip:
+		'''
+		召唤至尊女巫，灾厄的弹幕炼狱模拟
+		<right>以根据鼠标所在位置切换弹幕炼狱类别
+		[Current Type]
+		'''
+
+	BulletHell: {
+		1: 弹幕炼狱1 (100%)
+		2: 弹幕炼狱2 (75%)
+		3: 弹幕炼狱3 (50%)
+		4: 弹幕炼狱4 (30%)
+		5: 弹幕炼狱5 (10%)
+		6: 空
+		Type: 已设为{0}
+	}
+}
+
+ShinyWand: {
+	DisplayName: 逐火之杖
+	Tooltip:
+		'''
+		召唤灾厄之影的弹幕炼狱模拟
+		<right>以根据鼠标所在位置切换弹幕炼狱类别
+		[Current Type]
+		'''
+
+	BulletHell: {
+		1: 弹幕炼狱1 (70%)
+		2: 弹幕炼狱2 (10%)
+		Type: 已设为{0}
+	}
+}
