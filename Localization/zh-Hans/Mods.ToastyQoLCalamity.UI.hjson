@@ -37,10 +37,7 @@ Upgrades: {
 
 	ToggleAutoSystem: {
 		Name: 切换自动升级
-		Description:
-			'''
-			可根据你击杀的时期最晚Boss自动为你升级所有项目
-			'''
+		Description: 可根据你击杀的时期最晚Boss自动为你升级所有项目
 	}
 }
 
